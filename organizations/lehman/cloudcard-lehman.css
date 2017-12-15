@@ -56,9 +56,9 @@ header.header-page {
 	color: #fff;
 }
 
-.header-page button:hover {
-	background-color: #fff;
-	color: #0d3060;
+.header-page.buttons button:hover {
+	background-color: #0d3060;
+	color: #fff;
 }
 
 button, router-view > .buttons button.primary {
@@ -82,7 +82,7 @@ button:hover, router-view > .buttons button.primary:hover {
 }
 
 .admin-links .fa {
-    color: #38720e; //default #007bff
+    color: #ebf0e6;
 }
 
 table th,
