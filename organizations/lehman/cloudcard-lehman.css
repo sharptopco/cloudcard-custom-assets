@@ -83,7 +83,9 @@ button:hover, router-view > .buttons button.primary:hover {
 
 .admin-links .fa {
     color: #38720e; //default #007bff
-/*(goto }; find the color similar to e_e_e_)*/
+/*
+	(goto }; find the color similar to e_e_e_)
+*/
 }
 
 table th,
