@@ -1,0 +1,95 @@
+/*
+{{Color_1}}: (don't include the '#')
+{{Color_2}} / icon color: (don't include the '#')
+{{Color_2_Tint}}: #{{Color_2_Tint}}; (goto http://www.color-hex.com/color/{{Color_2}} ; find the color similar to e_e_e_)
+{{Logo_URL}}: {{Logo_URL}} i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
+*/
+
+html {
+  background: #{{Color_1}};
+}
+
+.splash {
+  background-color: #{{Color_1}};
+}
+
+.splash .loading path {
+  fill: #fff;
+}
+
+header.header-main {
+  background-color: #{{Color_1}};
+  height:10.5em;
+}
+
+.fa-bars:hover {
+  color: #{{Color_2}};
+}
+
+.logo {
+  background: url('//{{Logo_URL}}') top center no-repeat;
+  display: inline-block;
+  width: 100% !important;
+  height: 100px !important;
+  max-width: 400px !important;
+}
+
+header.header-page {
+  background-color:#{{Color_2}};
+}
+
+.header-page .tabs li a {
+  border-bottom-color:#{{Color_2}};
+  color: #fff;
+}
+.header-page .tabs li a:hover {
+  color: #fff;
+}
+
+.header-page .buttons button {
+  background-color: #{{Color_1}};
+  color: #fff;
+}
+
+.header-page button {
+  background-color: #{{Color_2}};
+  color: #fff;
+}
+
+.header-page .buttons button:hover {
+  background-color: #{{Color_2_Tint}};
+  color: #{{Color_1}};
+}
+
+button, router-view > .buttons button.primary {
+  background-color: #{{Color_2}};
+}
+
+button:hover, router-view > .buttons button.primary:hover {
+  background-color: #{{Color_2_Tint}};
+}
+
+.user-info a {
+    color: #{{Color_1}} !important;
+}
+
+.open-nav, .open-nav:focus {
+    color: #ddd;
+}
+
+.open-nav:hover {
+    color: #fff;
+}
+
+.admin-links .fa {
+    color: #{{Color_2_Tint}}; //default #007bff
+}
+
+table th,
+table td {
+    background: #{{Color_2_Tint}};
+}
+
+.footer {
+    background: #{{Color_1}};
+}

@@ -1,0 +1,95 @@
+/*
+{{Color_1}}: 0d3060
+{{Color_2}} / icon color: 38720e
+{{Color_2_Tint}}: #ebf0e6; (goto http://www.color-hex.com/color/38720e ; find the color similar to e_e_e_)
+{{Logo_URL}}: s3.amazonaws.com/client-public-assets/lehman/lehman-logo-266x80.png
+*/
+
+html {
+    background: #0d3060;
+}
+
+.splash {
+    background-color: #0d3060;
+}
+
+.splash .loading path {
+    fill: #fff;
+}
+
+header.header-main {
+    background-color: #0d3060;
+    height:10.5em;
+}
+
+.fa-bars:hover {
+  color: #38720e;
+}
+
+.logo {
+    background: url('//s3.amazonaws.com/client-public-assets/lehman/lehman-logo-266x80.png') top center no-repeat;
+    display: inline-block;
+    width: 100% !important;
+    height: 100px !important;
+    max-width: 400px !important;
+}
+
+header.header-page {
+  background-color:#38720e;
+}
+
+.header-page .tabs li a {
+  border-bottom-color:#38720e;
+	color: #fff;
+}
+.header-page .tabs li a:hover {
+	color: #fff;
+}
+
+.header-page .buttons button {
+  background-color: #0d3060;
+	color: #fff;
+}
+
+.header-page button {
+  background-color: #38720e;
+	color: #fff;
+}
+
+.header-page button:hover {
+	background-color: #fff;
+	color: #0d3060;
+}
+
+button, router-view > .buttons button.primary {
+    background-color: #38720e;
+}
+
+button:hover, router-view > .buttons button.primary:hover {
+    background-color: #dcc88f;
+}
+
+.user-info a {
+    color: #0d3060 !important;
+}
+
+.open-nav, .open-nav:focus {
+    color: #ddd;
+}
+
+.open-nav:hover {
+    color: #fff;
+}
+
+.admin-links .fa {
+    color: #38720e; //default #007bff
+(goto }; find the color similar to e_e_e_)
+
+table th,
+table td {
+    background: #ebf0e6;
+}
+
+.footer {
+    background: #0d3060;
+}
