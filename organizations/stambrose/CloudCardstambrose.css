@@ -1,0 +1,95 @@
+/*
+{{Color_1}}: 00529b
+{{Color_2}} / icon color: df6d27
+{{Color_2_Tint}}: #e5edf5
+{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/stambrose/stambroselogo100.jpg i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
+*/
+
+html {
+    background: #00529b;
+}
+
+.splash {
+    background-color: #00529b;
+}
+
+.splash .loading path {
+    fill: #fff;
+}
+
+header.header-main {
+    background-color: #00529b;
+    height:10.5em;
+}
+
+.fa-bars:hover {
+  color: #df6d27;
+}
+
+.logo {
+    background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/stambrose/stambroselogo100.jpg') top center no-repeat;
+    display: inline-block;
+    width: 100% !important;
+    height: 100px !important;
+    max-width: 400px !important;
+}
+
+header.header-page {
+  background-color:#df6d27;
+}
+
+.header-page .tabs li a {
+  border-bottom-color:#df6d27;
+	color: #fff;
+}
+.header-page .tabs li a:hover {
+	color: #fff;
+}
+
+.header-page .buttons button {
+  background-color: #00529b;
+	color: #fff;
+}
+
+.header-page button {
+  background-color: #df6d27;
+	color: #fff;
+}
+
+.header-page button:hover {
+	background-color: #fff;
+	color: #00529b;
+}
+
+button, router-view > .buttons button.primary {
+    background-color: #df6d27;
+}
+
+button:hover, router-view > .buttons button.primary:hover {
+    background-color: #dcc88f;
+}
+
+.user-info a {
+    color: #00529b !important;
+}
+
+.open-nav, .open-nav:focus {
+    color: #ddd;
+}
+
+.open-nav:hover {
+    color: #fff;
+}
+
+.admin-links .fa {
+    color: #df6d27;
+}
+
+table th,
+table td {
+    background: #e5edf5;
+}
+
+.footer {
+    background: #00529b;
+}
