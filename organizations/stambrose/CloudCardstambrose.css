@@ -1,7 +1,7 @@
 /*
 {{Color_1}}: 00529b
 {{Color_2}} / icon color: df6d27
-{{Color_2_Tint}}: #f8e1d3
+{{Color_2_Tint}}: #fbf0e9
 {{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/stambrose/stambroselogo100.jpg i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
@@ -87,7 +87,7 @@ button:hover, router-view > .buttons button.primary:hover {
 
 table th,
 table td {
-    background: #f8e1d3;
+    background: #fbf0e9;
 }
 
 .footer {
