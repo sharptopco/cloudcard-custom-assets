@@ -1,6 +1,6 @@
 /*
 {{Color_1}}: 00529b
-{{Color_2}} / icon color: df6d27
+{{Color_2}} / icon color: e96b1d
 {{Color_2_Tint}}: #e5edf5
 {{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/stambrose/stambrosewhiteonblue100.png
 */
@@ -23,7 +23,7 @@ header.header-main {
 }
 
 .fa-bars:hover {
-  color: #df6d27;
+  color: #e96b1d;
 }
 
 .logo {
@@ -35,11 +35,11 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#df6d27;
+  background-color:#e96b1d;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#df6d27;
+  border-bottom-color:#e96b1d;
 	color: #fff;
 }
 .header-page .tabs li a:hover {
@@ -52,7 +52,7 @@ header.header-page {
 }
 
 .header-page button {
-  background-color: #df6d27;
+  background-color: #e96b1d;
 	color: #fff;
 }
 
@@ -62,7 +62,7 @@ header.header-page {
 }
 
 button, router-view > .buttons button.primary {
-    background-color: #df6d27;
+    background-color: #e96b1d;
 }
 
 button:hover, router-view > .buttons button.primary:hover {
@@ -82,7 +82,7 @@ button:hover, router-view > .buttons button.primary:hover {
 }
 
 .admin-links .fa {
-    color: #df6d27;
+    color: #e96b1d7;
 }
 
 table th,
