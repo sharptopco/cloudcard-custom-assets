@@ -2,7 +2,7 @@
 {{Color_1}}: 004236
 {{Color_2}} / icon color: d7ae28
 {{Color_2_Tint}}: f7eed4;
-{{Logo_URL}}: s3.amazonaws.com/sharptop/public/cloud-card/King's+University+College/20121222104007451.jpg
+{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/kingsunivcol/20121222104007451.jpg
 */
 
 html {
@@ -27,7 +27,7 @@ header.header-main {
 }
 
 .logo {
-    background: url("//s3.amazonaws.com/sharptop/public/cloud-card/King's+University+College/20121222104007451.jpg") top center no-repeat;
+    background: url("//sharptopco.github.io/cloudcard-custom-assets/organizations/kingsunivcol/20121222104007451.jpg") top center no-repeat;
     display: inline-block;
     width: 100% !important;
     height: 100px !important;
