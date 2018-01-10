@@ -1,0 +1,95 @@
+/*
+{{Color_1}}: cc0033
+{{Color_2}} / icon color: 5f676f
+{{Color_2_Tint}}: #dfe0e2
+{{Logo_URL}}: s3.amazonaws.com/sharptop/public/cloud-card/Rutgers/rutgers-logo-100+-+Edited.png
+*/
+
+html {
+    background: #cc0033;
+}
+
+.splash {
+    background-color: #cc0033;
+}
+
+.splash .loading path {
+    fill: #fff;
+}
+
+header.header-main {
+    background-color: #cc0033;
+    height:10.5em;
+}
+
+.fa-bars:hover {
+  color: #5f676f;
+}
+
+.logo {
+    background: url('//s3.amazonaws.com/sharptop/public/cloud-card/Rutgers/rutgers-logo-100+-+Edited.png') top center no-repeat;
+    display: inline-block;
+    width: 100% !important;
+    height: 100px !important;
+    max-width: 400px !important;
+}
+
+header.header-page {
+  background-color:#5f676f;
+}
+
+.header-page .tabs li a {
+  border-bottom-color:#5f676f;
+	color: #fff;
+}
+.header-page .tabs li a:hover {
+	color: #fff;
+}
+
+.header-page .buttons button {
+  background-color: #cc0033;
+	color: #fff;
+}
+
+.header-page button {
+  background-color: #5f676f;
+	color: #fff;
+}
+
+.header-page .buttons button:hover {
+  background-color: #dfe0e2;
+  color: #cc0033;
+}
+
+button, router-view > .buttons button.primary {
+    background-color: #5f676f;
+}
+
+button:hover, router-view > .buttons button.primary:hover {
+    background-color: #dfe0e2;
+}
+
+.user-info a {
+    color: #cc0033 !important;
+}
+
+.open-nav, .open-nav:focus {
+    color: #ddd;
+}
+
+.open-nav:hover {
+    color: #fff;
+}
+
+.admin-links .fa {
+    color: #dfe0e2;
+}
+    
+table th,
+table td {
+    background: #dfe0e2;
+}
+
+.footer {
+    background: #cc0033;
+}
