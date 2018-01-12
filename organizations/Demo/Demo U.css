@@ -1,0 +1,95 @@
+/*
+{{Color_1}}: e3e3e3
+{{Color_2}} / icon color: 2d89e5
+{{Color_2_Tint}}: 043862
+{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/Demo/Demo-U-Logo-300x300.png
+*/
+
+html {
+    background: #e3e3e3;
+}
+
+.splash {
+    background-color: #e3e3e3;
+}
+
+.splash .loading path {
+    fill: #fff;
+}
+
+header.header-main {
+    background-color: #e3e3e3;
+    height:10.5em;
+}
+
+.fa-bars:hover {
+  color: #2d89e5;
+}
+
+.logo {
+    background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/Demo/Demo-U-Logo-300x300.png') top center no-repeat;
+    display: inline-block;
+    width: 100% !important;
+    height: 100px !important;
+    max-width: 400px !important;
+}
+
+header.header-page {
+  background-color:#2d89e5;
+}
+
+.header-page .tabs li a {
+  border-bottom-color:#2d89e5;
+	color: #fff;
+}
+.header-page .tabs li a:hover {
+	color: #fff;
+}
+
+.header-page .buttons button {
+  background-color: #e3e3e3;
+	color: #fff;
+}
+
+.header-page button {
+  background-color: #2d89e5;
+	color: #fff;
+}
+
+.header-page button:hover {
+	background-color: #fff;
+	color: #e3e3e3;
+}
+
+button, router-view > .buttons button.primary {
+    background-color: #2d89e5;
+}
+
+button:hover, router-view > .buttons button.primary:hover {
+    background-color: #dcc88f;
+}
+
+.user-info a {
+    color: #e3e3e3 !important;
+}
+
+.open-nav, .open-nav:focus {
+    color: #ddd;
+}
+
+.open-nav:hover {
+    color: #fff;
+}
+
+.admin-links .fa {
+    color: #2d89e5; //default #007bff
+(goto }; find the color similar to e_e_e_)
+
+table th,
+table td {
+    background: #043862;
+}
+
+.footer {
+    background: #e3e3e3;
+}
