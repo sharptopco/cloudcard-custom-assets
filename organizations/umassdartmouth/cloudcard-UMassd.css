@@ -1,0 +1,95 @@
+/*
+{{Color_1}}: 043862
+{{Color_2}} / icon color: f9be67
+{{Color_2_Tint}}: fce5c2
+{{Logo_URL}}: s3.amazonaws.com/sharptop/public/cloud-card/umass-dartmouth/umassd_logo_2x.png
+*/
+
+html {
+    background: #043862;
+}
+
+.splash {
+    background-color: #043862;
+}
+
+.splash .loading path {
+    fill: #fff;
+}
+
+header.header-main {
+    background-color: #043862;
+    height:10.5em;
+}
+
+.fa-bars:hover {
+  color: #f9be67 ;
+}
+
+.logo {
+    background: url('//s3.amazonaws.com/sharptop/public/cloud-card/umass-dartmouth/umassd_logo_2x.png') top center no-repeat;
+    display: inline-block;
+    width: 100% !important;
+    height: 100px !important;
+    max-width: 400px !important;
+}
+
+header.header-page {
+  background-color:#f9be67 ;
+}
+
+.header-page .tabs li a {
+  border-bottom-color:#f9be67 ;
+	color: #fff;
+}
+.header-page .tabs li a:hover {
+	color: #fff;
+}
+
+.header-page .buttons button {
+  background-color: #043862;
+	color: #fff;
+}
+
+.header-page button {
+  background-color: #f9be67 ;
+	color: #fff;
+}
+
+.header-page button:hover {
+	background-color: #fff;
+	color: #043862;
+}
+
+button, router-view > .buttons button.primary {
+    background-color: #f9be67 ;
+}
+
+button:hover, router-view > .buttons button.primary:hover {
+    background-color: #dcc88f;
+}
+
+.user-info a {
+    color: #043862 !important;
+}
+
+.open-nav, .open-nav:focus {
+    color: #ddd;
+}
+
+.open-nav:hover {
+    color: #fff;
+}
+
+.admin-links .fa {
+    color: #f9be67 ; //default #007bff
+(goto }; find the color similar to e_e_e_)
+
+table th,
+table td {
+    background: #fce5c2;
+}
+
+.footer {
+    background: #043862;
+}
