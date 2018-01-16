@@ -2,7 +2,7 @@
 {{Color_1}}: cc0033
 {{Color_2}} / icon color: 5f676f
 {{Color_2_Tint}}: #dfe0e2
-{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/Rutgers/rulogo100.png
+{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/Rutgers/rutgers-logo-100 - Edited.png
 */
 
 html {
@@ -27,7 +27,7 @@ header.header-main {
 }
 
 .logo {
-    background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/Rutgers/rulogo100.png') top center no-repeat;
+    background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/Rutgers/rutgers-logo-100 - Edited.png') top center no-repeat;
     display: inline-block;
     width: 100% !important;
     height: 100px !important;
