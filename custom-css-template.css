@@ -70,7 +70,7 @@ button:hover, router-view > .buttons button.primary:hover {
 }
 
 .user-info a {
-    color: #{{Color_1}} !important;
+    color: #{{Color_2}} !important;
 }
 
 .open-nav, .open-nav:focus {
