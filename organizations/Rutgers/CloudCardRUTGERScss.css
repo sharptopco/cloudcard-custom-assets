@@ -69,6 +69,10 @@ button:hover, router-view > .buttons button.primary:hover {
     background-color: #dfe0e2;
 }
 
+.user-info {
+	color: #fff;
+}
+	
 .user-info a {
     color: #dfe0e2 !important;
 }
