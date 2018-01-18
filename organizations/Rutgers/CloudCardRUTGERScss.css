@@ -93,3 +93,7 @@ table td {
 .footer {
     background: #cc0033;
 }
+
+button.download_button {
+	display: none;
+}
