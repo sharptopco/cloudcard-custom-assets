@@ -93,3 +93,9 @@ table td {
 .footer {
     background: #{{Color_1}};
 }
+
+/* Uncomment this block to hide the DOwnLoad photos button.
+button.download_button {
+	display: none;
+}
+*/
