@@ -1,0 +1,102 @@
+/*
+{{Color_1}}: DC143C
+{{Color_2}} / icon color: 777
+{{Color_2_Tint}}: #e3e3e3; (goto http://www.color-hex.com/color/777 ; find the color similar to e_e_e_)
+{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/harvard/Harvard-edited.png
+
+*/
+
+html {
+  background: #DC143C;
+}
+
+.splash {
+  background-color: #DC143C;
+}
+
+.splash .loading path {
+  fill: #fff;
+}
+
+header.header-main {
+  background-color: #DC143C;
+  height:10.5em;
+}
+
+.fa-bars:hover {
+  color: #777;
+}
+
+.logo {
+  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/harvard/Harvard-edited.png') top center no-repeat;
+  display: inline-block;
+  width: 100% !important;
+  height: 100px !important;
+  max-width: 400px !important;
+}
+
+header.header-page {
+  background-color:#777;
+}
+
+.header-page .tabs li a {
+  border-bottom-color:#777;
+  color: #fff;
+}
+.header-page .tabs li a:hover {
+  color: #fff;
+}
+
+.header-page .buttons button {
+  background-color: #DC143C;
+  color: #fff;
+}
+
+.header-page button {
+  background-color: #777;
+  color: #fff;
+}
+
+.header-page .buttons button:hover {
+  background-color: #e3e3e3;
+  color: #DC143C;
+}
+
+button, router-view > .buttons button.primary {
+  background-color: #777;
+}
+
+button:hover, router-view > .buttons button.primary:hover {
+  background-color: #e3e3e3;
+}
+
+.user-info a {
+    color: #777 !important;
+}
+
+.open-nav, .open-nav:focus {
+    color: #ddd;
+}
+
+.open-nav:hover {
+    color: #fff;
+}
+
+.admin-links .fa {
+    color: #e3e3e3; //default #007bff
+}
+
+table th,
+table td {
+    background: #e3e3e3;
+}
+
+.footer {
+    background: #DC143C;
+}
+
+/* Uncomment this block to hide the DOwnLoad photos button.
+button.download_button {
+	display: none;
+}
+*/
