@@ -63,7 +63,7 @@ header.header-page {
 }
 
 button, router-view > .buttons button.primary {
-  background-color: #777;
+  background-color: #fff;
 }
 
 button:hover, router-view > .buttons button.primary:hover {
