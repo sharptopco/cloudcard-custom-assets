@@ -71,7 +71,7 @@ button:hover, router-view > .buttons button.primary:hover {
 }
 
 .user-info a {
-    color: #777 !important;
+    color: #fff !important;
 }
 
 .open-nav, .open-nav:focus {
