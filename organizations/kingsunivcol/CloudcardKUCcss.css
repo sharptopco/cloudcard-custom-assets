@@ -1,16 +1,16 @@
 /*
-{{Color_1}}: 004236
+{{Color_1}}: 003731
 {{Color_2}} / icon color: d7ae28
 {{Color_2_Tint}}: f7eed4;
 {{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/kingsunivcol/20121222104007451.jpg
 */
 
 html {
-    background: #004236;
+    background: #003731;
 }
 
 .splash {
-    background-color: #004236;
+    background-color: #003731;
 }
 
 .splash .loading path {
@@ -18,7 +18,7 @@ html {
 }
 
 header.header-main {
-    background-color: #004236;
+    background-color: #003731;
     height:10.5em;
 }
 
@@ -47,7 +47,7 @@ header.header-page {
 }
 
 .header-page .buttons button {
-  background-color: #004236;
+  background-color: #003731;
 	color: #fff;
 }
 
@@ -70,7 +70,7 @@ button:hover, router-view > .buttons button.primary:hover {
 }
 
 .user-info a {
-    color: #004236 !important;
+    color: #003731 !important;
 }
 
 .open-nav, .open-nav:focus {
@@ -91,5 +91,5 @@ table td {
 }
 
 .footer {
-    background: #004236;
+    background: #003731;
 }
