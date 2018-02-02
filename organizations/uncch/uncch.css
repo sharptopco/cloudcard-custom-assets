@@ -1,16 +1,16 @@
 /*
-{{Color_1}}: 4B9CD3 57a0d3
+{{Color_1}}: 4B9CD3 57a0d3  65a0d2
 {{Color_2}} / icon color: 05265a
 {{Color_2_Tint}}: #e6e9ee; (goto http://www.color-hex.com/color/05265a ; find the color similar to e_e_e_)
 {{Logo_URL}}: {{Logo_URL}} sharptopco.github.io/cloudcard-custom-assets/organizations/uncch/uncch3.jpg
 */
 
 html {
-  background: #57a0d3;
+  background: #65a0d2;
 }
 
 .splash {
-  background-color: #57a0d3;
+  background-color: #65a0d2;
 }
 
 .splash .loading path {
@@ -18,7 +18,7 @@ html {
 }
 
 header.header-main {
-  background-color: #57a0d3;
+  background-color: #65a0d2;
   height:10.5em;
 }
 
@@ -47,7 +47,7 @@ header.header-page {
 }
 
 .header-page .buttons button {
-  background-color: #57a0d3;
+  background-color: #65a0d2;
   color: #fff;
 }
 
@@ -91,7 +91,7 @@ table td {
 }
 
 .footer {
-    background: #57a0d3;
+    background: #65a0d2;
 }
 
 /* Uncomment this block to hide the DOwnLoad photos button.
