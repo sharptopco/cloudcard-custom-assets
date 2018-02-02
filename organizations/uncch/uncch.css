@@ -1,0 +1,101 @@
+/*
+{{Color_1}}: 4B9CD3
+{{Color_2}} / icon color: 05265a
+{{Color_2_Tint}}: #e6e9ee; (goto http://www.color-hex.com/color/05265a ; find the color similar to e_e_e_)
+{{Logo_URL}}: {{Logo_URL}} sharptopco.github.io/cloudcard-custom-assets/organizations/uncch/unc1.jpg
+*/
+
+html {
+  background: #4B9CD3;
+}
+
+.splash {
+  background-color: #4B9CD3;
+}
+
+.splash .loading path {
+  fill: #fff;
+}
+
+header.header-main {
+  background-color: #4B9CD3;
+  height:10.5em;
+}
+
+.fa-bars:hover {
+  color: #05265a;
+}
+
+.logo {
+  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/uncch/unc1.jpg') top center no-repeat;
+  display: inline-block;
+  width: 100% !important;
+  height: 100px !important;
+  max-width: 400px !important;
+}
+
+header.header-page {
+  background-color:#05265a;
+}
+
+.header-page .tabs li a {
+  border-bottom-color:#05265a;
+  color: #fff;
+}
+.header-page .tabs li a:hover {
+  color: #fff;
+}
+
+.header-page .buttons button {
+  background-color: #4B9CD3;
+  color: #fff;
+}
+
+.header-page button {
+  background-color: #05265a;
+  color: #fff;
+}
+
+.header-page .buttons button:hover {
+  background-color: #e6e9ee;
+  color: #4B9CD3;
+}
+
+button, router-view > .buttons button.primary {
+  background-color: #05265a;
+}
+
+button:hover, router-view > .buttons button.primary:hover {
+  background-color: #e6e9ee;
+}
+
+.user-info a {
+    color: #05265a !important;
+}
+
+.open-nav, .open-nav:focus {
+    color: #ddd;
+}
+
+.open-nav:hover {
+    color: #fff;
+}
+
+.admin-links .fa {
+    color: #e6e9ee; //default #007bff
+}
+
+table th,
+table td {
+    background: #e6e9ee;
+}
+
+.footer {
+    background: #4B9CD3;
+}
+
+/* Uncomment this block to hide the DOwnLoad photos button.
+button.download_button {
+	display: none;
+}
+*/
