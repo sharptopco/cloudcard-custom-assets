@@ -2,7 +2,7 @@
 {{Color_1}}: 4B9CD3
 {{Color_2}} / icon color: 05265a
 {{Color_2_Tint}}: #e6e9ee; (goto http://www.color-hex.com/color/05265a ; find the color similar to e_e_e_)
-{{Logo_URL}}: {{Logo_URL}} sharptopco.github.io/cloudcard-custom-assets/organizations/uncch/unc2.jpg
+{{Logo_URL}}: {{Logo_URL}} sharptopco.github.io/cloudcard-custom-assets/organizations/uncch/unc1.jpg
 */
 
 html {
@@ -27,7 +27,7 @@ header.header-main {
 }
 
 .logo {
-  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/uncch/unc2.jpg') top center no-repeat;
+  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/uncch/unc1.jpg') top center no-repeat;
   display: inline-block;
   width: 100% !important;
   height: 100px !important;
