@@ -22,7 +22,9 @@ header.header-main {
   height:10.5em;
 }
 
-.fa-bars:hover {
+.fa-bars:hover,
+.fa-bars:focus
+{
   color: #{{Color_2}};
 }
 
@@ -42,7 +44,10 @@ header.header-page {
   border-bottom-color:#{{Color_2}};
   color: #fff;
 }
-.header-page .tabs li a:hover {
+
+.header-page .tabs li a:hover,
+.header-page .tabs li a:focus
+{
   color: #fff;
 }
 
@@ -56,7 +61,9 @@ header.header-page {
   color: #fff;
 }
 
-.header-page .buttons button:hover {
+.header-page .buttons button:hover,
+.header-page .buttons button:focus 
+{
   background-color: #{{Color_2_Tint}};
   color: #{{Color_1}};
 }
@@ -65,7 +72,12 @@ button, router-view > .buttons button.primary {
   background-color: #{{Color_2}};
 }
 
-button:hover, router-view > .buttons button.primary:hover {
+/* TODO: I don't think the primary button should get the same colors... */
+button:hover, 
+button:focus,
+router-view > .buttons button.primary:hover,
+router-view > .buttons button.primary:focus 
+{
   background-color: #{{Color_2_Tint}};
 }
 
@@ -77,7 +89,9 @@ button:hover, router-view > .buttons button.primary:hover {
     color: #ddd;
 }
 
-.open-nav:hover {
+.open-nav:hover,
+.open-nav:focus
+{
     color: #fff;
 }
 
@@ -94,7 +108,9 @@ table td {
     background: #{{Color_1}};
 }
 
-/* Uncomment this block to hide the DOwnLoad photos button.
+/* Uncomment this block to hide the DownLoad photos button.
+   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server), 
+	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
 button.download_button {
 	display: none;
 }
