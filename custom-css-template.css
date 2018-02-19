@@ -1,5 +1,6 @@
 /*
 {{Color_1}}: (don't include the '#')
+{{Color_1_Shade}}: #{{Color_1_Shade}}; (goto http://www.color-hex.com/color/{{Color_1}} ; use the second Shade -- just needs to be a little bit darker.)
 {{Color_2}} / icon color: (don't include the '#')
 {{Color_2_Tint}}: #{{Color_2_Tint}}; (goto http://www.color-hex.com/color/{{Color_2}} ; find the color similar to e_e_e_)
 {{Logo_URL}}: {{Logo_URL}} i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
@@ -68,15 +69,22 @@ header.header-page {
   color: #{{Color_1}};
 }
 
-button, router-view > .buttons button.primary {
-  background-color: #{{Color_2}};
+ router-view > .buttons button.primary {
+  background-color: #{{Color_1}};
 }
 
+router-view > .buttons button.primary:hover,
+router-view > .buttons button.primary:focus 
+{
+  background-color: #{{Color_1_Shade}};
+}
+
+button {
+  color: #{{Color_2}};
+}
 /* TODO: I don't think the primary button should get the same colors... */
 button:hover, 
 button:focus,
-router-view > .buttons button.primary:hover,
-router-view > .buttons button.primary:focus 
 {
   background-color: #{{Color_2_Tint}};
 }
