@@ -1,8 +1,8 @@
 /*
 {{Color_1}}: cc0033
 {{Color_1_Shade}}: a30028
-{{Color_2}} / icon color: 5f676f
-{{Color_2_Tint}}: #dfe0e2
+{{Color_2}}: 5f676f
+{{Color_2_Tint}}: e3e4e5
 {{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/Rutgers/rutgers-logo-100 - Edited.png
 */
 
@@ -37,7 +37,7 @@ header.header-page {
 
 .header-page .tabs li a {
     border-bottom-color: #5f676f;
-    color: #dfe0e2;
+    color: #e3e4e5;
 }
 
 .header-page .tabs li a:hover,
@@ -84,7 +84,7 @@ button {
 
 button:hover,
 button:focus {
-    background-color: #dfe0e2;
+    background-color: #e3e4e5;
 }
 
 router-view .buttons button.primary,
@@ -109,7 +109,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #dfe0e2;
+    color: #e3e4e5;
 }
 
 .user-info a:hover,
@@ -127,12 +127,12 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #dfe0e2;
+    color: #e3e4e5;
 }
 
 table th,
 table td {
-    background: #dfe0e2;
+    background: #e3e4e5;
 }
 
 .footer {
