@@ -37,7 +37,7 @@ header.header-page {
 
 .header-page .tabs li a {
   border-bottom-color:#{{Color_2}};
-  color: #fff;
+  color: #{{Color_2_Tint}};
 }
 
 .header-page .tabs li a:hover,
