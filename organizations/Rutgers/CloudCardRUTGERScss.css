@@ -40,7 +40,8 @@ header.header-page {
     color: #dfe0e2;
 }
 
-.header-page .tabs li a:hover {
+.header-page .tabs li a:hover,
+.header-page .tabs li a:focus {
     color: #fff;
 }
 
@@ -62,16 +63,9 @@ header.header-page {
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus {
-    /*background-color: #dfe0e2;*/
-    /*color: #cc0033;*/
-    /*TODO: make this an alternative option to the default color choices of the template */
     background-color: #5e676f;
     color: #fff;
 }
-
-/*.header-page .filters .filter select {*/
-    /*background:#*/
-/*}*/
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
