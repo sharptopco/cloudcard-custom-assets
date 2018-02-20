@@ -23,12 +23,6 @@ header.header-main {
   height:10.5em;
 }
 
-.fa-bars:hover,
-.fa-bars:focus
-{
-  color: #{{Color_2}};
-}
-
 .logo {
   background: url('//{{Logo_URL}}') top center no-repeat;
   display: inline-block;
