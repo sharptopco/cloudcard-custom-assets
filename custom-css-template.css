@@ -46,6 +46,11 @@ header.header-page {
   color: #fff;
 }
 
+/* Keep this block only if it looks good. */
+.header-page .tabs a.active {
+    border-bottom-color: #{{Color_1}};
+}
+
 .header-page .buttons button {
   background-color: #{{Color_1}};
   color: #fff;
@@ -61,33 +66,64 @@ header.header-page {
 {
   background-color: #{{Color_2_Tint}};
   color: #{{Color_1}};
+
+  /* Alternative if the above doesn't look so great.
+  background-color: #{{Color_2}};
+  color: #fff;
+   */
 }
 
- router-view > .buttons button.primary {
-  background-color: #{{Color_1}};
+.header-page .filters .filter:hover select,
+.header-page .filters .filter:focus-within select {
+    background-color: #{{Color_1}};
+    color: #fff;
 }
 
-router-view > .buttons button.primary:hover,
-router-view > .buttons button.primary:focus 
-{
-  background-color: #{{Color_1_Shade}};
+.header-page .filters .filter:hover:after,
+.header-page .filters .filter:focus-within:after {
+    color: #fff;
 }
 
 button {
-  color: #{{Color_2}};
+    background-color: #{{Color_2}};
 }
-/* TODO: I don't think the primary button should get the same colors... */
-button:hover, 
-button:focus,
+
+button:hover,
+button:focus {
+    background-color: #{{Color_2_Tint}};
+}
+
+router-view .buttons button.primary,
+#accept-terms,
+button.submit-login
 {
-  background-color: #{{Color_2_Tint}};
+    background-color: #{{Color_1}};
+}
+
+router-view .buttons button.primary:hover,
+router-view .buttons button.primary:focus,
+#accept-terms:hover,
+#accept-terms:focus,
+button.submit-login:hover,
+button.submit-login:focus
+{
+    background-color: #{{Color_1_Shade}};
+}
+
+.user-info {
+    color: #fff;
 }
 
 .user-info a {
-    color: #{{Color_2}} !important;
+    color: #{{Color_2_Tint}};
 }
 
-.open-nav, .open-nav:focus {
+.user-info a:hover,
+.user-info a:focus {
+    color: #fff;
+}
+
+.open-nav {
     color: #ddd;
 }
 
@@ -98,7 +134,7 @@ button:focus,
 }
 
 .admin-links .fa {
-    color: #{{Color_2_Tint}}; //default #007bff
+    color: #{{Color_2_Tint}}; /*default #007bff*/
 }
 
 table th,
@@ -110,7 +146,7 @@ table td {
     background: #{{Color_1}};
 }
 
-/* Uncomment this block to hide the DownLoad photos button.
+/* Uncomment this block to hide the Download photos button.
    HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server), 
 	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
 button.download_button {
