@@ -1,7 +1,8 @@
 /*
 {{Color_1}}: cc0033
-{{Color_2}} / icon color: 5f676f
-{{Color_2_Tint}}: #dfe0e2
+{{Color_1_Shade}}: a30028
+{{Color_2}}: 5f676f
+{{Color_2_Tint}}: e3e4e5
 {{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/Rutgers/rutgers-logo-100 - Edited.png
 */
 
@@ -19,11 +20,7 @@ html {
 
 header.header-main {
     background-color: #cc0033;
-    height:10.5em;
-}
-
-.fa-bars:hover {
-  color: #5f676f;
+    height: 10.5em;
 }
 
 .logo {
@@ -35,63 +32,107 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#5f676f;
-}
-
-.header-page .tabs li a {
-  border-bottom-color:#5f676f;
-	color: #fff;
-}
-.header-page .tabs li a:hover {
-	color: #fff;
-}
-
-.header-page .buttons button {
-  background-color: #cc0033;
-	color: #fff;
-}
-
-.header-page button {
-  background-color: #5f676f;
-	color: #fff;
-}
-
-.header-page .buttons button:hover {
-  background-color: #dfe0e2;
-  color: #cc0033;
-}
-
-button, router-view > .buttons button.primary {
     background-color: #5f676f;
 }
 
-button:hover, router-view > .buttons button.primary:hover {
-    background-color: #dfe0e2;
+.header-page .tabs li a {
+    border-bottom-color: #5f676f;
+    color: #e3e4e5;
+}
+
+.header-page .tabs li a:hover,
+.header-page .tabs li a:focus {
+    color: #fff;
+}
+
+/* For rutgers this is too dark. But it would be good to have in as an option.
+.header-page .tabs a.active {
+    border-bottom-color: #cc0033;
+}
+*/
+
+.header-page .buttons button {
+    background-color: #cc0033;
+    color: #fff;
+}
+
+.header-page button {
+    background-color: #5f676f;
+    color: #fff;
+}
+
+.header-page .buttons button:hover,
+.header-page .buttons button:focus {
+    background-color: #5e676f;
+    color: #fff;
+}
+
+.header-page .filters .filter:hover select,
+.header-page .filters .filter:focus-within select {
+    background-color: #cc0033;
+    color: #fff;
+}
+
+.header-page .filters .filter:hover:after,
+.header-page .filters .filter:focus-within:after {
+    color: #fff;
+}
+
+button {
+    background-color: #5f676f;
+}
+
+button:hover,
+button:focus {
+    background-color: #e3e4e5;
+}
+
+router-view .buttons button.primary,
+#accept-terms,
+button.submit-login
+{
+    background-color: #cc0033;
+}
+
+router-view .buttons button.primary:hover,
+router-view .buttons button.primary:focus,
+#accept-terms:hover,
+#accept-terms:focus,
+button.submit-login:hover,
+button.submit-login:focus
+{
+    background-color: #a30028;
 }
 
 .user-info {
-	color: #fff;
-}
-	
-.user-info a {
-    color: #dfe0e2 !important;
+    color: #fff;
 }
 
-.open-nav, .open-nav:focus {
+.user-info a {
+    color: #e3e4e5;
+}
+
+.user-info a:hover,
+.user-info a:focus {
+    color: #fff;
+}
+
+.open-nav {
     color: #ddd;
 }
 
-.open-nav:hover {
+.open-nav:hover,
+.open-nav:focus {
     color: #fff;
 }
 
 .admin-links .fa {
-    color: #dfe0e2;
+    color: #e3e4e5;
 }
-    
+
 table th,
 table td {
-    background: #dfe0e2;
+    background: #e3e4e5;
 }
 
 .footer {
@@ -99,5 +140,5 @@ table td {
 }
 
 button.download_button {
-	display: none;
+    display: none;
 }
