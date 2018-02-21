@@ -3,9 +3,9 @@
 {{Color_1_Shade}}: #9d6a44; (goto http://www.color-hex.com/color/af764c ; use the second Shade -- just needs to be a little bit darker.) 9d6a44
 {{Color_2}}:  5989b8    44729F
 {{Color_2_Tint}}: #eef3f7; (goto http://www.color-hex.com/color/5989b8 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
-{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/LionKing/LKlogo80.jpg
+{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/LionKing/LKlogo.png
 
-https://sharptopco.github.io/cloudcard-custom-assets/organizations/LionKing/LKlogo80.jpg
+https://sharptopco.github.io/cloudcard-custom-assets/organizations/LionKing/LKlogo.png
 */
 
 html {
@@ -26,9 +26,9 @@ header.header-main {
 }
 
 .logo {
-  /*doesn't work: background: url('sharptopco.github.io/cloudcard-custom-assets/organizations/LionKing/LKlogo80.jpg') top center no-repeat;*/
-  /*background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/LionKing/LKlogo2.jpg') top center no-repeat;*/
-  background: url('LKlogo2.jpg') top center no-repeat;
+  /*doesn't work: background: url('sharptopco.github.io/cloudcard-custom-assets/organizations/LionKing/LKlogo.png') top center no-repeat;*/
+  /*background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/LionKing/LKlogo.png') top center no-repeat;*/
+  background: url('LKlogo.png') top center no-repeat;
   display: inline-block;
   width: 100% !important;
   height: 100px !important;
