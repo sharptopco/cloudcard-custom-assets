@@ -27,7 +27,7 @@ header.header-main {
 
 .logo {
   /*doesn't work: background: url('sharptopco.github.io/cloudcard-custom-assets/organizations/LionKing/LKlogo80.jpg') top center no-repeat;*/
-  /*background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/LionKing/LKlogo80.jpg') top center no-repeat;*/
+  /*background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/LionKing/LKlogo2.jpg') top center no-repeat;*/
   background: url('LKlogo2.jpg') top center no-repeat;
   display: inline-block;
   width: 100% !important;
