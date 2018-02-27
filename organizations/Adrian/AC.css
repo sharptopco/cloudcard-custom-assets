@@ -1,8 +1,8 @@
 /*
 {{Color_1}}: (000000)
 {{Color_1_Shade}}: #191919; (goto http://www.color-hex.com/color/000000 ; use the second Shade -- just needs to be a little bit darker.)
-{{Color_2}}: (b88c34)
-{{Color_2_Tint}}: faf7eb; (goto http://www.color-hex.com/color/#b88c34 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+{{Color_2}}: (f7ba2e)
+{{Color_2_Tint}}: faf7eb; (goto http://www.color-hex.com/color/#f7ba2e ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 {{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/Adrian/AClogo100.jpg i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
@@ -34,11 +34,11 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#b88c34;
+  background-color:#f7ba2e;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#b88c34;
+  border-bottom-color:#f7ba2e;
   color: #faf7eb;
 }
 
@@ -70,7 +70,7 @@ header.header-page {
   color: #000000;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #b88c34;
+  background-color: #f7ba2e;
   color: #fff;
    */
 }
@@ -87,7 +87,7 @@ header.header-page {
 }
 
 button {
-    background-color: #b88c34;
+    background-color: #f7ba2e;
 }
 
 button:hover,
