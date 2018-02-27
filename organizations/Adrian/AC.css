@@ -1,8 +1,8 @@
 /*
 {{Color_1}}: (000000)
 {{Color_1_Shade}}: #191919; (goto http://www.color-hex.com/color/000000 ; use the second Shade -- just needs to be a little bit darker.)
-{{Color_2}}: (d4af37)
-{{Color_2_Tint}}: faf7eb; (goto http://www.color-hex.com/color/#d4af37 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+{{Color_2}}: (b88c34)
+{{Color_2_Tint}}: faf7eb; (goto http://www.color-hex.com/color/#b88c34 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 {{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/Adrian/AClogo100.jpg i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
@@ -24,9 +24,7 @@ header.header-main {
 }
 
 .logo {
-  /*doesn't work: background: url('sharptopco.github.io/cloudcard-custom-assets/organizations/Adrian/AClogo100.jpg) top center no-repeat;*/
-  /*background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/Adrian/AClogo100.jpg') top center no-repeat;*/
-  background: url('AClogo100.jpg') top center no-repeat;
+  background: url('//b88c34sharptopco.github.io/cloudcard-custom-assets/organizations/Adrian/AClogo100.jpg') top center no-repeat;
   display: inline-block;
   width: 100% !important;
   height: 100px !important;
@@ -34,11 +32,11 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#d4af37;
+  background-color:#b88c34;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#d4af37;
+  border-bottom-color:#b88c34;
   color: #faf7eb;
 }
 
@@ -59,7 +57,7 @@ header.header-page {
 }
 
 .header-page button {
-  background-color: #d4af37;
+  background-color: #b88c34;
   color: #fff;
 }
 
@@ -70,7 +68,7 @@ header.header-page {
   color: #000000;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #d4af37;
+  background-color: #b88c34;
   color: #fff;
    */
 }
@@ -87,7 +85,7 @@ header.header-page {
 }
 
 button {
-    background-color: #d4af37;
+    background-color: #b88c34;
 }
 
 button:hover,
