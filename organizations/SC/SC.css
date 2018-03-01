@@ -1,19 +1,19 @@
 /*
-{{Color_1}}: 003767
-{{Color_1_Shade}}: #00315c; (goto http://www.color-hex.com/color/003767 ; use the second Shade -- just needs to be a little bit darker.)
+{{Color_1}}: 193a67
+{{Color_1_Shade}}: #00315c; (goto http://www.color-hex.com/color/193a67 ; use the second Shade -- just needs to be a little bit darker.)
 {{Color_2}}: 00b2ce
 {{Color_2_Tint}}: #e5f7f7; (goto http://www.color-hex.com/color/00b2ce ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
-{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/SC/SClogo.jpg
+{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/SC/aSClogo.jpg
 
  i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
 html {
-  background: #003767;
+  background: #193a67;
 }
 
 .splash {
-  background-color: #003767;
+  background-color: #193a67;
 }
 
 .splash .loading path {
@@ -21,14 +21,14 @@ html {
 }
 
 header.header-main {
-  background-color: #003767;
+  background-color: #193a67;
   height:10.5em;
 }
 
 .logo {
-  /*doesn't work: background: url('sharptopco.github.io/cloudcard-custom-assets/organizations/SC/SClogo.jpg') top center no-repeat;*/
-  /*background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/SC/SClogo.jpg') top center no-repeat;*/
-  background: url('SClogo.jpg') top center no-repeat;
+  /*doesn't work: background: url('sharptopco.github.io/cloudcard-custom-assets/organizations/SC/aSClogo.jpg') top center no-repeat;*/
+  /*background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/aSC/SClogo.jpg') top center no-repeat;*/
+  background: url('aSClogo.jpg') top center no-repeat;
   display: inline-block;
   width: 100% !important;
   height: 100px !important;
@@ -52,11 +52,11 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #003767;
+    border-bottom-color: #193a67;
 }
 
 .header-page .buttons button {
-  background-color: #003767;
+  background-color: #193a67;
   color: #fff;
 }
 
@@ -69,7 +69,7 @@ header.header-page {
 .header-page .buttons button:focus
 {
   background-color: #e5f7f7;
-  color: #003767;
+  color: #193a67;
 
   /* Alternative if the above doesn't look so great.
   background-color: #00b2ce;
@@ -79,7 +79,7 @@ header.header-page {
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #003767;
+    background-color: #193a67;
     color: #fff;
 }
 
@@ -101,7 +101,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #003767;
+    background-color: #193a67;
 }
 
 router-view .buttons button.primary:hover,
@@ -147,7 +147,7 @@ table td {
 }
 
 .footer {
-    background: #003767;
+    background: #193a67;
 }
 
 /* Uncomment this block to hide the Download photos button.
