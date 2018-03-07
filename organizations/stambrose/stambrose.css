@@ -25,9 +25,7 @@ header.header-main {
 }
 
 .logo {
-  /*doesn't work: background: url('sharptopco.github.io/cloudcard-custom-assets/organizations/stambrose/stambrosewhiteonblue100.png') top center no-repeat;*/
-  /*background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/stambrose/stambrosewhiteonblue100.png') top center no-repeat;*/
-  background: url('stambrosewhiteonblue100.png') top center no-repeat;
+  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/stambrose/stambrosewhiteonblue100.png') top center no-repeat;
   display: inline-block;
   width: 100% !important;
   height: 100px !important;
