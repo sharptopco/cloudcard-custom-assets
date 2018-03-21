@@ -28,7 +28,7 @@ header.header-main {
 }
 
 .logo {
-    background: url('//s3.amazonaws.com/sharptop/public/cloud-card/pacific/pacific.logo.jpg') top left no-repeat;
+    background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/pacific/pacific.logo.jpg') top left no-repeat;
     width: 188px; height: 40px;
     background-size: contain;
     display: inline-block;
