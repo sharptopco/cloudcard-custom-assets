@@ -136,8 +136,11 @@ table td {
 }
 
 .terms-container {
-    margin-top: 1.875em;
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.form-login {
+    width: 100%;
 }
