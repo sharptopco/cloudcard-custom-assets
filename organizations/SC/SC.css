@@ -16,7 +16,7 @@ header.header-main {
 }
 
 .logo {
-  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/SC/SClogo.png') top center no-repeat;
+  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/SC/SClogo.png') center no-repeat;
   display: inline-block;
   width: 15.625em;
   background size: contain;	
