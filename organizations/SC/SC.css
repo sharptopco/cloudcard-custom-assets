@@ -1,13 +1,3 @@
-/*
-{{Color_1}}: 003767
-{{Color_1_Shade}}: #ff5000; (goto http://www.color-hex.com/color/003767 ; use the second Shade -- just needs to be a little bit darker.)
-{{Color_2}}: 00b2ce
-{{Color_2_Tint}}: #E3E3E3; (goto http://www.color-hex.com/color/00b2ce ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
-{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/SC/SClogo.png
-
- i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
-*/
-
 html {
   background: #003767;
 }
@@ -47,7 +37,6 @@ header.header-page {
   color: #fff;
 }
 
-/* Keep this block only if it looks good. */
 .header-page .tabs a.active {
     border-bottom-color: #003767;
 }
@@ -67,11 +56,6 @@ header.header-page {
 {
   background-color: #e3e3e3;
   color: #003767;
-
-  /* Alternative if the above doesn't look so great.
-  background-color: #00b2ce;
-  color: #fff;
-   */
 }
 
 .header-page .filters .filter:hover select,
@@ -151,10 +135,9 @@ table td {
     background: #003767;
 }
 
-/* Uncomment this block to hide the Download photos button.
-   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server),
-	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
-button.download_button {
-	display: none;
+.terms-container {
+    margin-top: 1.875em;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
-*/
