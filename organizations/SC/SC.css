@@ -19,7 +19,7 @@ header.header-main {
   background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/SC/SClogo.png') center no-repeat;
   display: inline-block;
   width: 15.63em;
-  background size: contain;	
+  background-size: contain;	
 }
 
 header.header-page {
