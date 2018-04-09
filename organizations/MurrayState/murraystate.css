@@ -1,0 +1,155 @@
+/*
+{{Color_1}}: f6c235
+{{Color_1_Shade}}: ddae2f; (goto http://www.color-hex.com/color/f6c235 ; use the second Shade -- just needs to be a little bit darker.)
+{{Color_2}}: 002144
+{{Color_2_Tint}}: e5e8ec; (goto http://www.color-hex.com/color/002144 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/MurrayState/murraystatelogo.png
+ i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
+*/
+
+html {
+  background: #f6c235;
+}
+
+.splash {
+  background-color: #f6c235;
+}
+
+.splash .loading path {
+  fill: #fff;
+}
+
+header.header-main {
+  background-color: #f6c235;
+  height:10.5em;
+}
+
+.logo {
+  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/MurrayState/murraystatelogo.png') top center no-repeat;
+  display: inline-block;
+  width: 15.625em;
+  background-size: contain;
+}
+
+header.header-page {
+  background-color:#002144;
+}
+
+.header-page .tabs li a {
+  border-bottom-color:#002144;
+  color: #e5e8ec;
+}
+
+.header-page .tabs li a:hover,
+.header-page .tabs li a:focus
+{
+  color: #fff;
+}
+
+/* Keep this block only if it looks good. */
+.header-page .tabs a.active {
+    border-bottom-color: #f6c235;
+}
+
+.header-page .buttons button {
+  background-color: #f6c235;
+  color: #fff;
+}
+
+.header-page button {
+  background-color: #002144;
+  color: #fff;
+}
+
+.header-page .buttons button:hover,
+.header-page .buttons button:focus
+{
+  background-color: #e5e8ec;
+  color: #f6c235;
+
+  /* Alternative if the above doesn't look so great.
+  background-color: #002144;
+  color: #fff;
+   */
+}
+
+.header-page .filters .filter:hover select,
+.header-page .filters .filter:focus-within select {
+    background-color: #f6c235;
+    color: #fff;
+}
+
+.header-page .filters .filter:hover:after,
+.header-page .filters .filter:focus-within:after {
+    color: #fff;
+}
+
+button {
+    background-color: #002144;
+}
+
+button:hover,
+button:focus {
+    background-color: #e5e8ec;
+}
+
+router-view .buttons button.primary,
+#accept-terms,
+button.submit-login
+{
+    background-color: #f6c235;
+}
+
+router-view .buttons button.primary:hover,
+router-view .buttons button.primary:focus,
+#accept-terms:hover,
+#accept-terms:focus,
+button.submit-login:hover,
+button.submit-login:focus
+{
+    background-color: #ddae2f;
+}
+
+.user-info {
+    color: #fff;
+}
+
+.user-info a {
+    color: #e5e8ec;
+}
+
+.user-info a:hover,
+.user-info a:focus {
+    color: #fff;
+}
+
+.open-nav {
+    color: #ddd;
+}
+
+.open-nav:hover,
+.open-nav:focus
+{
+    color: #fff;
+}
+
+.admin-links .fa {
+    color: #e5e8ec; /*default #007bff*/
+}
+
+table th,
+table td {
+    background: #e5e8ec;
+}
+
+.footer {
+    background: #f6c235;
+}
+
+/* Uncomment this block to hide the Download photos button.
+   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server),
+	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
+button.download_button {
+	display: none;
+}
+*/
