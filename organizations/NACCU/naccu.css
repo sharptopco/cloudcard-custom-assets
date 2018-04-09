@@ -20,7 +20,7 @@ html {
 }
 
 header.header-main {
-  background-color: #b2eaf9;
+  background-color: #fff;
   height:10.5em;
 }
 
@@ -111,7 +111,7 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #fff;
+    color: #00a8d6;
 }
 
 .user-info a {
