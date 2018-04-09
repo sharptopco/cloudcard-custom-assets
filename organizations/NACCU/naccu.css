@@ -29,7 +29,8 @@ header.header-main {
   alignment: center;
   display: inline-block;
   width: 18em;
-  background-size: contain;	
+  background-size: contain;
+  backgroun-color: #ffffff	
 }
 
 header.header-page {
