@@ -26,10 +26,10 @@ header.header-main {
 
 .logo {
   background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/NACCU/nacculogo.png') top center no-repeat;
-  alignment: center;
   display: inline-block;
-  width: 36em;
-  background-size: contain;
+  width: 100% !important;
+  height: 100px !important;
+  max-width: 400px !important;
   background-color: #ffffff	
 }
 
