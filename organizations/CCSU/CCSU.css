@@ -25,10 +25,11 @@ header.header-main {
 }
 
 .logo {
-  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/CCSU/CCSUlogo.png') center no-repeat;
+  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/CCSU/CCSUlogo.png') top center no-repeat;
   display: inline-block;
-  width: 15.63em;
-  background-size: contain;	
+  width: 100% !important;
+  height: 100px !important;
+  max-width: 400px !important;	
 }
 
 header.header-page {
