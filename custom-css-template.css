@@ -143,8 +143,14 @@ table td {
 }
 
 .footer {
-    background: #{{Color_1}};
+    background: #{{Color_1}};	
 }
+
+/* Uncomment this block if the organization has a Plus Account.
+img.photos--preview {
+    border-bottom: 0px;
+}
+*/
 
 /* Uncomment this block to hide the Download photos button.
    HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server), 
