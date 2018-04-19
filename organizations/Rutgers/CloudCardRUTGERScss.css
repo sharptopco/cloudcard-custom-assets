@@ -25,10 +25,10 @@ header.header-main {
 
 .logo {
     background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/Rutgers/rutgers-logo-100 - Edited.png') top center no-repeat;
-    display: inline-block;
-    width: 100% !important;
-    height: 100px !important;
-    max-width: 400px !important;
+    alignment: center;
+  display: inline-block;
+  width: 15.625em;
+  background-size: contain;	
 }
 
 header.header-page {
