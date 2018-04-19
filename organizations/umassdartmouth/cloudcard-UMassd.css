@@ -27,7 +27,7 @@ header.header-main {
 }
 
 .logo {
-    background: url('//s3.amazonaws.com/sharptop/public/cloud-card/umass-dartmouth/umassd_logo_2x.png') top center no-repeat;
+    background: url('//sharptopco.github.iocloudcard-custom-assets/organizations/umassdartmouth/umassd_logo_2x.png') top center no-repeat;
     display: inline-block;
     width: 100% !important;
     height: 100px !important;
