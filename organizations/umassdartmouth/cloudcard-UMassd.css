@@ -1,8 +1,8 @@
 /*
 {{Color_1}}: 043862
 {{Color_1_Shade}}: #033258; (goto http://www.color-hex.com/color/043862 ; use the second Shade -- just needs to be a little bit darker.)
-{{Color_2}}: fce5c2
-{{Color_2_Tint}}: #fdefda; (goto http://www.color-hex.com/color/fce5c2 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+{{Color_2}}: fac15e
+{{Color_2_Tint}}: #fef8ee; (goto http://www.color-hex.com/color/fac15e ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 {{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/umassdartmouth/umassdlogo.png
  i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
@@ -25,7 +25,7 @@ header.header-main {
 }
 
 .logo {
-  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/umassdartmouth/umassdlogo.png') center no-repeat;
+  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/umassdartmouth/umassdlogo.png') top center no-repeat;
   display: inline-block;
   width: 100% !important;
   height: 100px !important;
@@ -33,12 +33,12 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#fce5c2;
+  background-color:#fac15e;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#fce5c2;
-  color: #fdefda;
+  border-bottom-color:#fac15e;
+  color: #fef8ee;
 }
 
 .header-page .tabs li a:hover,
@@ -58,18 +58,18 @@ header.header-page {
 }
 
 .header-page button {
-  background-color: #fce5c2;
+  background-color: #fac15e;
   color: #fff;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus
 {
-  background-color: #fdefda;
+  background-color: #fef8ee;
   color: #043862;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #fce5c2;
+  background-color: #fac15e;
   color: #fff;
    */
 }
@@ -86,12 +86,12 @@ header.header-page {
 }
 
 button {
-    background-color: #fce5c2;
+    background-color: #fac15e;
 }
 
 button:hover,
 button:focus {
-    background-color: #fdefda;
+    background-color: #fef8ee;
 }
 
 router-view .buttons button.primary,
@@ -116,7 +116,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #fdefda;
+    color: #fef8ee;
 }
 
 .user-info a:hover,
@@ -135,12 +135,12 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #fdefda; /*default #007bff*/
+    color: #fef8ee; /*default #007bff*/
 }
 
 table th,
 table td {
-    background: #fdefda;
+    background: #fef8ee;
 }
 
 .footer {
