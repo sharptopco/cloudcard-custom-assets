@@ -1,95 +1,162 @@
 /*
 {{Color_1}}: 043862
-{{Color_2}} / icon color: f9be67
-{{Color_2_Tint}}: fce5c2
-{{Logo_URL}}: https://sharptopco.github.io/cloudcard-custom-assets/organizations/umassdartmouth/umassdlogo.png
+{{Color_1_Shade}}: #033258; (goto http://www.color-hex.com/color/043862 ; use the second Shade -- just needs to be a little bit darker.)
+{{Color_2}}: fce5c2
+{{Color_2_Tint}}: #fdefda; (goto http://www.color-hex.com/color/fce5c2 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/umassdartmouth/umassdlogo.png
+ i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
 html {
-    background: #043862;
+  background: #043862;
 }
 
 .splash {
-    background-color: #043862;
+  background-color: #043862;
 }
 
 .splash .loading path {
-    fill: #fff;
+  fill: #fff;
 }
 
 header.header-main {
-    background-color: #043862;
-    height:10.5em;
-}
-
-.fa-bars:hover {
-  color: #f9be67 ;
+  background-color: #043862;
+  height:10.5em;
 }
 
 .logo {
-    background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/umassdartmouth/umassdlogo.png') top center no-repeat;
-    background: url('umassdlogo.png') top center no-repeat;display: inline-block;
-    width: 100% !important;
-    height: 100px !important;
-    max-width: 400px !important;
+  background: url('//{{Logo_URL}}') top center no-repeat;
+  display: inline-block;
+  width: 100% !important;
+  height: 100px !important;
+  max-width: 400px !important;
 }
 
 header.header-page {
-  background-color:#f9be67 ;
+  background-color:#fce5c2;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#f9be67 ;
-	color: #fff;
+  border-bottom-color:#fce5c2;
+  color: #fdefda;
 }
-.header-page .tabs li a:hover {
-	color: #fff;
+
+.header-page .tabs li a:hover,
+.header-page .tabs li a:focus
+{
+  color: #fff;
+}
+
+/* Keep this block only if it looks good. */
+.header-page .tabs a.active {
+    border-bottom-color: #043862;
 }
 
 .header-page .buttons button {
   background-color: #043862;
-	color: #fff;
+  color: #fff;
 }
 
 .header-page button {
-  background-color: #f9be67 ;
-	color: #fff;
+  background-color: #fce5c2;
+  color: #fff;
 }
 
-.header-page button:hover {
-	background-color: #fff;
-	color: #043862;
+.header-page .buttons button:hover,
+.header-page .buttons button:focus
+{
+  background-color: #fdefda;
+  color: #043862;
+
+  /* Alternative if the above doesn't look so great.
+  background-color: #fce5c2;
+  color: #fff;
+   */
 }
 
-button, router-view > .buttons button.primary {
-    background-color: #f9be67 ;
+.header-page .filters .filter:hover select,
+.header-page .filters .filter:focus-within select {
+    background-color: #043862;
+    color: #fff;
 }
 
-button:hover, router-view > .buttons button.primary:hover {
-    background-color: #dcc88f;
+.header-page .filters .filter:hover:after,
+.header-page .filters .filter:focus-within:after {
+    color: #fff;
+}
+
+button {
+    background-color: #fce5c2;
+}
+
+button:hover,
+button:focus {
+    background-color: #fdefda;
+}
+
+router-view .buttons button.primary,
+#accept-terms,
+button.submit-login
+{
+    background-color: #043862;
+}
+
+router-view .buttons button.primary:hover,
+router-view .buttons button.primary:focus,
+#accept-terms:hover,
+#accept-terms:focus,
+button.submit-login:hover,
+button.submit-login:focus
+{
+    background-color: #033258;
+}
+
+.user-info {
+    color: #fff;
 }
 
 .user-info a {
-    color: #043862 !important;
+    color: #fdefda;
 }
 
-.open-nav, .open-nav:focus {
+.user-info a:hover,
+.user-info a:focus {
+    color: #fff;
+}
+
+.open-nav {
     color: #ddd;
 }
 
-.open-nav:hover {
+.open-nav:hover,
+.open-nav:focus
+{
     color: #fff;
 }
 
 .admin-links .fa {
-    color: #f9be67 ; //default #007bff
-(goto }; find the color similar to e_e_e_)
+    color: #fdefda; /*default #007bff*/
+}
 
 table th,
 table td {
-    background: #fce5c2;
+    background: #fdefda;
 }
 
 .footer {
     background: #043862;
 }
+
+/* Uncomment this block if the organization has a Plus Account.
+img.photos--preview {
+    border-bottom: 0px;
+}
+*/
+
+/* Uncomment this block to hide the Download photos button.
+   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server),
+	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
+button.download_button {
+	display: none;
+}
+*/
