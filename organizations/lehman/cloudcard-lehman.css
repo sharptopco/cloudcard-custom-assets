@@ -2,7 +2,8 @@
 {{Color_1}}: 0d3060
 {{Color_2}} / icon color: 38720e
 {{Color_2_Tint}}: #ebf0e6; (goto http://www.color-hex.com/color/38720e ; find the color similar to e_e_e_)
-{{Logo_URL}}: s3.amazonaws.com/client-public-assets/lehman/lehman-logo-266x80.png
+{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/lehman/lehman-logo-266x80.png
+
 */
 
 html {
@@ -27,7 +28,8 @@ header.header-main {
 }
 
 .logo {
-    background: url('//s3.amazonaws.com/client-public-assets/lehman/lehman-logo-266x80.png') top center no-repeat;
+    background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/lehman/lehman-logo-266x80.png
+') top center no-repeat;
     display: inline-block;
     width: 100% !important;
     height: 100px !important;
