@@ -25,10 +25,10 @@ header.header-main {
 
 .logo {
   background: url('//www.wingate.edu/wp-content/uploads/2015/06/logo.png') top center no-repeat;
+  alignment: center;
   display: inline-block;
-  width: 100% !important;
-  height: 100px !important;
-  max-width: 400px !important;
+  width: 15.625em;
+  background-size: contain;	
 }
 
 header.header-page {
