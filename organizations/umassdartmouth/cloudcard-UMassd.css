@@ -2,7 +2,7 @@
 {{Color_1}}: 043862
 {{Color_2}} / icon color: f9be67
 {{Color_2_Tint}}: fce5c2
-{{Logo_URL}}: sharptopco.github.iocloudcard-custom-assets/organizations/umassdartmouth/umassdlogo.png
+{{Logo_URL}}: https://sharptopco.github.io/cloudcard-custom-assets/organizations/umassdartmouth/umassdlogo.png
 */
 
 html {
@@ -27,8 +27,8 @@ header.header-main {
 }
 
 .logo {
-    background: url('//sharptopco.github.iocloudcard-custom-assets/organizations/umassdartmouth/umassdlogo.png') top center no-repeat;
-    background: url('umassd_logo_2x.png.png') top center no-repeat;display: inline-block;
+    background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/umassdartmouth/umassdlogo.png') top center no-repeat;
+    background: url('umassdlogo.png') top center no-repeat;display: inline-block;
     width: 100% !important;
     height: 100px !important;
     max-width: 400px !important;
