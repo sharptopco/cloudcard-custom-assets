@@ -28,7 +28,7 @@ header.header-main {
 
 .logo {
     background: url('//sharptopco.github.iocloudcard-custom-assets/organizations/umassdartmouth/umassd_logo_2x.png') top center no-repeat;
-    display: inline-block;
+    background: url('umassd_logo_2x.png.png') top center no-repeat;display: inline-block;
     width: 100% !important;
     height: 100px !important;
     max-width: 400px !important;
