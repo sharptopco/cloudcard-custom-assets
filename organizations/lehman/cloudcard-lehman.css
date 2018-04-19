@@ -1,39 +1,35 @@
 /*
 {{Color_1}}: 0d3060
-{{Color_2}} / icon color: 38720e
-{{Color_2_Tint}}: #ebf0e6; (goto http://www.color-hex.com/color/38720e ; find the color similar to e_e_e_)
+{{Color_1_Shade}}: #0b2b56; (goto http://www.color-hex.com/color/0d3060 ; use the second Shade -- just needs to be a little bit darker.)
+{{Color_2}}: 38720e
+{{Color_2_Tint}}: #ebf0e6; (goto http://www.color-hex.com/color/38720e ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 {{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/lehman/lehman-logo-266x80.png
-
+ i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
 html {
-    background: #0d3060;
+  background: #0d3060;
 }
 
 .splash {
-    background-color: #0d3060;
+  background-color: #0d3060;
 }
 
 .splash .loading path {
-    fill: #fff;
+  fill: #fff;
 }
 
 header.header-main {
-    background-color: #0d3060;
-    height:10.5em;
-}
-
-.fa-bars:hover {
-  color: #38720e;
+  background-color: #0d3060;
+  height:10.5em;
 }
 
 .logo {
-    background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/lehman/lehman-logo-266x80.png
-') top center no-repeat;
-    display: inline-block;
-    width: 100% !important;
-    height: 100px !important;
-    max-width: 400px !important;
+  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/lehman/lehman-logo-266x80.png') top center no-repeat;
+  display: inline-block;
+  width: 100% !important;
+  height: 100px !important;
+  max-width: 400px !important;
 }
 
 header.header-page {
@@ -42,49 +38,104 @@ header.header-page {
 
 .header-page .tabs li a {
   border-bottom-color:#38720e;
-	color: #fff;
+  color: #ebf0e6;
 }
-.header-page .tabs li a:hover {
-	color: #fff;
+
+.header-page .tabs li a:hover,
+.header-page .tabs li a:focus
+{
+  color: #fff;
+}
+
+/* Keep this block only if it looks good. */
+.header-page .tabs a.active {
+    border-bottom-color: #0d3060;
 }
 
 .header-page .buttons button {
   background-color: #0d3060;
-	color: #fff;
+  color: #fff;
 }
 
 .header-page button {
   background-color: #38720e;
-	color: #fff;
+  color: #fff;
 }
 
-.header-page.buttons button:hover {
-	background-color: #0d3060;
-	color: #fff;
+.header-page .buttons button:hover,
+.header-page .buttons button:focus
+{
+  background-color: #ebf0e6;
+  color: #0d3060;
+
+  /* Alternative if the above doesn't look so great.
+  background-color: #38720e;
+  color: #fff;
+   */
 }
 
-button, router-view > .buttons button.primary {
+.header-page .filters .filter:hover select,
+.header-page .filters .filter:focus-within select {
+    background-color: #0d3060;
+    color: #fff;
+}
+
+.header-page .filters .filter:hover:after,
+.header-page .filters .filter:focus-within:after {
+    color: #fff;
+}
+
+button {
     background-color: #38720e;
 }
 
-button:hover, router-view > .buttons button.primary:hover {
-    background-color: #dcc88f;
+button:hover,
+button:focus {
+    background-color: #ebf0e6;
+}
+
+router-view .buttons button.primary,
+#accept-terms,
+button.submit-login
+{
+    background-color: #0d3060;
+}
+
+router-view .buttons button.primary:hover,
+router-view .buttons button.primary:focus,
+#accept-terms:hover,
+#accept-terms:focus,
+button.submit-login:hover,
+button.submit-login:focus
+{
+    background-color: #0b2b56;
+}
+
+.user-info {
+    color: #fff;
 }
 
 .user-info a {
-    color: #0d3060 !important;
+    color: #ebf0e6;
 }
 
-.open-nav, .open-nav:focus {
+.user-info a:hover,
+.user-info a:focus {
+    color: #fff;
+}
+
+.open-nav {
     color: #ddd;
 }
 
-.open-nav:hover {
+.open-nav:hover,
+.open-nav:focus
+{
     color: #fff;
 }
 
 .admin-links .fa {
-    color: #ebf0e6;
+    color: #ebf0e6; /*default #007bff*/
 }
 
 table th,
@@ -95,3 +146,17 @@ table td {
 .footer {
     background: #0d3060;
 }
+
+/* Uncomment this block if the organization has a Plus Account.
+img.photos--preview {
+    border-bottom: 0px;
+}
+*/
+
+/* Uncomment this block to hide the Download photos button.
+   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server),
+	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
+button.download_button {
+	display: none;
+}
+*/
