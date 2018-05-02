@@ -49,7 +49,7 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #004C98;
+    border-bottom-color: #F7CF3D;
 }
 
 .header-page .buttons button {
@@ -86,7 +86,7 @@ header.header-page {
 }
 
 button {
-    background-color: #F7CF3D;
+    background-color: #004C98;
 }
 
 button:hover,
