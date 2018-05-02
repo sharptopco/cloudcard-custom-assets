@@ -26,11 +26,10 @@ header.header-main {
 }
 
 .logo {
-  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/SantaMonica/SMClogo-white.png') top center no-repeat;
+  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/SantaMonica/SMClogo-white.png') center no-repeat;
   display: inline-block;
-  width: 100% !important;
-  height: 100px !important;
-  max-width: 400px !important;
+  width: 15.63em;
+  background-size: contain;
 }
 
 header.header-page {
