@@ -22,6 +22,7 @@ html {
 
 header.header-main {
   background-color: #004C98;
+  border-bottom: 3px solid #F7CF3D;
   height:10.5em;
 }
 
@@ -145,6 +146,7 @@ table td {
 
 .footer {
     background: #004C98;
+    border-top: 3px solid #F7CF3D;
 }
 
 /* Uncomment this block if the organization has a Plus Account.
