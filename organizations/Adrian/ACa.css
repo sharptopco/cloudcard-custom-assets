@@ -27,7 +27,7 @@ header.header-main {
 .logo {
   /*doesn't work: background: url('sharptopco.github.io/cloudcard-custom-assets/organizations/Adrian/AClogo.png') top center no-repeat;*/
   /*background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/Adrian/AClogo.png') top center no-repeat;*/
-  background: url('AClogo.png') top center no-repeat;
+  background: url('AClogo.png') center no-repeat;
   alignment: center;
   display: inline-block;
   width: 15.625em;
