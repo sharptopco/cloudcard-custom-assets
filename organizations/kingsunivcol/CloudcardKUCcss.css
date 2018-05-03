@@ -24,11 +24,11 @@ header.header-main {
 }
 
 .logo {
-  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/kingsunivcol/kuc100.jpg') top center no-repeat;
+  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/kingsunivcol/kuc100.jpg') center no-repeat;
+  alignment: center;
   display: inline-block;
-  width: 100% !important;
-  height: 100px !important;
-  max-width: 400px !important;
+  width: 15.625em;
+  background-size: contain;
 }
 
 header.header-page {
