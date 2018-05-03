@@ -1,17 +1,17 @@
 /*
-{{Color_1}}: 501214
-{{Color_1_Shade}}: #481012; (goto http://www.color-hex.com/color/501214 ; use the second Shade -- just needs to be a little bit darker.)
-{{Color_2}}: 8d734a
-{{Color_2_Tint}}: #e8e3da; (goto http://www.color-hex.com/color/8d734a ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
-{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/tsu/tsulogo.png i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
+{{Color_1}}: 8d734a
+{{Color_1_Shade}}: #7e6742; (goto http://www.color-hex.com/color/8d734a ; use the second Shade -- just needs to be a little bit darker.)
+{{Color_2}}: 501214
+{{Color_2_Tint}}: #ede7e7; (goto http://www.color-hex.com/color/501214 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+{{Logo}}:  sharptopco.github.io/cloudcard-custom-assets/organizations/tsu/tsulogo.png: sharptopco.github.io/cloudcard-custom-assets/organizations/tsu/tsulogo.png i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
 html {
-  background: #501214;
+  background: #8d734a;
 }
 
 .splash {
-  background-color: #501214;
+  background-color: #8d734a;
 }
 
 .splash .loading path {
@@ -19,27 +19,25 @@ html {
 }
 
 header.header-main {
-  background-color: #501214;
+  background-color: #8d734a;
   height:10.5em;
 }
 
 .logo {
-  /*doesn't work: background: url('sharptopco.github.io/cloudcard-custom-assets/organizations/tsu/tsulogo.png') top center no-repeat;*/
-  /*background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/tsu/tsulogo.png') top center no-repeat;*/
-  background: url('tsulogo.png') center no-repeat;
+  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/tsu/tsulogo.png') center no-repeat;
   alignment: center;
   display: inline-block;
   width: 15.625em;
-  background-size: contain;	
+  background-size: contain;
 }
 
 header.header-page {
-  background-color:#8d734a;
+  background-color:#501214;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#8d734a;
-  color: #e8e3da;
+  border-bottom-color:#501214;
+  color: #ede7e7;
 }
 
 .header-page .tabs li a:hover,
@@ -50,34 +48,34 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #501214;
+    border-bottom-color: #8d734a;
 }
 
 .header-page .buttons button {
-  background-color: #501214;
+  background-color: #8d734a;
   color: #fff;
 }
 
 .header-page button {
-  background-color: #8d734a;
+  background-color: #501214;
   color: #fff;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus
 {
-  background-color: #e8e3da;
-  color: #501214;
+  background-color: #ede7e7;
+  color: #8d734a;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #8d734a;
+  background-color: #501214;
   color: #fff;
    */
 }
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #501214;
+    background-color: #8d734a;
     color: #fff;
 }
 
@@ -87,19 +85,19 @@ header.header-page {
 }
 
 button {
-    background-color: #8d734a;
+    background-color: #501214;
 }
 
 button:hover,
 button:focus {
-    background-color: #e8e3da;
+    background-color: #ede7e7;
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #501214;
+    background-color: #8d734a;
 }
 
 router-view .buttons button.primary:hover,
@@ -109,7 +107,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #481012;
+    background-color: #7e6742;
 }
 
 .user-info {
@@ -117,7 +115,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #e8e3da;
+    color: #ede7e7;
 }
 
 .user-info a:hover,
@@ -136,17 +134,23 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #e8e3da; /*default #007bff*/
+    color: #ede7e7; /*default #007bff*/
 }
 
 table th,
 table td {
-    background: #e8e3da;
+    background: #ede7e7;
 }
 
 .footer {
-    background: #501214;
+    background: #8d734a;
 }
+
+/* Uncomment this block if the organization has a Plus Account.
+img.photos--preview {
+    border-bottom: 0px;
+}
+*/
 
 /* Uncomment this block to hide the Download photos button.
    HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server),
