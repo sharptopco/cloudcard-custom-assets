@@ -3,7 +3,8 @@
 {{Color_1_Shade}}: #e5b021; (goto http://www.color-hex.com/color/ffc425 ; use the second Shade -- just needs to be a little bit darker.)
 {{Color_2}}: 000000
 {{Color_2_Tint}}: #e5e5e5; (goto http://www.color-hex.com/color/000000 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
-{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/Adrian/ACseal.png
+{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/Adrian/OffestAC.png
+
  i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
@@ -25,7 +26,7 @@ header.header-main {
 }
 
 .logo {
-  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/Adrian/ACseal.png') center no-repeat;
+  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/Adrian/OffestAC.png') center no-repeat;
   alignment: center;
   display: inline-block;
   width: 15.625em;
