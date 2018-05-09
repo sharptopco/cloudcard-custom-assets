@@ -1,18 +1,18 @@
 /*
-{{Color_1}}: efc848
-{{Color_1_Shade}}: #d7b440; (goto http://www.color-hex.com/color/efc848 ; use the second Shade -- just needs to be a little bit darker.)
+{{Color_1}}: ffc425
+{{Color_1_Shade}}: #e5b021; (goto http://www.color-hex.com/color/ffc425 ; use the second Shade -- just needs to be a little bit darker.)
 {{Color_2}}: 000000
 {{Color_2_Tint}}: #e5e5e5; (goto http://www.color-hex.com/color/000000 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
-{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/Adrian/AClogo.png
+{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/Adrian/ACseal.png
  i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
 html {
-  background: #efc848;
+  background: #ffc425;
 }
 
 .splash {
-  background-color: #efc848;
+  background-color: #ffc425;
 }
 
 .splash .loading path {
@@ -20,14 +20,12 @@ html {
 }
 
 header.header-main {
-  background-color: #efc848;
+  background-color: #ffc425;
   height:10.5em;
 }
 
 .logo {
-  /*doesn't work: background: url('sharptopco.github.io/cloudcard-custom-assets/organizations/Adrian/AClogo.png') top center no-repeat;*/
-  /*background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/Adrian/AClogo.png') top center no-repeat;*/
-  background: url('AClogo.png') center no-repeat;
+  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/Adrian/ACseal.png') center no-repeat;
   alignment: center;
   display: inline-block;
   width: 15.625em;
@@ -51,11 +49,11 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #efc848;
+    border-bottom-color: #ffc425;
 }
 
 .header-page .buttons button {
-  background-color: #efc848;
+  background-color: #ffc425;
   color: #fff;
 }
 
@@ -68,7 +66,7 @@ header.header-page {
 .header-page .buttons button:focus
 {
   background-color: #e5e5e5;
-  color: #efc848;
+  color: #ffc425;
 
   /* Alternative if the above doesn't look so great.
   background-color: #000000;
@@ -78,7 +76,7 @@ header.header-page {
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #efc848;
+    background-color: #ffc425;
     color: #fff;
 }
 
@@ -100,7 +98,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #efc848;
+    background-color: #ffc425;
 }
 
 router-view .buttons button.primary:hover,
@@ -110,7 +108,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #d7b440;
+    background-color: #e5b021;
 }
 
 .user-info {
@@ -146,8 +144,14 @@ table td {
 }
 
 .footer {
-    background: #efc848;
+    background: #ffc425;
 }
+
+/* Uncomment this block if the organization has a Plus Account.
+img.photos--preview {
+    border-bottom: 0px;
+}
+*/
 
 /* Uncomment this block to hide the Download photos button.
    HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server),
