@@ -8,11 +8,11 @@
 */
 
 html {
-  background: #{{Color_1}};
+  background: #E1810D;
 }
 
 .splash {
-  background-color: #{{Color_1}};
+  background-color: #E1810D;
 }
 
 .splash .loading path {
@@ -20,7 +20,7 @@ html {
 }
 
 header.header-main {
-  background-color: #{{Color_1}};
+  background-color: #E1810D;
   height:10.5em;
 }
 
@@ -49,11 +49,11 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #{{Color_1}};
+    border-bottom-color: #E1810D;
 }
 
 .header-page .buttons button {
-  background-color: #{{Color_1}};
+  background-color: #E1810D;
   color: #fff;
 }
 
@@ -66,7 +66,7 @@ header.header-page {
 .header-page .buttons button:focus
 {
   background-color: #eae1df;
-  color: #{{Color_1}};
+  color: #E1810D;
 
   /* Alternative if the above doesn't look so great.
   background-color: #996C60;
@@ -76,7 +76,7 @@ header.header-page {
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #{{Color_1}};
+    background-color: #E1810D;
     color: #fff;
 }
 
@@ -98,7 +98,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #{{Color_1}};
+    background-color: #E1810D;
 }
 
 router-view .buttons button.primary:hover,
@@ -144,7 +144,7 @@ table td {
 }
 
 .footer {
-    background: #{{Color_1}};
+    background: #E1810D;
 }
 
 /* Uncomment this block if the organization has a Plus Account.
