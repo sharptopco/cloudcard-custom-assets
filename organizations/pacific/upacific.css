@@ -21,6 +21,7 @@ html {
 
 header.header-main {
   background-color: #E1810D;
+  border-bottom: 3px solid #AA9E8A;
   height:10.5em;
 }
 
@@ -49,7 +50,7 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #E1810D;
+    border-bottom-color: #5F6F7D;
 }
 
 .header-page .buttons button {
@@ -145,6 +146,7 @@ table td {
 
 .footer {
     background: #E1810D;
+    border-top: 3px solid #AA9E8A;
 }
 
 /* Uncomment this block if the organization has a Plus Account.
