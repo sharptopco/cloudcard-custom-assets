@@ -24,7 +24,7 @@ header.header-main {
 }
 
 .logo {
-  background: url('//{{Logo_URL}}') center no-repeat;
+  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/odu/odu2white.png') center no-repeat;
   alignment: center;
   display: inline-block;
   width: 15.625em;
