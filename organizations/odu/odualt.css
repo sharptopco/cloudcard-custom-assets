@@ -20,6 +20,7 @@ html {
 
 header.header-main {
   background-color: #003667;
+  border-bottom: 3px solid #959ca1;
   height:10.5em;
 }
 
@@ -48,7 +49,7 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #003667;
+    border-bottom-color: #959ca1;
 }
 
 .header-page .buttons button {
@@ -144,6 +145,7 @@ table td {
 
 .footer {
     background: #003667;
+    border-top: 3px solid #959ca1;
 }
 
 /* Uncomment this block if the organization has a Plus Account.
