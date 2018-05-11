@@ -1,8 +1,8 @@
 /*
 {{Color_1}}: E1810D
 {{Color_1_Shade}}: #ca740b; (goto http://www.color-hex.com/color/E1810D ; use the second Shade -- just needs to be a little bit darker.)
-{{Color_2}}: 996C60
-{{Color_2_Tint}}: #eae1df; (goto http://www.color-hex.com/color/996C60 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+{{Color_2}}: 806f58
+{{Color_2_Tint}}: #eae1df; (goto http://www.color-hex.com/color/806f58 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 {{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/pacific/pacific.png
  i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
@@ -34,11 +34,11 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#996C60;
+  background-color:#806f58;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#996C60;
+  border-bottom-color:#806f58;
   color: #eae1df;
 }
 
@@ -59,7 +59,7 @@ header.header-page {
 }
 
 .header-page button {
-  background-color: #996C60;
+  background-color: #806f58;
   color: #fff;
 }
 
@@ -70,7 +70,7 @@ header.header-page {
   color: #E1810D;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #996C60;
+  background-color: #806f58;
   color: #fff;
    */
 }
@@ -87,7 +87,7 @@ header.header-page {
 }
 
 button {
-    background-color: #996C60;
+    background-color: #806f58;
 }
 
 button:hover,
