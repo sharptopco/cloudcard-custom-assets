@@ -1,18 +1,18 @@
 /*
-{{Color_1}}: 0d3060
-{{Color_1_Shade}}: #0b2b56; (goto http://www.color-hex.com/color/0d3060 ; use the second Shade -- just needs to be a little bit darker.)
-{{Color_2}}: 38720e
-{{Color_2_Tint}}: #ebf0e6; (goto http://www.color-hex.com/color/38720e ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+{{Color_1}}: 0d207e
+{{Color_1_Shade}}: #0a1964; (goto http://www.color-hex.com/color/0d207e ; use the second Shade -- just needs to be a little bit darker.)
+{{Color_2}}: 65a326
+{{Color_2_Tint}}: #e0ecd3; (goto http://www.color-hex.com/color/65a326 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 {{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/lehman/lehman-logo-266x80.png
  i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
 html {
-  background: #0d3060;
+  background: #0d207e;
 }
 
 .splash {
-  background-color: #0d3060;
+  background-color: #0d207e;
 }
 
 .splash .loading path {
@@ -20,25 +20,24 @@ html {
 }
 
 header.header-main {
-  background-color: #0d3060;
+  background-color: #0d207e;
   height:10.5em;
 }
 
 .logo {
-  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/lehman/lehman-logo-266x80.png') center no-repeat;
-  alignment: center;
+  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/lehman/lehman-logo-266x80.png') top center no-repeat;
   display: inline-block;
-  width: 15.625em;
-  background-size: contain;	
+  max-width: 400px !important;
+  background-size: contain;
 }
 
 header.header-page {
-  background-color:#38720e;
+  background-color:#65a326;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#38720e;
-  color: #ebf0e6;
+  border-bottom-color:#65a326;
+  color: #e0ecd3;
 }
 
 .header-page .tabs li a:hover,
@@ -49,34 +48,34 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #0d3060;
+    border-bottom-color: #0d207e;
 }
 
 .header-page .buttons button {
-  background-color: #0d3060;
+  background-color: #0d207e;
   color: #fff;
 }
 
 .header-page button {
-  background-color: #38720e;
+  background-color: #65a326;
   color: #fff;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus
 {
-  background-color: #ebf0e6;
-  color: #0d3060;
+  background-color: #e0ecd3;
+  color: #0d207e;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #38720e;
+  background-color: #65a326;
   color: #fff;
    */
 }
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #0d3060;
+    background-color: #0d207e;
     color: #fff;
 }
 
@@ -86,19 +85,19 @@ header.header-page {
 }
 
 button {
-    background-color: #38720e;
+    background-color: #65a326;
 }
 
 button:hover,
 button:focus {
-    background-color: #ebf0e6;
+    background-color: #e0ecd3;
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #0d3060;
+    background-color: #0d207e;
 }
 
 router-view .buttons button.primary:hover,
@@ -108,7 +107,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #0b2b56;
+    background-color: #0a1964;
 }
 
 .user-info {
@@ -116,7 +115,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #ebf0e6;
+    color: #e0ecd3;
 }
 
 .user-info a:hover,
@@ -135,16 +134,16 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #ebf0e6; /*default #007bff*/
+    color: #e0ecd3; /*default #007bff*/
 }
 
 table th,
 table td {
-    background: #ebf0e6;
+    background: #e0ecd3;
 }
 
 .footer {
-    background: #0d3060;
+    background: #0d207e;
 }
 
 /* Uncomment this block if the organization has a Plus Account.
