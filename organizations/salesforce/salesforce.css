@@ -1,14 +1,13 @@
 /*
-{{Color_1}}: ffffff
-{{Color_1_Shade}}: #e5e5e5; (goto http://www.color-hex.com/color/ffffff ; use the second Shade -- just needs to be a little bit darker.)
+{{Color_1}}: 215ca0
+{{Color_1_Shade}}: #1a4980; (goto http://www.color-hex.com/color/215ca0 ; use the second Shade -- just needs to be a little bit darker.)
 {{Color_2}}: 8aaf2a
 {{Color_2_Tint}}: #e7efd4; (goto http://www.color-hex.com/color/8aaf2a ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
-{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/salesforce/salesforcelogo.png
- i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
+{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/salesforce/salesforcelogo.png i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
 html {
-  background: #ffffff;
+  background: #215ca0;
 }
 
 .splash {
@@ -20,13 +19,12 @@ html {
 }
 
 header.header-main {
-  background-color: #ffffff;
-  border-bottom: 3px solid #00a1e0;
+  background-color: #215ca0;
   height:10.5em;
 }
 
 .logo {
-  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/salesforce/salesforcelogo.png') top center no-repeat;
+  background: url('//{{Logo_URL}}') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
@@ -66,7 +64,7 @@ header.header-page {
 .header-page .buttons button:focus
 {
   background-color: #e7efd4;
-  color: #ffffff;
+  color: #215ca0;
 
   /* Alternative if the above doesn't look so great.
   background-color: #8aaf2a;
@@ -108,7 +106,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #e5e5e5;
+    background-color: #1a4980;
 }
 
 .user-info {
@@ -121,7 +119,7 @@ button.submit-login:focus
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #215ca0;
+    color: #fff;
 }
 
 .open-nav {
@@ -145,7 +143,6 @@ table td {
 
 .footer {
     background: #215ca0;
-    border-top: 3px solid #00a1e0;
 }
 
 /* Uncomment this block if the organization has a Plus Account.
