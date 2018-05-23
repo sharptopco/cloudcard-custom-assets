@@ -49,11 +49,11 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #ffffff;
+    border-bottom-color: #215ca0;
 }
 
 .header-page .buttons button {
-  background-color: #ffffff;
+  background-color: #215ca0;
   color: #fff;
 }
 
@@ -76,7 +76,7 @@ header.header-page {
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #ffffff;
+    background-color: #215ca0;
     color: #fff;
 }
 
@@ -98,7 +98,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #ffffff;
+    background-color: #215ca0;
 }
 
 router-view .buttons button.primary:hover,
@@ -144,7 +144,7 @@ table td {
 }
 
 .footer {
-    background: #ffffff;
+    background: #215ca0;
     border-top: 3px solid #00a1e0;
 }
 
