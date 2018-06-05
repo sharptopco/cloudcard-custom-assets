@@ -137,6 +137,9 @@ button.submit-login:focus
     color: #e5e8ec; /*default #007bff*/
 }
 
+ul.photo-requirements {
+    background-color: #353535;
+	
 table th,
 table td {
     background: #e5e8ec;
