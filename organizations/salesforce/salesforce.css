@@ -48,11 +48,11 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #215ca0;
+    border-bottom-color: #00a1e0;
 }
 
 .header-page .buttons button {
-  background-color: #215ca0;
+  background-color: #00a1e0;
   color: #fff;
 }
 
@@ -65,7 +65,7 @@ header.header-page {
 .header-page .buttons button:focus
 {
   background-color: #e7efd4;
-  color: #215ca0;
+  color: #00a1e0;
 
   /* Alternative if the above doesn't look so great.
   background-color: #8aaf2a;
@@ -75,7 +75,7 @@ header.header-page {
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #215ca0;
+    background-color: #00a1e0;
     color: #fff;
 }
 
@@ -97,7 +97,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #215ca0;
+    background-color: #00a1e0;
 }
 
 router-view .buttons button.primary:hover,
@@ -143,7 +143,7 @@ table td {
 }
 
 .footer {
-    background: #215ca0;
+    background: #00a1e0;
     border-top: 3px solid #00a1e0;
 
 }
@@ -161,3 +161,7 @@ button.download_button {
 	display: none;
 }
 */
+
+.sidebar-main {
+    background: #ffffff;
+}
