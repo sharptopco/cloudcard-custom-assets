@@ -134,7 +134,16 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #e7efd4; /*default #007bff*/
+    color: #8aaf2a; /*default #007bff*/
+}
+
+.admin-links a {
+    background: #fff;
+    color: #353535;
+}
+
+.admin-links a:hover {
+    background: #e7efd4;
 }
 
 table th,
