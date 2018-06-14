@@ -175,5 +175,6 @@ button.download_button {
 .sidebar-main {
     background: #ffffff;
     border-right: 3px solid #8aaf2a;
-    color: #1a4980;	
+    color: #1a4980;
+    height: 780px;
 }
