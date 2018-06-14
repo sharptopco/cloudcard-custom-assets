@@ -177,4 +177,7 @@ button.download_button {
     border-right: 3px solid #8aaf2a;
     color: #1a4980;
     height: 780px !important;
+    
+    h2 {color: #1a4980;}	
+	
 }
