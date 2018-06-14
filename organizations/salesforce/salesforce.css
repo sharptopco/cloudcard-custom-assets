@@ -178,6 +178,8 @@ button.download_button {
     color: #1a4980;
     height: 780px !important;
     
-    h2 {color: #1a4980;}	
+    h2 { 
+      color: #1a4980 !important;
+    }	
 	
 }
