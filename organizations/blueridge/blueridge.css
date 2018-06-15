@@ -1,8 +1,8 @@
 /*
 {{Color_1}}: 2491ff
 {{Color_1_Shade}}: #2082e5; (goto http://www.color-hex.com/color/2491ff ; use the second Shade -- just needs to be a little bit darker.)
-{{Color_2}}: 202a35
-{{Color_2_Tint}}: #e8e9ea; (goto http://www.color-hex.com/color/202a35 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+{{Color_2}}: 3c3a42
+{{Color_2_Tint}}: #ebebec; (goto http://www.color-hex.com/color/3c3a42 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 {{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/blueridge/BR15logo-white.png i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
@@ -31,12 +31,12 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#202a35;
+  background-color:#3c3a42;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#202a35;
-  color: #e8e9ea;
+  border-bottom-color:#3c3a42;
+  color: #ebebec;
 }
 
 .header-page .tabs li a:hover,
@@ -56,18 +56,18 @@ header.header-page {
 }
 
 .header-page button {
-  background-color: #202a35;
+  background-color: #3c3a42;
   color: #fff;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus
 {
-  background-color: #e8e9ea;
+  background-color: #ebebec;
   color: #2491ff;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #202a35;
+  background-color: #3c3a42;
   color: #fff;
    */
 }
@@ -84,12 +84,12 @@ header.header-page {
 }
 
 button {
-    background-color: #202a35;
+    background-color: #3c3a42;
 }
 
 button:hover,
 button:focus {
-    background-color: #e8e9ea;
+    background-color: #ebebec;
 }
 
 router-view .buttons button.primary,
@@ -114,7 +114,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #e8e9ea;
+    color: #ebebec;
 }
 
 .user-info a:hover,
@@ -133,12 +133,12 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #e8e9ea; /*default #007bff*/
+    color: #ebebec; /*default #007bff*/
 }
 
 table th,
 table td {
-    background: #e8e9ea;
+    background: #ebebec;
 }
 
 .footer {
