@@ -175,12 +175,16 @@ button.download_button {
 .sidebar-main,
 .sidebar-mobile {
     background: #ffffff;
-    color: #1a4980 !important;
+    color: #1a4980;
     border-right: 3px solid #8aaf2a;
     height: 900px !important;
 
     &.nav-open {
 	background: #ffffff;
+    }
+	
+    h2 {
+	color: #1a4980 !important;	
     }
 	
 }
