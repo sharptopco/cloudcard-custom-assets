@@ -179,7 +179,7 @@ button.download_button {
     border-right: 3px solid #8aaf2a;
     height: 100%
 
-    .nav-open {
+    &.nav-open {
 	background: #ffffff;
     }
 	
@@ -187,9 +187,4 @@ button.download_button {
       color: #1a4980 !important;
     }	
 	
-}
-
-.photo-requirements {
-    border-right: 3px solid #8aaf2a;
-    height: 100%
 }
