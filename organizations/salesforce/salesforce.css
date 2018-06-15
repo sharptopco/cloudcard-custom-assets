@@ -1,4 +1,6 @@
-/*
+
+￼ ￼ ￼
+￼ Edit file  /*
 {{Color_1}}: 215ca0
 {{Color_1_Shade}}: #1a4980; (goto http://www.color-hex.com/color/215ca0 ; use the second Shade -- just needs to be a little bit darker.)
 {{Color_2}}: 8aaf2a
@@ -183,8 +185,9 @@ button.download_button {
 	background: #ffffff;
     }
 	
-    h2 {
-	color: #1a4980 !important;	
-    }
-	
+}
+
+.sidebar-main h2,
+.sidebar-mobile h2 {
+    color: #1a4980 !important;
 }
