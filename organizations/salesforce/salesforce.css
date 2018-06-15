@@ -177,7 +177,7 @@ button.download_button {
     background: #ffffff;
     color: #1a4980 !important;
     border-right: 3px solid #8aaf2a;
-    height: 100%;
+    height: 900px !important;
 
     &.nav-open {
 	background: #ffffff;
