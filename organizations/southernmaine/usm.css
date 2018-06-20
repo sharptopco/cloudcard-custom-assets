@@ -144,6 +144,7 @@ table td {
 
 .footer {
     background: #0f1034;
+    border-top: 3px solid #f7a60e;
 }
 
 /* Uncomment this block if the organization has a Plus Account.
