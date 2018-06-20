@@ -1,6 +1,6 @@
 /*
-{{Color_1}}: 181a3d
-{{Color_1_Shade}}: #131430; (goto http://www.color-hex.com/color/181a3d ; use the second Shade -- just needs to be a little bit darker.)
+{{Color_1}}: 0f1034
+{{Color_1_Shade}}: #0c0c29; (goto http://www.color-hex.com/color/0f1034 ; use the second Shade -- just needs to be a little bit darker.)
 {{Color_2}}: f7a60e
 {{Color_2_Tint}}: #fef6e6; (goto http://www.color-hex.com/color/f7a60e ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 {{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/southernmaine/usmlogo.png
@@ -8,11 +8,11 @@
 */
 
 html {
-  background: #181a3d;
+  background: #0f1034;
 }
 
 .splash {
-  background-color: #181a3d;
+  background-color: #0f1034;
 }
 
 .splash .loading path {
@@ -20,7 +20,7 @@ html {
 }
 
 header.header-main {
-  background-color: #181a3d;
+  background-color: #0f1034;
   height:10.5em;
 }
 
@@ -48,11 +48,11 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #181a3d;
+    border-bottom-color: #0f1034;
 }
 
 .header-page .buttons button {
-  background-color: #181a3d;
+  background-color: #0f1034;
   color: #fff;
 }
 
@@ -65,7 +65,7 @@ header.header-page {
 .header-page .buttons button:focus
 {
   background-color: #fef6e6;
-  color: #181a3d;
+  color: #0f1034;
 
   /* Alternative if the above doesn't look so great.
   background-color: #f7a60e;
@@ -75,7 +75,7 @@ header.header-page {
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #181a3d;
+    background-color: #0f1034;
     color: #fff;
 }
 
@@ -97,7 +97,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #181a3d;
+    background-color: #0f1034;
 }
 
 router-view .buttons button.primary:hover,
@@ -107,7 +107,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #131430;
+    background-color: #0c0c29;
 }
 
 .user-info {
@@ -143,7 +143,7 @@ table td {
 }
 
 .footer {
-    background: #181a3d;
+    background: #0f1034;
 }
 
 /* Uncomment this block if the organization has a Plus Account.
