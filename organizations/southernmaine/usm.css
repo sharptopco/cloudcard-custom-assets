@@ -2,7 +2,7 @@
 {{Color_1}}: 0f1034
 {{Color_1_Shade}}: #0c0c29; (goto http://www.color-hex.com/color/0f1034 ; use the second Shade -- just needs to be a little bit darker.)
 {{Color_2}}: f7a60e
-{{Color_2_Tint}}: #fef6e6; (goto http://www.color-hex.com/color/f7a60e ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+{{Color_2_Tint}}: #e7e7ea; (goto http://www.color-hex.com/color/f7a60e ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 {{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/southernmaine/usmlogo.png
  i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
@@ -37,7 +37,7 @@ header.header-page {
 
 .header-page .tabs li a {
   border-bottom-color:#f7a60e;
-  color: #fef6e6;
+  color: #e7e7ea;
 }
 
 .header-page .tabs li a:hover,
@@ -64,7 +64,7 @@ header.header-page {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus
 {
-  background-color: #fef6e6;
+  background-color: #e7e7ea;
   color: #0f1034;
 
   /* Alternative if the above doesn't look so great.
@@ -90,7 +90,7 @@ button {
 
 button:hover,
 button:focus {
-    background-color: #fef6e6;
+    background-color: #e7e7ea;
 }
 
 router-view .buttons button.primary,
@@ -115,7 +115,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #fef6e6;
+    color: #e7e7ea;
 }
 
 .user-info a:hover,
@@ -134,12 +134,12 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #fef6e6; /*default #007bff*/
+    color: #e7e7ea; /*default #007bff*/
 }
 
 table th,
 table td {
-    background: #fef6e6;
+    background: #e7e7ea;
 }
 
 .footer {
