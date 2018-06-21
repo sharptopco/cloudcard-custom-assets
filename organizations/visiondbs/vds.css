@@ -1,3 +1,7 @@
 button.download_button {
 	display: none;
 }
+
+ul.photo-requirements {
+    background-color: #353535;
+}
