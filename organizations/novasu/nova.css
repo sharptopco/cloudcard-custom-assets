@@ -148,6 +148,10 @@ table td {
     background: #003893;
 }
 
+button.bulkimport_button {
+	display: none;
+}
+
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
     border-bottom: 0px;
