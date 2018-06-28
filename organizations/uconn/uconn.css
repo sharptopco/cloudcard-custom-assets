@@ -52,10 +52,11 @@ header.header-page {
   color: #fff;
 }
 
-/* Keep this block only if it looks good. */
+/* Keep this block only if it looks good.
 .header-page .tabs a.active {
     border-bottom-color: #FFFFFF;
 }
+*/
 
 .header-page .buttons button {
   background-color: #E4002B;
@@ -103,7 +104,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #7C878E;
+    background-color: #ffffff;
 }
 
 router-view .buttons button.primary:hover,
