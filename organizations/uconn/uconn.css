@@ -52,11 +52,11 @@ header.header-page {
   color: #fff;
 }
 
-/* Keep this block only if it looks good.
+/* Keep this block only if it looks good.*/
 .header-page .tabs a.active {
     border-bottom-color: #FFFFFF;
 }
-*/
+
 
 .header-page .buttons button {
   background-color: #E4002B;
