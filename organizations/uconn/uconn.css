@@ -70,7 +70,7 @@ header.header-page {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus
 {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #E4002B;
 
   /* Alternative if the above doesn't look so great.
@@ -103,7 +103,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #FFFFFF;
+    background-color: #7C878E;
 }
 
 router-view .buttons button.primary:hover,
