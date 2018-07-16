@@ -133,7 +133,7 @@ button.submit-login:focus
 .open-nav:hover,
 .open-nav:focus
 {
-    color: #fff;
+    color: #ddd;
 }
 
 .admin-links .fa {
