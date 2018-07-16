@@ -144,12 +144,10 @@ button.submit-login:focus
     background: #fff;
     color: #353535;
 	
-    &:focus {
-	background: #e7efd4
-    }
 }
 
-.admin-links a:hover {
+.admin-links a:hover,
+.admin-links a:focus {
     background: #e7efd4;
 }
 
