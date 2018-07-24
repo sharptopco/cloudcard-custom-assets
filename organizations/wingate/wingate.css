@@ -1,7 +1,7 @@
 /*
 Color 1: #012168;
 Color 2 / icon color: #c7b683;
-Logo URL: https://www.wingate.edu/wp-content/uploads/2015/06/logo.png
+Logo URL: https://sharptopco.github.io/cloudcard-custom-assets/organizations/wingate/wingatebulldoglogo.png
 */
 
 html {
@@ -27,7 +27,7 @@ header.header-main {
 }
 
 .logo {
-    background: url('//www.wingate.edu/wp-content/uploads/2015/06/logo.png') top center no-repeat;
+    background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/wingate/wingatebulldoglogo.png') top center no-repeat;
     display: inline-block;
     width: 100% !important;
     height: 100px !important;
