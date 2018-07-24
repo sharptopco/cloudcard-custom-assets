@@ -3,7 +3,7 @@
 {{Color_1_Shade}}: #001d5d; (goto http://www.color-hex.com/color/012168 ; use the second Shade -- just needs to be a little bit darker.)
 {{Color_2}}: c7b683
 {{Color_2_Tint}}: #eee9d9; (goto http://www.color-hex.com/color/c7b683 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
-{{Logo_URL}}: www.wingate.edu/wp-content/uploads/2015/06/logo.png i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
+{{Logo_URL}}: https://sharptopco.github.io/cloudcard-custom-assets/organizations/wingate/wingatebulldoglogo.png i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
 html {
@@ -24,7 +24,7 @@ header.header-main {
 }
 
 .logo {
-  background: url('//www.wingate.edu/wp-content/uploads/2015/06/logo.png') top center no-repeat;
+  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/wingate/wingatebulldoglogo.png') top center no-repeat;
   alignment: center;
   display: inline-block;
   width: 15.625em;
