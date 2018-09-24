@@ -1,6 +1,6 @@
 /*
-{{Color_1}}: a91835
-{{Color_1_Shade}}: 87132a; (goto http://www.color-hex.com/color/a91835 ; use the second Shade -- just needs to be a little bit darker.)
+{{Color_1}}: C41230
+{{Color_1_Shade}}: 87132a; (goto http://www.color-hex.com/color/C41230 ; use the second Shade -- just needs to be a little bit darker.)
 {{Color_2}}: 131708
 {{Color_2_Tint}}: #e7e7e6; (goto http://www.color-hex.com/color/131708 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
 {{Logo_URL}}: barryustorage.blob.core.windows.net/assets/img/logo/barryuniversity-red-cmyk.svg
@@ -53,7 +53,7 @@ header.header-page {
 }
 
 .header-page .buttons button {
-  background-color: #a91835;
+  background-color: #C41230;
   color: #fff;
 }
 
@@ -66,7 +66,7 @@ header.header-page {
 .header-page .buttons button:focus
 {
   background-color: #e7e7e6;
-  color: #a91835;
+  color: #C41230;
 
   /* Alternative if the above doesn't look so great.
   background-color: #131708;
@@ -76,7 +76,7 @@ header.header-page {
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #a91835;
+    background-color: #C41230;
     color: #fff;
 }
 
@@ -98,7 +98,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #a91835;
+    background-color: #C41230;
 }
 
 router-view .buttons button.primary:hover,
@@ -144,7 +144,7 @@ table td {
 }
 
 .footer {
-    background: #a91835;
+    background: #C41230;
     border-top: 3px solid #F0F0F0
 }
 
