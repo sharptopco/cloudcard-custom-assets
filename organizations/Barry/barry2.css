@@ -20,6 +20,7 @@ html {
 
 header.header-main {
   background-color: #FFFFFF;
+  border-bottom: 3px solid #F0F0F0
   height:10.5em;
 }
 
@@ -47,7 +48,7 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #C41230;
+    border-bottom-color: #F0F0F0;
 }
 
 .header-page .buttons button {
@@ -142,6 +143,7 @@ table td {
 }
 
 .footer {
+    border-top: 3px solid #F0F0F0;
     background: #C41230;
 }
 
