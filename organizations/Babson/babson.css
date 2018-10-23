@@ -53,7 +53,7 @@ header.header-page {
 
 .header-page .buttons button {
   background-color: #c6d3d7;
-  color: #fff;
+  color: #006644;
 }
 
 .header-page button {
@@ -76,7 +76,7 @@ header.header-page {
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
     background-color: #c6d3d7;
-    color: #fff;
+    color: #006644;
 }
 
 .header-page .filters .filter:hover:after,
