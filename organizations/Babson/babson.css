@@ -58,7 +58,7 @@ header.header-page {
 
 .header-page button {
   background-color: #006644;
-  color: #fff;
+  color: #006644;
 }
 
 .header-page .buttons button:hover,
@@ -111,7 +111,7 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #fff;
+    color: #006644;
 }
 
 .user-info a {
