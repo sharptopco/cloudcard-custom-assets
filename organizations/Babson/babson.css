@@ -143,6 +143,7 @@ table td {
 }
 
 .footer {
+    border-top: 3px solid #006644;
     background: #c6d3d7;
 }
 
