@@ -3,7 +3,7 @@ cat/*
 {{Color_1_Shade}}: d5333f; (goto http://www.color-hex.com/color/ffffff ; use the second Shade -- just needs to be a little bit darker.)
 {{Color_2}}: 212121
 {{Color_2_Tint}}: #cat; (goto http://www.color-hex.com/color/212121 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
-{{Logo_URL}}: https://sharptopco.github.io/cloudcard-custom-assets/organizations/BHASVIC/logo.png i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
+{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/BHASVIC/logo.png i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
 html {
@@ -24,7 +24,7 @@ header.header-main {
 }
 
 .logo {
-  background: url('//https://sharptopco.github.io/cloudcard-custom-assets/organizations/BHASVIC/logo.png') top center no-repeat;
+  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/BHASVIC/logo.png') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
