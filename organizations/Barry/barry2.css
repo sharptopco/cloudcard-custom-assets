@@ -151,6 +151,10 @@ table td {
     display: unset !important;
 }
 
+a[au-target-id="23"] {
+    display: none;
+}
+
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
     border-bottom: 0px;
