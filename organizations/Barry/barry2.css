@@ -151,7 +151,7 @@ table td {
     display: unset !important;
 }
 
-a[au-target-id="23"] {
+a[click.delegate="navigate('organizations')"] {
     display: none;
 }
 
