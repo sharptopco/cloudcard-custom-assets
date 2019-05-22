@@ -151,7 +151,7 @@ table td {
     display: unset !important;
 }
 
-a < .fa-building {
+a:has(> i.fa-building) {
     display: none;
 }
 
