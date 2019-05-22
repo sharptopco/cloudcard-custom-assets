@@ -151,7 +151,7 @@ table td {
     display: unset !important;
 }
 
-a[click.delegate="navigate('organizations')"] {
+a < .fa-building {
     display: none;
 }
 
