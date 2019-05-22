@@ -47,7 +47,7 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #9c2134;
+    border-bottom-color: #ed3947;
 }
 
 .header-page .buttons button {
@@ -106,7 +106,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #d5333f;
+    background-color: #ed3947;
 }
 
 .user-info {
