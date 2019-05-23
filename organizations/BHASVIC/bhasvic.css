@@ -181,7 +181,7 @@ button.download_button {
 .sidebar-mobile {
     background: #ffffff;
     color: #9c2134;
-    border-right: 3px solid #ed3947;
+    border-right: 3px solid #9c2134;
     height: 100% !important;
 
     &.nav-open {
