@@ -32,7 +32,7 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#212121;
+  background-color:#ed3947;
 }
 
 .header-page .tabs li a {
@@ -151,7 +151,7 @@ button.submit-login:focus
 
 table th,
 table td {
-    background: #f2f2f2;
+    background: #fdedee;
 }
 
 ul.photo-requirements {
@@ -179,13 +179,13 @@ button.download_button {
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #ed3947;
+    background: #ffffff;
     color: #9c2134;
     border-right: 3px solid #ed3947;
     height: 100% !important;
 
     &.nav-open {
-	background: #ed3947;
+	background: #ffffff;
     }
 	
 }
