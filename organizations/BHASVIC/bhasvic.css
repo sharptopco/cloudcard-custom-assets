@@ -185,7 +185,7 @@ button.download_button {
     height: 100% !important;
 
     &.nav-open {
-	background: #ffffff;
+	background: #ed3947;
     }
 	
 }
