@@ -86,7 +86,7 @@ color: #342f2e
 .header-page .buttons button:hover,
 .header-page .buttons button:focus
 {
-  background-color: #401F68;
+  background-color: #626262;
   color: #ffffff;
 
   /* Alternative if the above doesn't look so great.
