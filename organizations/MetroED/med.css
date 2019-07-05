@@ -86,7 +86,7 @@ color: #342f2e
 .header-page .buttons button:hover,
 .header-page .buttons button:focus
 {
-  background-color: #626262;
+  background-color: #401F68;
   color: #ffffff;
 
   /* Alternative if the above doesn't look so great.
@@ -174,7 +174,7 @@ button.submit-login:focus
 
 table th {
 
-	background: #401F68;
+	background: #626262;
 		color: #ffffff;
 	text-transform: uppercase;
 }
