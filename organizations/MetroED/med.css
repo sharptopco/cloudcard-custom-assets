@@ -134,7 +134,7 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #fff;
+    color: #4e2a84;
 }
 
 .user-info a {
@@ -143,7 +143,7 @@ button.submit-login:focus
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #fc306d;
+    color: #fff;
 }
 
 .open-nav {
