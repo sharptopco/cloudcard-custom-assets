@@ -25,7 +25,7 @@ html {
 
 header.header-main {
   background-color: #ffffff;
-  border-bottom: 3px solid ##C0C0C0;	
+  border-bottom: 3px solid #626262;	
   height:10.5em;
 }
 
@@ -46,7 +46,7 @@ header.header-page {
 }
 
 .header-page .filters select {
-	    border: 1px solid #4e2a84;
+	    border: 1px solid #626262;
 }
 
 .header-page .fa-search {
