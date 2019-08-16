@@ -19,7 +19,7 @@ header.header-main {
   background-color: #ffffff;
   height:10.5em;
   border-bottom: 2px solid #007a99;
-  border-top: 14px solid #d59601;
+  border-top: 14px solid #feb813;
 }
 
 .logo {
@@ -30,7 +30,7 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#d59601;
+  background-color:#feb813;
 }
 
 .header-page h1 {
@@ -45,7 +45,7 @@ header.header-page {
 
 .header-page .filters select {
 	    border: 1px solid #005d75;
-	    background-color: #d59601;
+	    background-color: #feb813;
 	    color: #005d75;
 }
 
@@ -55,7 +55,7 @@ header.header-page {
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#d59601;
+  border-bottom-color:#feb813;
   color: #007a99;
   text-transform:uppercase;
   letter-spacing: .5px;
