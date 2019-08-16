@@ -64,7 +64,7 @@ header.header-page {
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #508774;
+  color: #007a99;
 }
 
 /* Keep this block only if it looks good. */
@@ -74,7 +74,7 @@ header.header-page {
 
 .header-page .buttons button {background-color: #025676;color: #ffffff; border: .5px solid #ffffff;}
 .header-page .tabs a.active {
-color: #508774;	
+color: #007a99;	
 text-transform:uppercase;
 letter-spacing: 1px;
 font-weight:600;
@@ -87,7 +87,7 @@ font-weight:600;
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #508774;
+  background-color: #007a99;
   color: #ffffff;
 
   /* Alternative if the above doesn't look so great.
@@ -114,7 +114,7 @@ button {
 
 button:hover,
 button:focus {
-    background-color: #508774;
+    background-color: #007a99;
 }
 
 router-view .buttons button.primary,
@@ -131,7 +131,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #508774;
+    background-color: #007a99;
 }
 
 .user-info {
@@ -139,7 +139,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #508774;
+    color: #007a99;
 }
 
 .user-info a:hover,
@@ -154,7 +154,7 @@ button.submit-login:focus
 .open-nav:hover,
 .open-nav:focus
 {
-    color: #508774;
+    color: #007a99;
 }
 
 .admin-links .fa {
@@ -177,7 +177,7 @@ button.submit-login:focus
 }
 
 table th {
-   background: #508774;
+   background: #007a99;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 500;
@@ -194,7 +194,7 @@ table a {
 }
 
 photo-list-header.photo-list-columns {
-    background: #508774;
+    background: #007a99;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
