@@ -4,7 +4,7 @@ https://colorid.github.io/cloudcard-custom-assets/GWU-Cloudcard.css
 */
 
 html {
-  background: #007a99;
+  background: #025676;
 }
 
 .splash {
@@ -18,7 +18,7 @@ html {
 header.header-main {
   background-color: #ffffff;
   height:10.5em;
-  border-bottom: 2px solid #007a99;
+  border-bottom: 2px solid #025676;
   border-top: 14px solid #d59601;
 }
 
@@ -34,7 +34,7 @@ header.header-page {
 }
 
 .header-page h1 {
-    color: #007a99;
+    color: #025676;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-weight: 500;
@@ -50,13 +50,13 @@ header.header-page {
 }
 
 .header-page .fa-search {
-	color: #007a99 !important;
+	color: #025676 !important;
 	
 }
 
 .header-page .tabs li a {
   border-bottom-color:#feb813;
-  color: #007a99;
+  color: #025676;
   text-transform:uppercase;
   letter-spacing: .5px;
 }
@@ -69,10 +69,10 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #007a99;;
+    border-bottom-color: #025676;;
 }
 
-.header-page .buttons button {background-color: #007a99;color: #ffffff; border: .5px solid #ffffff;}
+.header-page .buttons button {background-color: #025676;color: #ffffff; border: .5px solid #ffffff;}
 .header-page .tabs a.active {
 color: #508774;	
 text-transform:uppercase;
@@ -80,7 +80,7 @@ letter-spacing: 1px;
 font-weight:600;
 }
 .header-page button {
-  background-color: #007a99;
+  background-color: #025676;
   color: #ffffff;
 }
 
@@ -99,7 +99,7 @@ font-weight:600;
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #007a99;
+    background-color: #025676;
     color: #ffffff;
 }
 
@@ -109,7 +109,7 @@ font-weight:600;
 }
 
 button {
-    background-color: #007a99;
+    background-color: #025676;
 }
 
 button:hover,
@@ -121,7 +121,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #007a99;
+    background-color: #025676;
 }
 
 router-view .buttons button.primary:hover,
@@ -135,7 +135,7 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #007a99;
+    color: #025676;
 }
 
 .user-info a {
@@ -162,7 +162,7 @@ button.submit-login:focus
 }
 
 .admin-links a {
-     background: #007a99;
+     background: #025676;
     color: #ffffff;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -172,7 +172,7 @@ button.submit-login:focus
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #007a99;
+    background: #025676;
     color: #a57301;
 }
 
@@ -181,7 +181,7 @@ table th {
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 500;
-    border-top: 1px solid #007a99;
+    border-top: 1px solid #025676;
     letter-spacing: 1px;
 }
 
@@ -189,7 +189,7 @@ table td {
     background: #f0f0f0;
 }
 table a {
-    color: #007a99;
+    color: #025676;
     text-decoration: underline;
 }
 
@@ -198,13 +198,13 @@ photo-list-header.photo-list-columns {
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
-    border-top: 1px solid #007a99;
+    border-top: 1px solid #025676;
     letter-spacing: 1px;
 }
 
 .header-page .filters .filter:after {
 	
-	Color: #007a99;
+	Color: #0256769;
 }
 .footer {
       background: #007a99;
@@ -214,13 +214,13 @@ photo-list-header.photo-list-columns {
 
 .sidebar-main,
 .sidebar-mobile {
-     background: #007a99;
+     background: #025676;
     color: #ffffff;
-    border-right: 3px solid #007a99;
+    border-right: 3px solid #025676;
     height: 100% !important;
 
     &.nav-open {
-	background: #007a99;
+	background: #025676;
     }
 	
 }
@@ -232,7 +232,7 @@ photo-list-header.photo-list-columns {
 
 ul.photo-requirements {
 	
-	background-color:#007a99;
+	background-color:#025676;
 }
 
 
