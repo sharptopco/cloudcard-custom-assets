@@ -29,7 +29,7 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#e3dccb;
+  background-color:#feb813;
 }
 
 .header-page h1 {
@@ -206,8 +206,8 @@ photo-list-header.photo-list-columns {
 	Color: #025676;
 }
 .footer {
-      background: #025676;
-      BORDER-BOTTOM: 5PX SOLID #feb813;
+      background: #007a99;
+      BORDER-BOTTOM: 6PX SOLID #508774;
 }
 
 
