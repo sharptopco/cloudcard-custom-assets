@@ -29,7 +29,7 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#d59601;
+  background-color:#feb813;
 }
 
 .header-page h1 {
@@ -157,7 +157,7 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #a57301; /*default #007bff*/
+    color: #feb813; /*default #007bff*/
 }
 
 .admin-links a {
@@ -172,7 +172,7 @@ button.submit-login:focus
 .admin-links a:hover,
 .admin-links a:focus {
     background: #025676;
-    color: #a57301;
+    color: #feb813;
 }
 
 table th {
