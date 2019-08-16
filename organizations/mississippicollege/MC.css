@@ -4,11 +4,11 @@ https://colorid.github.io/cloudcard-custom-assets/GWU-Cloudcard.css
 */
 
 html {
-  background: #033c5a;
+  background: #007a99;
 }
 
 .splash {
-  background-color: #033c5a;
+  background-color: #007a99;
 }
 
 .splash .loading path {
@@ -18,23 +18,23 @@ html {
 header.header-main {
   background-color: #ffffff;
   height:10.5em;
-  border-bottom: 2px solid #033c5a;
-  border-top: 14px solid #E3DCCB;
+  border-bottom: 2px solid #007a99;
+  border-top: 14px solid #d59601;
 }
 
 .logo {
-  background: url('https://colorid.github.io/cloudcard-custom-assets/gw_monogram_logo.png') top center no-repeat;
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/mississippicollege/mc-web-blue.png') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
 }
 
 header.header-page {
-  background-color:#e3dccb;
+  background-color:#d59601;
 }
 
 .header-page h1 {
-    color: #033c5a;
+    color: #007a99;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-weight: 500;
@@ -44,19 +44,19 @@ header.header-page {
 }
 
 .header-page .filters select {
-	    border: 1px solid #033D5A;
-	    background-color: #e3dccb;
-	    color: #033D5A;
+	    border: 1px solid #005d75;
+	    background-color: #d59601;
+	    color: #005d75;
 }
 
 .header-page .fa-search {
-	color: #033c5a !important;
+	color: #007a99 !important;
 	
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#e3dccb;
-  color: #033c5a;
+  border-bottom-color:#d59601;
+  color: #007a99;
   text-transform:uppercase;
   letter-spacing: .5px;
 }
@@ -64,30 +64,30 @@ header.header-page {
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #0190db;
+  color: #508774;
 }
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #033c5a;;
+    border-bottom-color: #007a99;;
 }
 
-.header-page .buttons button {background-color: #033c5a;color: #ffffff; border: .5px solid #ffffff;}
+.header-page .buttons button {background-color: #007a99;color: #ffffff; border: .5px solid #ffffff;}
 .header-page .tabs a.active {
-color: #0190db;	
+color: #508774;	
 text-transform:uppercase;
 letter-spacing: 1px;
 font-weight:600;
 }
 .header-page button {
-  background-color: #033c5a;
+  background-color: #007a99;
   color: #ffffff;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #0190d8;
+  background-color: #508774;
   color: #ffffff;
 
   /* Alternative if the above doesn't look so great.
@@ -99,7 +99,7 @@ font-weight:600;
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #033c5a;
+    background-color: #007a99;
     color: #ffffff;
 }
 
@@ -109,19 +109,19 @@ font-weight:600;
 }
 
 button {
-    background-color: #033c5a;
+    background-color: #007a99;
 }
 
 button:hover,
 button:focus {
-    background-color: #0190db;
+    background-color: #508774;
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #033c5a;
+    background-color: #007a99;
 }
 
 router-view .buttons button.primary:hover,
@@ -131,15 +131,15 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #0190db;
+    background-color: #508774;
 }
 
 .user-info {
-    color: #033c5a;
+    color: #007a99;
 }
 
 .user-info a {
-    color: #0190d8;
+    color: #508774;
 }
 
 .user-info a:hover,
@@ -154,15 +154,15 @@ button.submit-login:focus
 .open-nav:hover,
 .open-nav:focus
 {
-    color: #0190d8;
+    color: #508774;
 }
 
 .admin-links .fa {
-    color: #aa9868; /*default #007bff*/
+    color: #a57301; /*default #007bff*/
 }
 
 .admin-links a {
-     background: #033c5a;
+     background: #007a99;
     color: #ffffff;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -172,16 +172,16 @@ button.submit-login:focus
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #033c5a;
-    color: #aa9868;
+    background: #007a99;
+    color: #a57301;
 }
 
 table th {
-   background: #0190db;
+   background: #508774;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 500;
-    border-top: 1px solid #033c5a;
+    border-top: 1px solid #007a99;
     letter-spacing: 1px;
 }
 
@@ -189,38 +189,38 @@ table td {
     background: #f0f0f0;
 }
 table a {
-    color: #033c5a;
+    color: #007a99;
     text-decoration: underline;
 }
 
 photo-list-header.photo-list-columns {
-    background: #0190db;
+    background: #508774;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
-    border-top: 1px solid #033c5a;
+    border-top: 1px solid #007a99;
     letter-spacing: 1px;
 }
 
 .header-page .filters .filter:after {
 	
-	Color: #033c5a;
+	Color: #007a99;
 }
 .footer {
-      background: #033c5a;
+      background: #007a99;
       BORDER-BOTTOM: 5PX SOLID #AA9868;
 }
 
 
 .sidebar-main,
 .sidebar-mobile {
-     background: #033c5a;
+     background: #007a99;
     color: #ffffff;
-    border-right: 3px solid #033c5a;
+    border-right: 3px solid #007a99;
     height: 100% !important;
 
     &.nav-open {
-	background: #033c5a;
+	background: #007a99;
     }
 	
 }
@@ -232,7 +232,7 @@ photo-list-header.photo-list-columns {
 
 ul.photo-requirements {
 	
-	background-color:#033c5a;
+	background-color:#007a99;
 }
 
 
