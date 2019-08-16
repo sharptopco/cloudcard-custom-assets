@@ -25,7 +25,7 @@ header.header-main {
 .logo {
   background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/mississippicollege/mc-web-blue.png') top center no-repeat;
   display: inline-block;
-  max-width: 1000px !important;
+  max-width: 500px !important;
   background-size: contain;
 }
 
