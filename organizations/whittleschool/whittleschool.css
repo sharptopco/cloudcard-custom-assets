@@ -2,11 +2,11 @@
 */
 
 html {
-  background: #e5e7dc;
+  background: #cf542a;
 }
 
 .splash {
-  background-color: #e5e7dc;
+  background-color: #cf542a;
 }
 
 .splash .loading path {
@@ -28,11 +28,11 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#cf542a;
+  background-color:#e5e7dc;
 }
 
 .header-page h1 {
-    color: #e5e7dc;
+    color: #cf542a;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-weight: 500;
@@ -43,18 +43,18 @@ header.header-page {
 
 .header-page .filters select {
 	    border: 1px solid #033D5A;
-	    background-color: #cf542a;
+	    background-color: #e5e7dc;
 	    color: #033D5A;
 }
 
 .header-page .fa-search {
-	color: #e5e7dc !important;
+	color: #cf542a !important;
 	
 }
 
 .header-page .tabs li a {
   border-bottom-color:#9ec597;
-  color: #e5e7dc;
+  color: #cf542a;
   text-transform:uppercase;
   letter-spacing: .5px;
 }
@@ -67,10 +67,10 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #e5e7dc;;
+    border-bottom-color: #cf542a;;
 }
 
-.header-page .buttons button {background-color: #e5e7dc;color: #ffffff; border: .5px solid #ffffff;}
+.header-page .buttons button {background-color: #cf542a;color: #ffffff; border: .5px solid #ffffff;}
 .header-page .tabs a.active {
 color: #8babb7;	
 text-transform:uppercase;
@@ -78,7 +78,7 @@ letter-spacing: 1px;
 font-weight:600;
 }
 .header-page button {
-  background-color: #e5e7dc;
+  background-color: #cf542a;
   color: #ffffff;
 }
 
@@ -97,7 +97,7 @@ font-weight:600;
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #e5e7dc;
+    background-color: #cf542a;
     color: #ffffff;
 }
 
@@ -107,7 +107,7 @@ font-weight:600;
 }
 
 button {
-    background-color: #e5e7dc;
+    background-color: #cf542a;
 }
 
 button:hover,
@@ -119,7 +119,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #e5e7dc;
+    background-color: #cf542a;
 }
 
 router-view .buttons button.primary:hover,
@@ -133,7 +133,7 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #e5e7dc;
+    color: #cf542a;
 }
 
 .user-info a {
@@ -156,11 +156,11 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #cf542a; /*default #007bff*/
+    color: #e5e7dc; /*default #007bff*/
 }
 
 .admin-links a {
-     background: #e5e7dc;
+     background: #cf542a;
     color: #ffffff;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -170,8 +170,8 @@ button.submit-login:focus
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #e5e7dc;
-    color: #cf542a;
+    background: #cf542a;
+    color: #e5e7dc;
 }
 
 table th {
@@ -179,7 +179,7 @@ table th {
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 500;
-    border-top: 1px solid #e5e7dc;
+    border-top: 1px solid #cf542a;
     letter-spacing: 1px;
 }
 
@@ -187,7 +187,7 @@ table td {
     background: #f0f0f0;
 }
 table a {
-    color: #e5e7dc;
+    color: #cf542a;
     text-decoration: underline;
 }
 
@@ -196,13 +196,13 @@ photo-list-header.photo-list-columns {
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
-    border-top: 1px solid #e5e7dc;
+    border-top: 1px solid #cf542a;
     letter-spacing: 1px;
 }
 
 .header-page .filters .filter:after {
 	
-	Color: #e5e7dc;
+	Color: #cf542a;
 }
 .footer {
       background: #8babb7;
@@ -212,13 +212,13 @@ photo-list-header.photo-list-columns {
 
 .sidebar-main,
 .sidebar-mobile {
-     background: #e5e7dc;
+     background: #cf542a;
     color: #ffffff;
-    border-right: 3px solid #e5e7dc;
+    border-right: 3px solid #cf542a;
     height: 100% !important;
 
     &.nav-open {
-	background: #e5e7dc;
+	background: #cf542a;
     }
 	
 }
@@ -230,7 +230,7 @@ photo-list-header.photo-list-columns {
 
 ul.photo-requirements {
 	
-	background-color:#e5e7dc;
+	background-color:#cf542a;
 }
 
 
