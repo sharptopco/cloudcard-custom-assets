@@ -16,7 +16,7 @@ html {
 header.header-main {
   background-color: #ffffff;
   height:10.5em;
-  border-bottom: 6px solid #9ec597;
+  border-bottom: 6px solid #cf542a;
   
 }
 
@@ -54,7 +54,7 @@ header.header-page {
 
 .header-page .tabs li a {
   border-bottom-color:#9ec597;
-  color: #cf542a;
+  color: #8babb7;
   text-transform:uppercase;
   letter-spacing: .5px;
 }
@@ -63,12 +63,7 @@ header.header-page {
 .header-page .tabs li a:focus
 {
   color: #8babb7;
-}
 
-/* Keep this block only if it looks good. */
-.header-page .tabs a.active {
-    border-bottom-color: #cf542a;;
-}
 
 .header-page .buttons button {background-color: #cf542a;color: #ffffff; border: .5px solid #ffffff;}
 .header-page .tabs a.active {
