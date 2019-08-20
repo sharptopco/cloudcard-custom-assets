@@ -1,13 +1,12 @@
 /*
-
 */
 
 html {
-  background: #025676;
+  background: #cf542a;
 }
 
 .splash {
-  background-color: #025676;
+  background-color: #cf542a;
 }
 
 .splash .loading path {
@@ -17,7 +16,7 @@ html {
 header.header-main {
   background-color: #ffffff;
   height:10.5em;
-  border-bottom: 6px solid #508774;
+  border-bottom: 6px solid #cf542a;
   
 }
 
@@ -29,11 +28,11 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#feb813;
+  background-color:#e5e7dc;
 }
 
 .header-page h1 {
-    color: #025676;
+    color: #cf542a;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-weight: 500;
@@ -44,18 +43,18 @@ header.header-page {
 
 .header-page .filters select {
 	    border: 1px solid #033D5A;
-	    background-color: #feb813;
+	    background-color: #e5e7dc;
 	    color: #033D5A;
 }
 
 .header-page .fa-search {
-	color: #025676 !important;
+	color: #cf542a !important;
 	
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#508774;
-  color: #025676;
+  border-bottom-color:#9ec597;
+  color: #cf542a;
   text-transform:uppercase;
   letter-spacing: .5px;
 }
@@ -63,30 +62,24 @@ header.header-page {
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #007a99;
-}
+  color: #8babb7;
 
-/* Keep this block only if it looks good. */
+.header-page .buttons button {background-color: #cf542a;color: #ffffff; border: .5px solid #ffffff;}
 .header-page .tabs a.active {
-    border-bottom-color: #025676;;
-}
-
-.header-page .buttons button {background-color: #025676;color: #ffffff; border: .5px solid #ffffff;}
-.header-page .tabs a.active {
-color: #007a99;	
+color: #8babb7;	
 text-transform:uppercase;
 letter-spacing: 1px;
 font-weight:600;
 }
 .header-page button {
-  background-color: #025676;
+  background-color: #cf542a;
   color: #ffffff;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #007a99;
+  background-color: #8babb7;
   color: #ffffff;
 
   /* Alternative if the above doesn't look so great.
@@ -98,7 +91,7 @@ font-weight:600;
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #025676;
+    background-color: #cf542a;
     color: #ffffff;
 }
 
@@ -108,19 +101,19 @@ font-weight:600;
 }
 
 button {
-    background-color: #025676;
+    background-color: #cf542a;
 }
 
 button:hover,
 button:focus {
-    background-color: #007a99;
+    background-color: #8babb7;
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #025676;
+    background-color: #cf542a;
 }
 
 router-view .buttons button.primary:hover,
@@ -130,15 +123,15 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #007a99;
+    background-color: #8babb7;
 }
 
 .user-info {
-    color: #025676;
+    color: #cf542a;
 }
 
 .user-info a {
-    color: #007a99;
+    color: #8babb7;
 }
 
 .user-info a:hover,
@@ -147,21 +140,21 @@ button.submit-login:focus
 }
 
 .open-nav {
-    color: #007a99;
+    color: #8babb7;
 }
 
 .open-nav:hover,
 .open-nav:focus
 {
-    color: #007a99;
+    color: #8babb7;
 }
 
 .admin-links .fa {
-    color: #feb813; /*default #007bff*/
+    color: #e5e7dc; /*default #007bff*/
 }
 
 .admin-links a {
-     background: #025676;
+     background: #cf542a;
     color: #ffffff;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -171,16 +164,16 @@ button.submit-login:focus
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #025676;
-    color: #feb813;
+    background: #cf542a;
+    color: #e5e7dc;
 }
 
 table th {
-   background: #007a99;
+   background: #8babb7;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 500;
-    border-top: 1px solid #025676;
+    border-top: 1px solid #cf542a;
     letter-spacing: 1px;
 }
 
@@ -188,38 +181,38 @@ table td {
     background: #f0f0f0;
 }
 table a {
-    color: #025676;
+    color: #cf542a;
     text-decoration: underline;
 }
 
 photo-list-header.photo-list-columns {
-    background: #007a99;
+    background: #8babb7;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
-    border-top: 1px solid #025676;
+    border-top: 1px solid #cf542a;
     letter-spacing: 1px;
 }
 
 .header-page .filters .filter:after {
 	
-	Color: #025676;
+	Color: #cf542a;
 }
 .footer {
-      background: #007a99;
-      BORDER-BOTTOM: 6PX SOLID #508774;
+      background: #8babb7;
+      BORDER-BOTTOM: 6PX SOLID #9ec597;
 }
 
 
 .sidebar-main,
 .sidebar-mobile {
-     background: #025676;
+     background: #cf542a;
     color: #ffffff;
-    border-right: 3px solid #025676;
+    border-right: 3px solid #cf542a;
     height: 100% !important;
 
     &.nav-open {
-	background: #025676;
+	background: #cf542a;
     }
 	
 }
@@ -231,7 +224,7 @@ photo-list-header.photo-list-columns {
 
 ul.photo-requirements {
 	
-	background-color:#025676;
+	background-color:#cf542a;
 }
 
 
@@ -248,4 +241,3 @@ img.photos--preview {
 button.download_button {
 	display: none;
 }
-*/
