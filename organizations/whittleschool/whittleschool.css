@@ -98,7 +98,7 @@ font-weight:600;
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
     background-color: #ffffff;
-    color: #fffff;
+    color: #ffffff;
 }
 
 .header-page .filters .filter:hover:after,
