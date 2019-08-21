@@ -107,12 +107,12 @@ font-weight:600;
 }
 
 button {
-    background-color: #8babb7;
+    background-color: #cf542a;
 }
 
 button:hover,
 button:focus {
-    background-color: #cf542a;
+    background-color: #8babb7;
 }
 
 router-view .buttons button.primary,
