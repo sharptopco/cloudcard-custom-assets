@@ -175,7 +175,7 @@ button.submit-login:focus
 }
 
 table th {
-   background: #f7f0c6;
+   background: #9ec597;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 500;
@@ -192,7 +192,7 @@ table a {
 }
 
 photo-list-header.photo-list-columns {
-    background: #f7f0c6;
+    background: #9ec597;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
