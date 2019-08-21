@@ -97,7 +97,7 @@ font-weight:600;
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #8babb7;
+    background-color: #cf542a;
     color: #ffffff;
 }
 
@@ -107,12 +107,12 @@ font-weight:600;
 }
 
 button {
-    background-color: #cf542a;
+    background-color: #8babb7;
 }
 
 button:hover,
 button:focus {
-    background-color: #8babb7;
+    background-color: #ffffff;
 }
 
 router-view .buttons button.primary,
