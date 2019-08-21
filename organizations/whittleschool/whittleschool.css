@@ -129,11 +129,11 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #cf542a;
+    background-color: #8babb7;
 }
 
 .user-info {
-    color: #8babb7;
+    color: #ffffff;
 }
 
 .user-info a {
