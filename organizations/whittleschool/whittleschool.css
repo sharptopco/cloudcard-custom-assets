@@ -28,7 +28,7 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#e5e7dc;
+  background-color:#f7f0c6;
 }
 
 .header-page h1 {
@@ -43,7 +43,7 @@ header.header-page {
 
 .header-page .filters select {
 	    border: 1px solid #033D5A;
-	    background-color: #e5e7dc;
+	    background-color: #f7f0c6;
 	    color: #033D5A;
 }
 
@@ -156,7 +156,7 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #e5e7dc; /*default #007bff*/
+    color: #f7f0c6; /*default #007bff*/
 }
 
 .admin-links a {
@@ -171,11 +171,11 @@ button.submit-login:focus
 .admin-links a:hover,
 .admin-links a:focus {
     background: #8babb7;
-    color: #e5e7dc;
+    color: #f7f0c6;
 }
 
 table th {
-   background: #9ec597;
+   background: #e5e7dc;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 500;
@@ -192,7 +192,7 @@ table a {
 }
 
 photo-list-header.photo-list-columns {
-    background: #9ec597;
+    background: #e5e7dc;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
@@ -246,4 +246,3 @@ img.photos--preview {
 	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
 button.download_button {
 	display: none;
-}
