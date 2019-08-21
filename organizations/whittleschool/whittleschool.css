@@ -64,6 +64,11 @@ header.header-page {
   color: #cf542a;
 }
 
+photo-list-section-header.good-photos {
+    /* background: #9ec597; */
+    display: none;
+}
+
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
     border-bottom-color: #8babb7;;
