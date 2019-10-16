@@ -63,7 +63,7 @@ header.header-page {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #dfca9a;
+  background-color: #ffffff;
   color: #932439;
 
   /* Alternative if the above doesn't look so great.
@@ -89,7 +89,7 @@ button {
 
 button:hover,
 button:focus {
-    background-color: #dfca9a;
+    background-color: #ffffff;
 }
 
 router-view .buttons button.primary,
@@ -138,7 +138,7 @@ button.submit-login:focus
 
 table th,
 table td {
-    background: #dfca9a;
+    background: #d3d8e6;
 }
 
 .footer {
