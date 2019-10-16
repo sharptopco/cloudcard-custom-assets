@@ -110,16 +110,16 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #fff;
+    color: #932439;
 }
 
 .user-info a {
-    color: #dfca9a;
+    color: #932439;
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #fff;
+    color: #932439;
 }
 
 .open-nav {
@@ -138,7 +138,7 @@ button.submit-login:focus
 
 table th,
 table td {
-    background: #d3d8e6;
+    background: #f0f4f8;
 }
 
 .footer {
