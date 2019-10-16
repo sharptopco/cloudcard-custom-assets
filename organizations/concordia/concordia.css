@@ -47,11 +47,11 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #ffffff;
+    border-bottom-color: #932439;
 }
 
 .header-page .buttons button {
-  background-color: #ffffff;
+  background-color: #932439;
   color: #fff;
 }
 
@@ -64,7 +64,7 @@ header.header-page {
 .header-page .buttons button:focus 
 {
   background-color: #dfca9a;
-  color: #ffffff;
+  color: #932439;
 
   /* Alternative if the above doesn't look so great.
   background-color: #caa858;
@@ -74,7 +74,7 @@ header.header-page {
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #ffffff;
+    background-color: #932439;
     color: #fff;
 }
 
@@ -96,7 +96,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #ffffff;
+    background-color: #932439;
 }
 
 router-view .buttons button.primary:hover,
@@ -142,7 +142,7 @@ table td {
 }
 
 .footer {
-    background: #ffffff;	
+    background: #932439;	
 }
 
 /* Uncomment this block if the organization has a Plus Account.
@@ -157,4 +157,3 @@ img.photos--preview {
 button.download_button {
 	display: none;
 }
-*/
