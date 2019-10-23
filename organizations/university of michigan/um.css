@@ -3,7 +3,7 @@
 {{Color_1_Shade}}: #989c97; (goto http://www.color-hex.com/color/00274c ; use the second Shade -- just needs to be a little bit darker.)
 {{Color_2}}: ffcb05
 {{Color_2_Tint}}: #587abc; (goto http://www.color-hex.com/color/ffcb05 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
-{{Logo_URL}}: {{Logo_URL}} i.e. https://sharptopco.github.io/cloudcard-custom-assets/organizations/university%20of%20michigan/UM_logo.jpg
+{{Logo_URL}}: {{Logo_URL}} i.e. https://sharptopco.github.io/cloudcard-custom-assets/organizations/university%20of%20michigan/um_logo.png
 */
 
 html {
@@ -24,7 +24,7 @@ header.header-main {
 }
 
 .logo {
-  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/university%20of%20michigan/UM_logo.jpg') top center no-repeat;
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/university%20of%20michigan/um_logo.png') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
