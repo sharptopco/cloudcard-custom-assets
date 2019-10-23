@@ -1,17 +1,17 @@
 /*
-{{Color_1}}: (don't include the '#')
-{{Color_1_Shade}}: #{{Color_1_Shade}}; (goto http://www.color-hex.com/color/{{Color_1}} ; use the second Shade -- just needs to be a little bit darker.)
-{{Color_2}}: (don't include the '#')
-{{Color_2_Tint}}: #{{Color_2_Tint}}; (goto http://www.color-hex.com/color/{{Color_2}} ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
-{{Logo_URL}}: {{Logo_URL}} i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
+{{Color_1}}: 00274c
+{{Color_1_Shade}}: #587abc; (goto http://www.color-hex.com/color/00274c ; use the second Shade -- just needs to be a little bit darker.)
+{{Color_2}}: ffcb05
+{{Color_2_Tint}}: #989c97; (goto http://www.color-hex.com/color/ffcb05 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+{{Logo_URL}}: {{Logo_URL}} i.e. https://sharptopco.github.io/cloudcard-custom-assets/organizations/university%20of%20michigan/UM_logo.jpg
 */
 
 html {
-  background: #{{Color_1}};
+  background: #00274c;
 }
 
 .splash {
-  background-color: #{{Color_1}};
+  background-color: #00274c;
 }
 
 .splash .loading path {
@@ -19,24 +19,24 @@ html {
 }
 
 header.header-main {
-  background-color: #{{Color_1}};
+  background-color: #00274c;
   height:10.5em;
 }
 
 .logo {
-  background: url('//{{Logo_URL}}') top center no-repeat;
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/university%20of%20michigan/UM_logo.jpg') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
 }
 
 header.header-page {
-  background-color:#{{Color_2}};
+  background-color:#ffcb05;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#{{Color_2}};
-  color: #{{Color_2_Tint}};
+  border-bottom-color:#ffcb05;
+  color: #989c97;
 }
 
 .header-page .tabs li a:hover,
@@ -47,34 +47,34 @@ header.header-page {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #{{Color_1}};
+    border-bottom-color: #00274c;
 }
 
 .header-page .buttons button {
-  background-color: #{{Color_1}};
+  background-color: #00274c;
   color: #fff;
 }
 
 .header-page button {
-  background-color: #{{Color_2}};
+  background-color: #ffcb05;
   color: #fff;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #{{Color_2_Tint}};
-  color: #{{Color_1}};
+  background-color: #989c97;
+  color: #00274c;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #{{Color_2}};
+  background-color: #ffcb05;
   color: #fff;
    */
 }
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #{{Color_1}};
+    background-color: #00274c;
     color: #fff;
 }
 
@@ -84,19 +84,19 @@ header.header-page {
 }
 
 button {
-    background-color: #{{Color_2}};
+    background-color: #ffcb05;
 }
 
 button:hover,
 button:focus {
-    background-color: #{{Color_2_Tint}};
+    background-color: #989c97;
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #{{Color_1}};
+    background-color: #00274c;
 }
 
 router-view .buttons button.primary:hover,
@@ -106,7 +106,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #{{Color_1_Shade}};
+    background-color: #587abc;
 }
 
 .user-info {
@@ -114,7 +114,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #{{Color_2_Tint}};
+    color: #989c97;
 }
 
 .user-info a:hover,
@@ -133,16 +133,16 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #{{Color_2_Tint}}; /*default #007bff*/
+    color: #989c97; /*default #007bff*/
 }
 
 table th,
 table td {
-    background: #{{Color_2_Tint}};
+    background: #989c97;
 }
 
 .footer {
-    background: #{{Color_1}};	
+    background: #00274c;	
 }
 
 /* Uncomment this block if the organization has a Plus Account.
@@ -158,3 +158,4 @@ button.download_button {
 	display: none;
 }
 */
+
