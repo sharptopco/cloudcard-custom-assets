@@ -1,0 +1,166 @@
+/*
+{{Color_1}}: C41230
+{{Color_1_Shade}}: 9c0e26; (goto http://www.color-hex.com/color/C41230 ; use the second Shade -- just needs to be a little bit darker.)
+{{Color_2}}: 000000
+{{Color_2_Tint}}: e5e5e5; (goto http://www.color-hex.com/color/000000 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
+{{Logo_URL}}: barryustorage.blob.core.windows.net/assets/img/logo/barryuniversity-red-cmyk.svg i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
+*/
+
+html {
+  background: #FFFFFF;
+}
+
+.splash {
+  background-color: #FFFFFF;
+}
+
+.splash .loading path {
+  fill: #fff;
+}
+
+header.header-main {
+  background-color: #FFFFFF;
+  border-bottom: 3px solid #F0F0F0
+  height:10.5em;
+}
+
+.logo {
+  background: url('//barryustorage.blob.core.windows.net/assets/img/logo/barryuniversity-red-cmyk.svg') top center no-repeat;
+  display: inline-block;
+  max-width: 400px !important;
+  background-size: contain;
+}
+
+header.header-page {
+  background-color:#000000;
+}
+
+.header-page .tabs li a {
+  border-bottom-color:#000000;
+  color: #e5e5e5;
+}
+
+.header-page .tabs li a:hover,
+.header-page .tabs li a:focus
+{
+  color: #fff;
+}
+
+/* Keep this block only if it looks good. */
+.header-page .tabs a.active {
+    border-bottom-color: #F0F0F0;
+}
+
+.header-page .buttons button {
+  background-color: #C41230;
+  color: #fff;
+}
+
+.header-page button {
+  background-color: #000000;
+  color: #fff;
+}
+
+.header-page .buttons button:hover,
+.header-page .buttons button:focus
+{
+  background-color: #e5e5e5;
+  color: #C41230;
+
+  /* Alternative if the above doesn't look so great.
+  background-color: #000000;
+  color: #fff;
+   */
+}
+
+.header-page .filters .filter:hover select,
+.header-page .filters .filter:focus-within select {
+    background-color: #C41230;
+    color: #fff;
+}
+
+.header-page .filters .filter:hover:after,
+.header-page .filters .filter:focus-within:after {
+    color: #fff;
+}
+
+button {
+    background-color: #000000;
+}
+
+button:hover,
+button:focus {
+    background-color: #e5e5e5;
+}
+
+router-view .buttons button.primary,
+#accept-terms,
+button.submit-login
+{
+    background-color: #C41230;
+}
+
+router-view .buttons button.primary:hover,
+router-view .buttons button.primary:focus,
+#accept-terms:hover,
+#accept-terms:focus,
+button.submit-login:hover,
+button.submit-login:focus
+{
+    background-color: #9c0e26;
+}
+
+.user-info {
+    color: #000000;
+}
+
+.user-info a {
+    color: #000000;
+}
+
+.user-info a:hover,
+.user-info a:focus {
+    color: #e5e5e5;
+}
+
+.open-nav {
+    color: #ddd;
+}
+
+.open-nav:hover,
+.open-nav:focus
+{
+    color: #fff;
+}
+
+.admin-links .fa {
+    color: #e5e5e5; /*default #007bff*/
+}
+
+table th,
+table td {
+    background: #e5e5e5;
+}
+
+.footer {
+    border-top: 3px solid #F0F0F0;
+    background: #C41230;
+}
+
+#email-templates-link {
+    display: unset !important;
+}
+
+/* Uncomment this block if the organization has a Plus Account.
+img.photos--preview {
+    border-bottom: 0px;
+}
+*/
+
+/* Uncomment this block to hide the Download photos button.
+   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server),
+	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
+button.download_button {
+	display: none;
+}
+*/
