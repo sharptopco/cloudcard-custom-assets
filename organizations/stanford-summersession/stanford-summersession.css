@@ -26,18 +26,18 @@ header.header-main {
 }
 
 .logo {
-  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/stanford-summersession/stanford-logo2.png') top center no-repeat;
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/stanford-summersession/stanford-logo3.png') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
 }
 
 header.header-page {
-  background-color:#007c92;
+  background-color:#8c1515;
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#007c92;
+  border-bottom-color:#8c1515;
   color: #e5e5e5;
 }
 
@@ -58,7 +58,7 @@ header.header-page {
 }
 
 .header-page button {
-  background-color: #007c92;
+  background-color: #8c1515;
   color: #fff;
 }
 
@@ -69,7 +69,7 @@ header.header-page {
   color: #8c1515;
 
   /* Alternative if the above doesn't look so great.
-  background-color: #007c92;
+  background-color: #8c1515;
   color: #fff;
    */
 }
@@ -86,7 +86,7 @@ header.header-page {
 }
 
 button {
-    background-color: #007c92;
+    background-color: #8c1515;
 }
 
 button:hover,
@@ -112,11 +112,11 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #007c92;
+    color: #8c1515;
 }
 
 .user-info a {
-    color: #007c92;
+    color: #8c1515;
 }
 
 .user-info a:hover,
@@ -145,7 +145,7 @@ table td {
 
 .footer {
     border-top: 3px solid #8c1515;
-    background: #8c1515;
+    background: #544948;
 }
 
 #email-templates-link {
