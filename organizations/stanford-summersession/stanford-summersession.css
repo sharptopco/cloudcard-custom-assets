@@ -108,7 +108,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #9c0e26;
+    background-color: #8c1515;
 }
 
 .user-info {
@@ -140,7 +140,7 @@ button.submit-login:focus
 
 table th,
 table td {
-    background: #e5e5e5;
+    background: #8c1515;
 }
 
 .footer {
