@@ -101,7 +101,7 @@ letter-spacing: .5px;
 .header-page .buttons button:hover,
 .header-page .buttons button:focus
 {
-  background-color: #C6BEB5;
+  background-color: #555759;
   color: #ffffff;
 
   /* Alternative if the above doesn't look so great.
