@@ -34,7 +34,7 @@ a {
 }
 
 a:hover {
-    color: #000000;
+    color: #555759;
 }
 
 .photo-rows-container photo-row:nth-child(even) {
@@ -42,7 +42,7 @@ a:hover {
 }
 
 .header-page h1 {
-    color: #000000;
+    color: #555759;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-size: 36px;
@@ -67,7 +67,7 @@ empty-queue-message {
 
 .header-page .tabs li a {
   border-bottom-color: #f5d200;
-  color: #000000;
+  color: #555759;
   font-weight: 600;
   letter-spacing: .5px;
 }
@@ -80,7 +80,7 @@ empty-queue-message {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #333;
+    border-bottom-color: #1B3D6D;
 }
 
 .header-page .buttons button {
@@ -89,7 +89,7 @@ empty-queue-message {
 	border: 1px solid #555759;
 }
 .header-page .tabs a.active {
-color: #333;
+color: #1B3D6D;
 font-weight: 600;
 letter-spacing: .5px;
 }
@@ -178,7 +178,7 @@ button.submit-login:focus
 }
 
 .admin-links a {
-    background: #e6e6e6;
+    background: #C6BEB5;
     color: #000;
 	text-transform:uppercase;
 	letter-spacing: .5px;
@@ -188,7 +188,7 @@ button.submit-login:focus
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #e6e6e6;
+    background: #C6BEB5;
     color: #f5d200;
 }
 
@@ -198,14 +198,14 @@ table th {
 
     font-weight: 600;
     letter-spacing: .75px;
-    border-bottom: 2px solid #e6e6e6;
+    border-bottom: 2px solid #C6BEB5;
 }
 
 table td {
     background: #f2f2f2;
 }
 table a {
-    color: #000000;
+    color: #555759;
     text-decoration: underline;
 }
 
@@ -219,7 +219,7 @@ photo-list-header.photo-list-columns {
     color: #000;
     font-weight: 600;
     letter-spacing: .5px;
-    border-bottom: 2px solid #e6e6e6;
+    border-bottom: 2px solid #C6BEB5;
 }
 
 .header-page .filters .filter:after {
@@ -227,20 +227,20 @@ photo-list-header.photo-list-columns {
 	Color: #000;
 }
 .footer {
-      background: #000000;
+      background: #555759;
     border-top: 2px solid #555759;
 }
 
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #e6e6e6;
-    color: #000000;
+    background: #C6BEB5;
+    color: #555759;
     border-right: 1px solid #fff;
     height: 100% !important;
 }
    &.nav-open {
-    background: #e6e6e6;
+    background: #C6BEB5;
     }
 
 
@@ -255,7 +255,7 @@ photo-list-header.photo-list-columns {
 
     ul.photo-requirements {
 
-	background-color:#e6e6e6;
+	background-color:#C6BEB5;
 }
 /*
  .hide-on-mobile-small {
