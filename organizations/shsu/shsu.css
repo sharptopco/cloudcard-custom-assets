@@ -236,13 +236,13 @@ photo-list-header.photo-list-columns {
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #ececec;
+    background: #e6e6e6;
     color: #000000;
     border-right: 1px solid #fff;
     height: 100% !important;
 }
    &.nav-open {
-    background: #ececec;
+    background: #e6e6e6;
     }
 
 
@@ -257,7 +257,7 @@ photo-list-header.photo-list-columns {
 
     ul.photo-requirements {
 
-	background-color:#ececec;
+	background-color:#e6e6e6;
 }
 /*
  .hide-on-mobile-small {
