@@ -1,9 +1,9 @@
 html {
-  background: #ffffff;
+  background: #0064A4;
 }
 
 .splash {
-  background-color: #ffffff;
+  background-color: #0064A4;
 }
 
 .splash .loading path {
@@ -11,13 +11,13 @@ html {
 }
 
 header.header-main {
-  background-color: #ffffff;
+  background-color: #0064A4;
 
   height:10.5em;
 }
 
 .logo {
-  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/uci/uci-logo.png') top center no-repeat;
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/uci/uci-whitelogo.png') top center no-repeat;
   display: inline-block;
   max-width: 544px !important;
   background-size: contain;
