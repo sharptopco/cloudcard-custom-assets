@@ -28,7 +28,7 @@ header.header-page {
 }
 
 a {
-    color: #333333;
+    color: #555759;
 
 
 }
@@ -54,7 +54,7 @@ empty-queue-message {
     background: #ffffff;
 }
 .header-page .filters select {
-	    border: 1px solid #333333;
+	    border: 1px solid #555759;
 	    color: #000;
 	    background-color: transparent;
 	    text-transform:uppercase;
@@ -84,7 +84,7 @@ empty-queue-message {
 }
 
 .header-page .buttons button {
-  background-color: #333333;
+  background-color: #555759;
   color: #fff;
 	border: 1px solid #000;
 }
@@ -114,7 +114,7 @@ letter-spacing: .5px;
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
     background-color: transparent;
-    color: #333333;
+    color: #555759;
 }
 
 .header-page .filters .filter:hover:after,
@@ -210,7 +210,7 @@ table a {
 }
 
 table a:hover {
-    color: #333333;
+    color: #555759;
     text-decoration: none;
 }
 
@@ -228,7 +228,7 @@ photo-list-header.photo-list-columns {
 }
 .footer {
       background: #000000;
-    border-top: 2px solid #333333;
+    border-top: 2px solid #555759;
 }
 
 
