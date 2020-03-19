@@ -1,13 +1,11 @@
-/*
-https://colorid.github.io/cloudcard-custom-assets/vcu_cloudcard.css      
-*/
+
 
 html {
   background: #ffffff;
 }
 
 .splash {
-  background-color: #ffffff;
+  background-color: #004990;
 }
 
 .splash .loading path {
@@ -16,25 +14,25 @@ html {
 
 header.header-main {
   background-color: #ffffff;
-	
+
   height:10.5em;
 }
 
 .logo {
-  background: url('https://colorid.github.io/cloudcard-custom-assets/VCO_HC.png') top center no-repeat;
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/shsu/shsu_logo.png') top center no-repeat;
   display: inline-block;
   max-width: 544px !important;
   background-size: contain;
 }
 
 header.header-page {
-  background-color:#f8b300;
+  background-color:#f78e1e;
 }
 
 a {
     color: #333333;
-  
- 
+
+
 }
 
 a:hover {
@@ -65,12 +63,12 @@ empty-queue-message {
 }
 
 .header-page .fa-search {
-	color: #f8b300 !important;
-	
+	color: #f78e1e !important;
+
 }
 
 .header-page .tabs li a {
-  border-bottom-color: #f8b300;
+  border-bottom-color: #f78e1e;
   color: #000000;
   font-weight: 600;
   letter-spacing: .5px;
@@ -95,7 +93,7 @@ empty-queue-message {
 .header-page .tabs a.active {
 color: #333;
 font-weight: 600;
-letter-spacing: .5px;	
+letter-spacing: .5px;
 }
 .header-page button {
   background-color: #000;
@@ -103,7 +101,7 @@ letter-spacing: .5px;
 }
 
 .header-page .buttons button:hover,
-.header-page .buttons button:focus 
+.header-page .buttons button:focus
 {
   background-color: #000;
   color: #ffffff;
@@ -127,7 +125,7 @@ letter-spacing: .5px;
 }
 
 button {
-    background-color: #f8b300;
+    background-color: #f78e1e;
     border: 2px solid #fff;
 }
 
@@ -141,7 +139,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #f8b300;
+    background-color: #f78e1e;
 }
 
 router-view .buttons button.primary:hover,
@@ -151,7 +149,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #f8b300;
+    background-color: #f78e1e;
 }
 
 .user-info {
@@ -185,21 +183,21 @@ button.submit-login:focus
     background: #e6e6e6;
     color: #000;
 	text-transform:uppercase;
-	letter-spacing: .5px; 
+	letter-spacing: .5px;
 	font-weight: 500;
-	
+
 }
 
 .admin-links a:hover,
 .admin-links a:focus {
     background: #e6e6e6;
-    color: #f8b300;
+    color: #f78e1e;
 }
 
 table th {
 	background: #fff;
     color: #000;
-  
+
     font-weight: 600;
     letter-spacing: .75px;
     border-bottom: 2px solid #e6e6e6;
@@ -227,12 +225,12 @@ photo-list-header.photo-list-columns {
 }
 
 .header-page .filters .filter:after {
-	
+
 	Color: #000;
 }
 .footer {
       background: #000000;
-    border-top: 2px solid #333333;	
+    border-top: 2px solid #333333;
 }
 
 
@@ -258,7 +256,7 @@ photo-list-header.photo-list-columns {
 
 
     ul.photo-requirements {
-	
+
 	background-color:#e6e6e6;
 }
 /*
@@ -276,7 +274,7 @@ img.photos--preview {
 */
 
 /* Uncomment this block to hide the Download photos button.
-   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server), 
+   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server),
 	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
 button.download_button {
 	display: none;
