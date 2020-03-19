@@ -13,7 +13,7 @@ html {
 }
 
 header.header-main {
-  background-color: #ffffff;
+  background-color: #004990;
 
   height:10.5em;
 }
@@ -153,16 +153,16 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #000;
+    color: #ececec;
 }
 
 .user-info a {
-    color: #444444;
+    color: #f78e1e;
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #000;
+    color: #ececec;
 }
 
 .open-nav {
@@ -236,13 +236,13 @@ photo-list-header.photo-list-columns {
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #004990;
+    background: #ececec;
     color: #000000;
     border-right: 1px solid #fff;
     height: 100% !important;
 }
    &.nav-open {
-    background: #004990;
+    background: #ececec;
     }
 
 
@@ -257,7 +257,7 @@ photo-list-header.photo-list-columns {
 
     ul.photo-requirements {
 
-	background-color:#004990;
+	background-color:#ececec;
 }
 /*
  .hide-on-mobile-small {
