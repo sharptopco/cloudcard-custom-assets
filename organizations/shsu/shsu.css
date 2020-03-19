@@ -13,7 +13,7 @@ html {
 }
 
 header.header-main {
-  background-color: #004990;
+  background-color: #ffffff;
 
   height:10.5em;
 }
@@ -236,7 +236,7 @@ photo-list-header.photo-list-columns {
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #e6e6e6;
+    background: #004990;
     color: #000000;
     border-right: 1px solid #fff;
     height: 100% !important;
@@ -257,7 +257,7 @@ photo-list-header.photo-list-columns {
 
     ul.photo-requirements {
 
-	background-color:#e6e6e6;
+	background-color:#004990;
 }
 /*
  .hide-on-mobile-small {
