@@ -84,9 +84,9 @@ empty-queue-message {
 }
 
 .header-page .buttons button {
-  background-color: #555759;
+  background-color: #C6BEB5;
   color: #fff;
-	border: 1px solid #000;
+	border: 1px solid #555759;
 }
 .header-page .tabs a.active {
 color: #333;
@@ -101,7 +101,7 @@ letter-spacing: .5px;
 .header-page .buttons button:hover,
 .header-page .buttons button:focus
 {
-  background-color: #000;
+  background-color: #C6BEB5;
   color: #ffffff;
 
   /* Alternative if the above doesn't look so great.
