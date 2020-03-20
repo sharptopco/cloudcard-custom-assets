@@ -151,16 +151,16 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #000;
+    color: #ffffff;
 }
 
 .user-info a {
-    color: #444444;
+    color: #ffffff;
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #000;
+    color: #f5d200;
 }
 
 .open-nav {
@@ -189,7 +189,7 @@ button.submit-login:focus
 .admin-links a:hover,
 .admin-links a:focus {
     background: #C6BEB5;
-    color: #f5d200;
+    color: #0064A4;
 }
 
 table th {
