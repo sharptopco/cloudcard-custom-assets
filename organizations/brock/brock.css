@@ -46,13 +46,13 @@ header.header-main {
   background-color: #cc0000;
   height:8.25em;
   border-bottom: 2px solid #989898;
-  border-top: 14px solid #585858;
+  border-top: 14px solid #989898;
 }
 
 .logo {
   background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/brock/brock_logo.png') top center no-repeat;
   display: inline-block;
-  width: 300px;
+  width: 225px;
   background-size: contain;
 }
 
