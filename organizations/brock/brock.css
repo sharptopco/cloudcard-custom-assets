@@ -50,7 +50,7 @@ header.header-main {
 .logo {
   background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/brock/brock_logo.png') top center no-repeat;
   display: inline-block;
-  width: 225px;
+  width: 300px;
   background-size: contain;
 }
 
@@ -110,7 +110,7 @@ empty-queue-message {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #0073d7;
+    border-bottom-color: #cc0000;
 }
 
 .header-page .buttons button {
@@ -118,7 +118,7 @@ empty-queue-message {
   color: #fff;
   border: 2px solid #f1f1f1;
 }
-.header-page .tabs a.active {color: #0073d7;font-weight: 600;letter-spacing: .5px;}
+.header-page .tabs a.active {color: #cc0000;font-weight: 600;letter-spacing: .5px;}
 
 .header-page button {
   background-color: #4b4b4b;
@@ -136,8 +136,8 @@ empty-queue-message {
   color: #fff;
    */
 .header-page .buttons button.warning:hover, .header-page .buttons button.warning:focus {
-    background: #E98300;
-    border-color: #E98300;
+    background: #fc306d;
+    border-color: #fc306d;
     color: #222;
 }
 
@@ -189,7 +189,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #ffeec3;
+    color: #989898;
 }
 
 .user-info a:hover,
@@ -222,7 +222,7 @@ button.submit-login:focus
 .admin-links a:hover,
 .admin-links a:focus {
     background: #f1f1f1;
-    color: #0073d7;
+    color: #cc0000;
 }
 
 table th {
@@ -255,7 +255,7 @@ photo-list-header.photo-list-columns {
 
 
 .footer {
-      background: #fff;
+      background: #000000;
       color: #4b4b4b;
       border-top: 2px solid #989898;
 }
