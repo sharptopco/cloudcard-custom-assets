@@ -48,7 +48,7 @@ header.header-main {
 }
 
 .logo {
-  background: url('https://colorid.github.io/cloudcard-custom-assets/csusb_logo_main_w.png') top center no-repeat;
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/brock/brock_logo.png') top center no-repeat;
   display: inline-block;
   width: 225px;
   background-size: contain;
@@ -235,3 +235,113 @@ table th {
 
 table td {
     background: #f2f3f4;
+}
+table a {
+    color: #222;
+    text-decoration: underline;
+}
+
+table a:hover {
+    color: #333333;
+    text-decoration: none;
+}
+
+photo-list-header.photo-list-columns {
+    background: #000000;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+
+.footer {
+      background: #fff;
+      color: #4b4b4b;
+      border-top: 2px solid #989898;
+}
+
+.footer-main a {
+    color: #4b4b4b;
+    text-decoration: underline;
+}
+
+.sidebar-main,
+.sidebar-mobile {
+    background: #f1f1f1;
+    color: #4b4b4b;
+    border-right: 2px solid #989898;
+    height: 100% !important;
+}
+   .nav-open {
+    background: #f1f1f1;
+    }
+
+
+.sidebar-main
+    h2,
+.sidebar-mobile h2 {
+    color: #4b4b4b !important;
+
+    font-weight: 500;
+}
+
+
+    ul.photo-requirements {
+
+	background-color: #f1f1f1;
+}
+
+
+.current-photo--status.approved, .current-photo--status.pending.good {
+    background-color: #007934 !important;
+    color: #fff;
+
+}
+
+.current-photo--status.denied, .current-photo--status.pending.bad {
+    background-color: #9e3039;
+	color: #fff;
+}
+
+.current-photo--status.incomplete, .current-photo--status.pending.maybe {
+          background-color: #e98300 !important;
+    color: #222;
+}
+.current-photo--status.pending.unclassified{
+    background-color: #f3cf45;
+    color: #222;
+}
+router-view .buttons button {
+    background-color: #003c69;
+    color: #fff;
+}
+
+photo-list-section-header.good-photos {
+    background: #69be28;
+
+}
+photo-list-section-header div a {
+    color: #4b4b4b;
+
+}
+/*
+ .hide-on-mobile-small {
+    display: none;
+}
+.hide-on-mobile-small {
+    display: none;
+}
+*/
+/* Uncomment this block if the organization has a Plus Account.
+img.photos--preview {
+    border-bottom: 0px;
+}
+*/
+
+/* Uncomment this block to hide the Download photos button.
+   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server),
+	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
+button.download_button {
+	display: none;
+}
+*/
