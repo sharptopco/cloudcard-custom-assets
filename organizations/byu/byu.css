@@ -256,12 +256,12 @@ photo-list-header.photo-list-columns {
 
 .footer {
       background: #002E5D;
-      color: #0062B8;
+      color: #ffffff;
       border-top: 2px solid #0062B8;
 }
 
 .footer-main a {
-    color: #0062B8;
+    color: #002E5D;
     text-decoration: underline;
 }
 
