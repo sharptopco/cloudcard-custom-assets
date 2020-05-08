@@ -12,30 +12,30 @@ html {
 
 .header-page .filters select {
 	    color: #fff;
-	    background-color: #0065bd;
+	    background-color: #002E5D;
 
 }
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #0065bd;
+    background-color: #002E5D;
     color: #fff;
 
 }
 
 
 .header-page .filters .filter--input input {
-    border: 2px solid #0065bd;
+    border: 2px solid #002E5D;
     color: #4b4b4b;
 }
 
 .header-page input{
-	border: 1.5px solid #808284;
+	border: 1.5px solid #0062B8;
 	color: #4b4b4b;
 }
 
 input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus {
-    border: 1.5px solid #808284;
+    border: 1.5px solid #0062B8;
     color: #4b4b4b;
     box-shadow: none;
 }
@@ -43,12 +43,12 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     color: #fff;
 }
 header.header-main {
-  background-color: #0065bd;
+  background-color: #002E5D;
   height:8.25em;
 }
 
 .logo {
-  background: url('https://colorid.github.io/cloudcard-custom-assets/csusb_logo_main_w.png') top center no-repeat;
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/byu/byu_white_logo.png') top center no-repeat;
   display: inline-block;
   width: 225px;
   background-size: contain;
@@ -72,7 +72,7 @@ a:hover {
     background: #f1f1f1;
 }
 .photo-requirements li i {
-    color: #0065bd;
+    color: #002E5D;
 }
 .header-page h1 {
     color: #4b4b4b;
@@ -89,7 +89,7 @@ empty-queue-message {
 
 
 .header-page .fa-search {
-	color: #0065bd !important;
+	color: #002E5D !important;
 
 
 }
@@ -105,7 +105,7 @@ empty-queue-message {
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #004a8a;
+  color: #0062B8;
 }
 
 /* Keep this block only if it looks good. */
@@ -114,7 +114,7 @@ empty-queue-message {
 }
 
 .header-page .buttons button {
-  background-color: #0065bd;
+  background-color: #002E5D;
   color: #fff;
   border: 2px solid #f1f1f1;
 }
@@ -128,7 +128,7 @@ empty-queue-message {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus
 {
-  background-color: #004a8a;
+  background-color: #0062B8;
   color: #fff;
 }
   /* Alternative if the above doesn't look so great.
@@ -149,12 +149,12 @@ empty-queue-message {
 }
 
 button {
-    background-color: #0065bd;
+    background-color: #002E5D;
     border: 2px solid #f1f1f1;
 }
 
 .edit-button {
-    background-color: #808284 !important;
+    background-color: #0062B8 !important;
 
 
 }
@@ -168,7 +168,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #0065bd;
+    background-color: #002E5D;
     color: #fff;
 }
 
@@ -180,7 +180,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #0065bd;
+    background-color: #002E5D;
     color: #fff;
 }
 
@@ -208,7 +208,7 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #0065bd; /*default #007bff*/
+    color: #002E5D; /*default #007bff*/
 }
 
 .admin-links a {
@@ -226,7 +226,7 @@ button.submit-login:focus
 }
 
 table th {
-	background: #808284;
+	background: #0062B8;
 	color: #fff;
 	font-weight: 600;
 	letter-spacing: .75px;
@@ -247,7 +247,7 @@ table a:hover {
 }
 
 photo-list-header.photo-list-columns {
-    background: #004a8a;
+    background: #0062B8;
     color: #fff;
     font-weight: 600;
     letter-spacing: .5px;
@@ -257,7 +257,7 @@ photo-list-header.photo-list-columns {
 .footer {
       background: #fff;
       color: #4b4b4b;
-      border-top: 2px solid #808284;
+      border-top: 2px solid #0062B8;
 }
 
 .footer-main a {
@@ -269,7 +269,7 @@ photo-list-header.photo-list-columns {
 .sidebar-mobile {
     background: #f1f1f1;
     color: #4b4b4b;
-    border-right: 2px solid #808284;
+    border-right: 2px solid #0062B8;
     height: 100% !important;
 }
    .nav-open {
