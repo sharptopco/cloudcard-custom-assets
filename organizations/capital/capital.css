@@ -1,9 +1,9 @@
 html {
-  background: #012169;
+  background: #380982;
 }
 
 .splash {
-  background-color: #012169;
+  background-color: #380982;
 }
 
 .splash .loading path {
@@ -13,8 +13,8 @@ html {
 header.header-main {
   background-color: #ffffff;
   height:10.5em;
-  border-bottom: 2px solid #012169;
-  border-top: 14px solid #b3b3b3;
+  border-bottom: 2px solid #380982;
+  border-top: 14px solid #a1a1a5;
 }
 
 .logo {
@@ -25,11 +25,11 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#b3b3b3;
+  background-color:#a1a1a5;
 }
 
 .header-page h1 {
-    color: #012169;
+    color: #380982;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-weight: 500;
@@ -39,19 +39,19 @@ header.header-page {
 }
 
 .header-page .filters select {
-	    border: 1px solid #012169;
-	    background-color: #b3b3b3;
-	    color: #012169;
+	    border: 1px solid #380982;
+	    background-color: #a1a1a5;
+	    color: #380982;
 }
 
 .header-page .fa-search {
-	color: #012169 !important;
+	color: #380982 !important;
 
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#b3b3b3;
-  color: #012169;
+  border-bottom-color:#a1a1a5;
+  color: #380982;
   text-transform:uppercase;
   letter-spacing: .5px;
 }
@@ -59,30 +59,30 @@ header.header-page {
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #0033A0;
+  color: #008bbf;
 }
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #012169;;
+    border-bottom-color: #380982;;
 }
 
-.header-page .buttons button {background-color: #012169;color: #ffffff; border: .5px solid #ffffff;}
+.header-page .buttons button {background-color: #380982;color: #ffffff; border: .5px solid #ffffff;}
 .header-page .tabs a.active {
-color: #0033A0;
+color: #008bbf;
 text-transform:uppercase;
 letter-spacing: 1px;
 font-weight:600;
 }
 .header-page button {
-  background-color: #012169;
+  background-color: #380982;
   color: #ffffff;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus
 {
-  background-color: #0033A0;
+  background-color: #008bbf;
   color: #ffffff;
 
   /* Alternative if the above doesn't look so great.
@@ -94,7 +94,7 @@ font-weight:600;
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #012169;
+    background-color: #380982;
     color: #ffffff;
 }
 
@@ -104,19 +104,19 @@ font-weight:600;
 }
 
 button {
-    background-color: #012169;
+    background-color: #380982;
 }
 
 button:hover,
 button:focus {
-    background-color: #0033A0;
+    background-color: #008bbf;
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #012169;
+    background-color: #380982;
 }
 
 router-view .buttons button.primary:hover,
@@ -126,38 +126,38 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #0033A0;
+    background-color: #008bbf;
 }
 
 .user-info {
-    color: #012169;
+    color: #380982;
 }
 
 .user-info a {
-    color: #0033A0;
+    color: #008bbf;
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #b3b3b3;
+    color: #a1a1a5;
 }
 
 .open-nav {
-    color: #0033A0;
+    color: #008bbf;
 }
 
 .open-nav:hover,
 .open-nav:focus
 {
-    color: #0033A0;
+    color: #008bbf;
 }
 
 .admin-links .fa {
-    color: #b3b3b3; /*default #007bff*/
+    color: #a1a1a5; /*default #007bff*/
 }
 
 .admin-links a {
-     background: #012169;
+     background: #380982;
     color: #ffffff;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -167,16 +167,16 @@ button.submit-login:focus
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #012169;
-    color: #b3b3b3;
+    background: #380982;
+    color: #a1a1a5;
 }
 
 table th {
-   background: #0033A0;
+   background: #008bbf;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 500;
-    border-top: 1px solid #012169;
+    border-top: 1px solid #380982;
     letter-spacing: 1px;
 }
 
@@ -184,38 +184,38 @@ table td {
     background: #f0f0f0;
 }
 table a {
-    color: #012169;
+    color: #380982;
     text-decoration: underline;
 }
 
 photo-list-header.photo-list-columns {
-    background: #0033A0;
+    background: #008bbf;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
-    border-top: 1px solid #012169;
+    border-top: 1px solid #380982;
     letter-spacing: 1px;
 }
 
 .header-page .filters .filter:after {
 
-	Color: #012169;
+	Color: #380982;
 }
 .footer {
-      background: #012169;
-      BORDER-BOTTOM: 5PX SOLID #0033A0;
+      background: #380982;
+      BORDER-BOTTOM: 5PX SOLID #008bbf;
 }
 
 
 .sidebar-main,
 .sidebar-mobile {
-     background: #012169;
+     background: #380982;
     color: #ffffff;
-    border-right: 3px solid #012169;
+    border-right: 3px solid #380982;
     height: 100% !important;
 
     &.nav-open {
-	background: #012169;
+	background: #380982;
     }
 
 }
@@ -227,7 +227,7 @@ photo-list-header.photo-list-columns {
 
 ul.photo-requirements {
 
-	background-color:#012169;
+	background-color:#380982;
 }
 
 
