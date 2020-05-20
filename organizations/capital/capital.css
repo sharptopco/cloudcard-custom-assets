@@ -1,0 +1,247 @@
+html {
+  background: #012169;
+}
+
+.splash {
+  background-color: #012169;
+}
+
+.splash .loading path {
+  fill: #ffffff;
+}
+
+header.header-main {
+  background-color: #ffffff;
+  height:10.5em;
+  border-bottom: 2px solid #012169;
+  border-top: 14px solid #b3b3b3;
+}
+
+.logo {
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/fredonia/fredonia-logo.png') top center no-repeat;
+  display: inline-block;
+  max-width: 400px !important;
+  background-size: contain;
+}
+
+header.header-page {
+  background-color:#b3b3b3;
+}
+
+.header-page h1 {
+    color: #012169;
+    padding-right: 0.73684em;
+    text-transform:uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 32px;
+
+}
+
+.header-page .filters select {
+	    border: 1px solid #012169;
+	    background-color: #b3b3b3;
+	    color: #012169;
+}
+
+.header-page .fa-search {
+	color: #012169 !important;
+
+}
+
+.header-page .tabs li a {
+  border-bottom-color:#b3b3b3;
+  color: #012169;
+  text-transform:uppercase;
+  letter-spacing: .5px;
+}
+
+.header-page .tabs li a:hover,
+.header-page .tabs li a:focus
+{
+  color: #0033A0;
+}
+
+/* Keep this block only if it looks good. */
+.header-page .tabs a.active {
+    border-bottom-color: #012169;;
+}
+
+.header-page .buttons button {background-color: #012169;color: #ffffff; border: .5px solid #ffffff;}
+.header-page .tabs a.active {
+color: #0033A0;
+text-transform:uppercase;
+letter-spacing: 1px;
+font-weight:600;
+}
+.header-page button {
+  background-color: #012169;
+  color: #ffffff;
+}
+
+.header-page .buttons button:hover,
+.header-page .buttons button:focus
+{
+  background-color: #0033A0;
+  color: #ffffff;
+
+  /* Alternative if the above doesn't look so great.
+  background-color: #69cbcc;
+  color: #fff;
+   */
+}
+
+
+.header-page .filters .filter:hover select,
+.header-page .filters .filter:focus-within select {
+    background-color: #012169;
+    color: #ffffff;
+}
+
+.header-page .filters .filter:hover:after,
+.header-page .filters .filter:focus-within:after {
+    color: #ffffff;
+}
+
+button {
+    background-color: #012169;
+}
+
+button:hover,
+button:focus {
+    background-color: #0033A0;
+}
+
+router-view .buttons button.primary,
+#accept-terms,
+button.submit-login
+{
+    background-color: #012169;
+}
+
+router-view .buttons button.primary:hover,
+router-view .buttons button.primary:focus,
+#accept-terms:hover,
+#accept-terms:focus,
+button.submit-login:hover,
+button.submit-login:focus
+{
+    background-color: #0033A0;
+}
+
+.user-info {
+    color: #012169;
+}
+
+.user-info a {
+    color: #0033A0;
+}
+
+.user-info a:hover,
+.user-info a:focus {
+    color: #b3b3b3;
+}
+
+.open-nav {
+    color: #0033A0;
+}
+
+.open-nav:hover,
+.open-nav:focus
+{
+    color: #0033A0;
+}
+
+.admin-links .fa {
+    color: #b3b3b3; /*default #007bff*/
+}
+
+.admin-links a {
+     background: #012169;
+    color: #ffffff;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+
+}
+
+.admin-links a:hover,
+.admin-links a:focus {
+    background: #012169;
+    color: #b3b3b3;
+}
+
+table th {
+   background: #0033A0;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-top: 1px solid #012169;
+    letter-spacing: 1px;
+}
+
+table td {
+    background: #f0f0f0;
+}
+table a {
+    color: #012169;
+    text-decoration: underline;
+}
+
+photo-list-header.photo-list-columns {
+    background: #0033A0;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-top: 1px solid #012169;
+    letter-spacing: 1px;
+}
+
+.header-page .filters .filter:after {
+
+	Color: #012169;
+}
+.footer {
+      background: #012169;
+      BORDER-BOTTOM: 5PX SOLID #0033A0;
+}
+
+
+.sidebar-main,
+.sidebar-mobile {
+     background: #012169;
+    color: #ffffff;
+    border-right: 3px solid #012169;
+    height: 100% !important;
+
+    &.nav-open {
+	background: #012169;
+    }
+
+}
+
+.sidebar-main h2,
+.sidebar-mobile h2 {
+    color: #ffffff !important;
+}
+
+ul.photo-requirements {
+
+	background-color:#012169;
+}
+
+
+
+/* Uncomment this block if the organization has a Plus Account.
+img.photos--preview {
+    border-bottom: 0px;
+}
+*/
+
+/* Uncomment this block to hide the Download photos button.
+   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server),
+	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
+button.download_button {
+	display: none;
+}
+*/
