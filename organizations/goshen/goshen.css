@@ -13,8 +13,7 @@ html {
 header.header-main {
   background-color: #ffffff;
   height:10.5em;
-  border-bottom: 3px solid #49176d;
-  border-top: 14px solid #439539;
+  border-bottom: 4px solid #439539;
 }
 
 .logo {
