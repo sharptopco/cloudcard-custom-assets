@@ -210,7 +210,6 @@ photo-list-header.photo-list-columns {
 .sidebar-mobile {
      background: #49176d;
     color: #ffffff;
-    border-right: 3px solid #439539;
     height: 100% !important;
 
     &.nav-open {
