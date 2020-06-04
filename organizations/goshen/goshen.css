@@ -82,7 +82,7 @@ font-weight:600;
 .header-page .buttons button:focus
 {
   background-color: #ffffff;
-  color: #ffffff;
+  color: #49176d;
 
   /* Alternative if the above doesn't look so great.
   background-color: #69cbcc;
@@ -202,7 +202,7 @@ photo-list-header.photo-list-columns {
 }
 .footer {
       background: #343434;
-      BORDER-BOTTOM: 5PX SOLID ##439539;
+      BORDER-BOTTOM: 5PX SOLID #439539;
 }
 
 
