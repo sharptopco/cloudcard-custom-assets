@@ -1,9 +1,9 @@
 html {
-  background: #380982;
+  background: #49176d;
 }
 
 .splash {
-  background-color: #380982;
+  background-color: #49176d;
 }
 
 .splash .loading path {
@@ -13,12 +13,12 @@ html {
 header.header-main {
   background-color: #ffffff;
   height:10.5em;
-  border-bottom: 2px solid #380982;
-  border-top: 14px solid #a1a1a5;
+  border-bottom: 2px solid #49176d;
+  border-top: 14px solid #212121;
 }
 
 .logo {
-  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/capital/Capital-University-Logo.png') top center no-repeat;
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/goshen/goshen_logo.png') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
@@ -29,7 +29,7 @@ header.header-page {
 }
 
 .header-page h1 {
-    color: #380982;
+    color: #49176d;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-weight: 500;
@@ -39,19 +39,19 @@ header.header-page {
 }
 
 .header-page .filters select {
-	    border: 1px solid #380982;
+	    border: 1px solid #49176d;
 	    background-color: #a1a1a5;
-	    color: #380982;
+	    color: #49176d;
 }
 
 .header-page .fa-search {
-	color: #380982 !important;
+	color: #49176d !important;
 
 }
 
 .header-page .tabs li a {
   border-bottom-color:#a1a1a5;
-  color: #380982;
+  color: #49176d;
   text-transform:uppercase;
   letter-spacing: .5px;
 }
@@ -59,30 +59,30 @@ header.header-page {
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #005076;
+  color: #d9531e;
 }
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #380982;;
+    border-bottom-color: #49176d;;
 }
 
-.header-page .buttons button {background-color: #380982;color: #ffffff; border: .5px solid #ffffff;}
+.header-page .buttons button {background-color: #49176d;color: #ffffff; border: .5px solid #ffffff;}
 .header-page .tabs a.active {
-color: #005076;
+color: #d9531e;
 text-transform:uppercase;
 letter-spacing: 1px;
 font-weight:600;
 }
 .header-page button {
-  background-color: #380982;
+  background-color: #49176d;
   color: #ffffff;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus
 {
-  background-color: #005076;
+  background-color: #d9531e;
   color: #ffffff;
 
   /* Alternative if the above doesn't look so great.
@@ -94,7 +94,7 @@ font-weight:600;
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #380982;
+    background-color: #49176d;
     color: #ffffff;
 }
 
@@ -104,19 +104,19 @@ font-weight:600;
 }
 
 button {
-    background-color: #380982;
+    background-color: #49176d;
 }
 
 button:hover,
 button:focus {
-    background-color: #005076;
+    background-color: #d9531e;
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #380982;
+    background-color: #49176d;
 }
 
 router-view .buttons button.primary:hover,
@@ -126,15 +126,15 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #005076;
+    background-color: #d9531e;
 }
 
 .user-info {
-    color: #380982;
+    color: #49176d;
 }
 
 .user-info a {
-    color: #005076;
+    color: #d9531e;
 }
 
 .user-info a:hover,
@@ -143,13 +143,13 @@ button.submit-login:focus
 }
 
 .open-nav {
-    color: #005076;
+    color: #d9531e;
 }
 
 .open-nav:hover,
 .open-nav:focus
 {
-    color: #005076;
+    color: #d9531e;
 }
 
 .admin-links .fa {
@@ -157,7 +157,7 @@ button.submit-login:focus
 }
 
 .admin-links a {
-     background: #380982;
+     background: #49176d;
     color: #ffffff;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -167,16 +167,16 @@ button.submit-login:focus
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #380982;
+    background: #49176d;
     color: #a1a1a5;
 }
 
 table th {
-   background: #005076;
+   background: #d9531e;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 500;
-    border-top: 1px solid #380982;
+    border-top: 1px solid #49176d;
     letter-spacing: 1px;
 }
 
@@ -184,38 +184,38 @@ table td {
     background: #f0f0f0;
 }
 table a {
-    color: #380982;
+    color: #49176d;
     text-decoration: underline;
 }
 
 photo-list-header.photo-list-columns {
-    background: #005076;
+    background: #d9531e;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
-    border-top: 1px solid #380982;
+    border-top: 1px solid #49176d;
     letter-spacing: 1px;
 }
 
 .header-page .filters .filter:after {
 
-	Color: #380982;
+	Color: #49176d;
 }
 .footer {
-      background: #380982;
-      BORDER-BOTTOM: 5PX SOLID #005076;
+      background: #49176d;
+      BORDER-BOTTOM: 5PX SOLID #d9531e;
 }
 
 
 .sidebar-main,
 .sidebar-mobile {
-     background: #380982;
+     background: #49176d;
     color: #ffffff;
-    border-right: 3px solid #380982;
+    border-right: 3px solid #49176d;
     height: 100% !important;
 
     &.nav-open {
-	background: #380982;
+	background: #49176d;
     }
 
 }
@@ -227,7 +227,7 @@ photo-list-header.photo-list-columns {
 
 ul.photo-requirements {
 
-	background-color:#380982;
+	background-color:#49176d;
 }
 
 
