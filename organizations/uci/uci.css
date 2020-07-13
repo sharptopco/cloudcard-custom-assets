@@ -257,6 +257,10 @@ photo-list-header.photo-list-columns {
 
 	background-color:#C6BEB5;
 }
+
+#download-photos-button {
+  display: none;
+}
 /*
  .hide-on-mobile-small {
     display: none;
