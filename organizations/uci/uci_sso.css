@@ -1,0 +1,16 @@
+
+body {
+    background-color: #3164a4;
+    color: #ffffff;
+}
+
+#page-container {
+    background-image: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/uci/uci-whitelogo.png');
+}
+
+#logo-div {
+    background-image: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/uci/uci-whitelogo.png');
+    min-height: 7em;
+    background-size: contain;
+    background-position: center;
+}
