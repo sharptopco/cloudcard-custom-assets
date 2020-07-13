@@ -1,0 +1,16 @@
+
+body {
+    background-color: #ffffff;
+    color: #162e5d;
+}
+
+#page-container {
+    background-image: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/byu/byu_white_logo%202.png');
+}
+
+#logo-div {
+    background-image: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/byu/byu_white_logo%202.png');
+    min-height: 7em;
+    background-size: contain;
+    background-position: center;
+}
