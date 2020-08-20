@@ -12,20 +12,20 @@ html {
 
 .header-page .filters select {
 	    color: #fff;
-	    background-color: #3966cc;
+	    background-color: #2e6594;
 
 }
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #3966cc;
+    background-color: #2e6594;
     color: #fff;
 
 }
 
 
 .header-page .filters .filter--input input {
-    border: 2px solid #3966cc;
+    border: 2px solid #2e6594;
     color: #2b2b29;
 }
 
@@ -49,7 +49,7 @@ header.header-main {
 }
 
 .logo {
-  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/mps/MPS-logo.jpg') top center no-repeat;
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/esperanza/esperanzacyberlogo.png') top center no-repeat;
   display: inline-block;
   max-width: 350px;
   height: 9em;
@@ -74,7 +74,7 @@ a:hover {
     background: #f1f1f1;
 }
 .photo-requirements li i {
-    color: #3966cc;
+    color: #2e6594;
 }
 .header-page h1 {
     color: #2b2b29;
@@ -91,7 +91,7 @@ empty-queue-message {
 
 
 .header-page .fa-search {
-	color: #3966cc !important;
+	color: #2e6594 !important;
 
 
 }
@@ -107,7 +107,7 @@ empty-queue-message {
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #3966cc;
+  color: #2e6594;
 }
 
 /* Keep this block only if it looks good. */
@@ -130,7 +130,7 @@ empty-queue-message {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus
 {
-  background-color: #3966cc;
+  background-color: #2e6594;
   color: #fff;
 }
   /* Alternative if the above doesn't look so great.
@@ -151,7 +151,7 @@ empty-queue-message {
 }
 
 button {
-    background-color: #3966cc;
+    background-color: #2e6594;
     border: 2px solid #f1f1f1;
 }
 
@@ -170,7 +170,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #3966cc;
+    background-color: #2e6594;
     color: #fff;
 }
 
@@ -182,7 +182,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #3966cc;
+    background-color: #2e6594;
     color: #fff;
 }
 
@@ -210,7 +210,7 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #3966cc; /*default #007bff*/
+    color: #2e6594; /*default #007bff*/
 }
 
 .admin-links a {
@@ -224,11 +224,11 @@ button.submit-login:focus
 .admin-links a:hover,
 .admin-links a:focus {
     background: #f1f1f1;
-    color: #3966cc;
+    color: #2e6594;
 }
 
 table th {
-	background: #3966cc;
+	background: #2e6594;
 	color: #fff;
 	font-weight: 600;
 	letter-spacing: .75px;
@@ -248,7 +248,7 @@ table a:hover {
 }
 
 photo-list-header.photo-list-columns {
-    background: #3966cc;
+    background: #2e6594;
     color: #fff;
     font-weight: 600;
     letter-spacing: .5px;
@@ -313,7 +313,7 @@ photo-list-header.photo-list-columns {
     color: #2b2b29;
 }
 router-view .buttons button {
-    background-color: #3966cc;
+    background-color: #2e6594;
     color: #fff;
 }
 
