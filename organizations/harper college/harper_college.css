@@ -1,0 +1,347 @@
+html {
+  background: #ffffff;
+}
+
+.splash {
+  background-color: #ffffff;
+}
+
+.splash .loading path {
+  fill: #fff;
+}
+
+.header-page .filters select {
+	    color: #fff;
+	    background-color: #013365;
+
+}
+
+.header-page .filters .filter:hover select,
+.header-page .filters .filter:focus-within select {
+    background-color: #013365;
+    color: #fff;
+
+}
+
+
+.header-page .filters .filter--input input {
+    border: 2px solid #013365;
+    color: #4b4b4b;
+}
+
+.header-page input{
+	border: 1.5px solid #4a1534;
+	color: #4b4b4b;
+}
+
+input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus {
+    border: 1.5px solid #4a1534;
+    color: #4b4b4b;
+    box-shadow: none;
+}
+.header-page .filters .filter:after {
+    color: #fff;
+}
+header.header-main {
+  background-color: #013365;
+  height:8.25em;
+}
+
+.logo {
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/byu/byu_white_logo%202.png') top center no-repeat;
+  display: inline-block;
+  width: 225px;
+  background-size: contain;
+}
+
+header.header-page {
+  background-color: #fff;
+}
+
+a {
+    color: #222;
+
+
+}
+
+a:hover {
+    color: #222;
+}
+
+.photo-rows-container photo-row:nth-child(even) {
+    background: #f1f1f1;
+}
+.photo-requirements li i {
+    color: #013365;
+}
+.header-page h1 {
+    color: #4b4b4b;
+    padding-right: 0.73684em;
+    text-transform:uppercase;
+    font-size: 36px;
+    letter-spacing: .5px;
+    font-weight: 400;
+}
+
+empty-queue-message {
+    background: #ffffff;
+}
+
+
+.header-page .fa-search {
+	color: #013365 !important;
+
+
+}
+
+
+.header-page .tabs li a {
+  border-bottom-color: transparent;
+  color: #4b4b4b;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+
+.header-page .tabs li a:hover,
+.header-page .tabs li a:focus
+{
+  color: #4a1534;
+}
+
+/* Keep this block only if it looks good. */
+.header-page .tabs a.active {
+    border-bottom-color: #4a1534;
+}
+
+.header-page .buttons button {
+  background-color: #013365;
+  color: #fff;
+  border: 2px solid #f1f1f1;
+}
+.header-page .tabs a.active {color: #4a1534;font-weight: 600;letter-spacing: .5px;}
+
+.header-page button {
+  background-color: #4b4b4b;
+  color: #fff;
+}
+
+.header-page .buttons button:hover,
+.header-page .buttons button:focus
+{
+  background-color: #4a1534;
+  color: #fff;
+}
+  /* Alternative if the above doesn't look so great.
+  background-color: #c05131;
+  color: #fff;
+   */
+.header-page .buttons button.warning:hover, .header-page .buttons button.warning:focus {
+    background: #E98300;
+    border-color: #E98300;
+    color: #222;
+}
+
+
+
+.header-page .filters .filter:hover:after,
+.header-page .filters .filter:focus-within:after {
+    color: #fff;
+}
+
+button {
+    background-color: #013365;
+    border: 2px solid #f1f1f1;
+}
+
+.edit-button {
+    background-color: #4a1534 !important;
+
+
+}
+
+button:hover,
+button:focus {
+    background-color: #222;
+}
+
+router-view .buttons button.primary,
+#accept-terms,
+button.submit-login
+{
+    background-color: #013365;
+    color: #fff;
+}
+
+
+router-view .buttons button.primary:hover,
+router-view .buttons button.primary:focus,
+#accept-terms:hover,
+#accept-terms:focus,
+button.submit-login:hover,
+button.submit-login:focus
+{
+    background-color: #013365;
+    color: #fff;
+}
+
+.user-info {
+    color: #fff;
+}
+
+.user-info a {
+    color: #4a1534;
+}
+
+.user-info a:hover,
+.user-info a:focus {
+    color: #f1f1f1;
+}
+
+.open-nav {
+    color: #f1f1f1;
+}
+
+.open-nav:hover,
+.open-nav:focus
+{
+    color: #f1f1f1;
+}
+
+.admin-links .fa {
+    color: #013365; /*default #007bff*/
+}
+
+.admin-links a {
+    background: #f1f1f1;
+    color: #4b4b4b;
+    text-transform:uppercase;
+    letter-spacing: .5px;
+    font-weight: 500;
+}
+
+.admin-links a:hover,
+.admin-links a:focus {
+    background: #f1f1f1;
+    color: #4a1534;
+}
+
+table th {
+	background: #4a1534;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: .75px;
+
+}
+
+table td {
+    background: #f2f3f4;
+}
+table a {
+    color: #222;
+    text-decoration: underline;
+}
+
+table a:hover {
+    color: #333333;
+    text-decoration: none;
+}
+
+photo-list-header.photo-list-columns {
+    background: #4a1534;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+
+.footer {
+      background: #013365;
+      color: #4a1534;
+      border-top: 2px solid #4a1534;
+}
+
+.footer-main a {
+    color: #4a1534;
+    text-decoration: underline;
+}
+
+.sidebar-main,
+.sidebar-mobile {
+    background: #f1f1f1;
+    color: #4b4b4b;
+    border-right: 2px solid #4a1534;
+    height: 100% !important;
+}
+   .nav-open {
+    background: #f1f1f1;
+    }
+
+
+.sidebar-main
+    h2,
+.sidebar-mobile h2 {
+    color: #4b4b4b !important;
+
+    font-weight: 500;
+}
+
+
+    ul.photo-requirements {
+
+	background-color: #f1f1f1;
+}
+
+
+.current-photo--status.approved, .current-photo--status.pending.good {
+    background-color: #007934 !important;
+    color: #fff;
+
+}
+
+.current-photo--status.denied, .current-photo--status.pending.bad {
+    background-color: #9e3039;
+	color: #fff;
+}
+
+.current-photo--status.incomplete, .current-photo--status.pending.maybe {
+          background-color: #e98300 !important;
+    color: #222;
+}
+.current-photo--status.pending.unclassified{
+    background-color: #f3cf45;
+    color: #222;
+}
+router-view .buttons button {
+    background-color: #003c69;
+    color: #fff;
+}
+
+photo-list-section-header.good-photos {
+    background: #69be28;
+
+}
+photo-list-section-header div a {
+    color: #4b4b4b;
+
+}
+/*
+ .hide-on-mobile-small {
+    display: none;
+}
+.hide-on-mobile-small {
+    display: none;
+}
+*/
+/* Uncomment this block if the organization has a Plus Account.
+img.photos--preview {
+    border-bottom: 0px;
+}
+*/
+
+/* Uncomment this block to hide the Download photos button.
+   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server),
+	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
+button.download_button {
+	display: none;
+}
+*/
