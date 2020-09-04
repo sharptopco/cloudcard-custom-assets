@@ -148,8 +148,8 @@ table td {
 }
 
 .footer {
-    background: #ee0299;
-    border-top: 5px solid #000000;
+    background: #000000;
+    border-top: 5px solid #ee0299;
 }
 
 /* Uncomment this block if the organization has a Plus Account.
