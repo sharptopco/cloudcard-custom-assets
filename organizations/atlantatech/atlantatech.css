@@ -45,7 +45,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 header.header-main {
   background-color: #fff;
   height:11.25em;
-  border-bottom: 3px solid #141f62;
+  border-bottom: 4px solid #141f62;
 }
 
 .logo {
@@ -258,7 +258,7 @@ photo-list-header.photo-list-columns {
 .footer {
       background: #141f62;
       color: #141f62;
-      border-top: 3px solid #141f62;
+      border-top: 4px solid #457ae4;
 }
 
 .footer-main a {
@@ -270,7 +270,7 @@ photo-list-header.photo-list-columns {
 .sidebar-mobile {
     background: #f1f1f1;
     color: #141f62;
-    border-right: 3px solid #141f62;
+    border-right: 4px solid #141f62;
     height: 100% !important;
 }
    .nav-open {
