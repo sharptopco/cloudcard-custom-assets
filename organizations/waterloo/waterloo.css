@@ -12,7 +12,7 @@ html {
 }
 
 header.header-main {
-  background-color: #000000;
+  background-color: #ffffff;
 
   height:10.5em;
 }
@@ -152,16 +152,16 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #000;
+    color: #ffffff;
 }
 
 .user-info a {
-    color: #444444;
+    color: #DFDFDF;
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #000;
+    color: #ffffff;
 }
 
 .open-nav {
