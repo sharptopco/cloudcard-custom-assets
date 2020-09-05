@@ -1,0 +1,281 @@
+
+html {
+  background: #ffffff;
+}
+
+.splash {
+  background-color: #000000;
+}
+
+.splash .loading path {
+  fill: #fff;
+}
+
+header.header-main {
+  background-color: #ffffff;
+
+  height:10.5em;
+}
+
+.logo {
+  background: url('https://colorid.github.io/cloudcard-custom-assets/VCO_HC.png') top center no-repeat;
+  display: inline-block;
+  max-width: 544px !important;
+  background-size: contain;
+}
+
+header.header-page {
+  background-color:#FFD54F;
+}
+
+a {
+    color: #787878;
+
+
+}
+
+a:hover {
+    color: #000000;
+}
+
+.photo-rows-container photo-row:nth-child(even) {
+    background: #e8e8e8;
+}
+
+.header-page h1 {
+    color: #000000;
+    padding-right: 0.73684em;
+    text-transform:uppercase;
+    font-size: 36px;
+    letter-spacing: .5px;
+    font-weight: 400;
+}
+
+empty-queue-message {
+    background: #ffffff;
+}
+.header-page .filters select {
+	    border: 1px solid #787878;
+	    color: #000;
+	    background-color: transparent;
+	    text-transform:uppercase;
+}
+
+.header-page .fa-search {
+	color: #FFD54F !important;
+
+}
+
+.header-page .tabs li a {
+  border-bottom-color: #FFD54F;
+  color: #000000;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+
+.header-page .tabs li a:hover,
+.header-page .tabs li a:focus
+{
+  color: #000;
+}
+
+/* Keep this block only if it looks good. */
+.header-page .tabs a.active {
+    border-bottom-color: #333;
+}
+
+.header-page .buttons button {
+  background-color: #787878;
+  color: #fff;
+	border: 1px solid #000;
+}
+.header-page .tabs a.active {
+color: #333;
+font-weight: 600;
+letter-spacing: .5px;
+}
+.header-page button {
+  background-color: #000;
+  color: #fff;
+}
+
+.header-page .buttons button:hover,
+.header-page .buttons button:focus
+{
+  background-color: #000;
+  color: #ffffff;
+
+  /* Alternative if the above doesn't look so great.
+  background-color: #c05131;
+  color: #fff;
+   */
+}
+
+
+.header-page .filters .filter:hover select,
+.header-page .filters .filter:focus-within select {
+    background-color: transparent;
+    color: #787878;
+}
+
+.header-page .filters .filter:hover:after,
+.header-page .filters .filter:focus-within:after {
+    color: #fff;
+}
+
+button {
+    background-color: #FFD54F;
+    border: 2px solid #fff;
+}
+
+
+button:hover,
+button:focus {
+    background-color: #000;
+}
+
+router-view .buttons button.primary,
+#accept-terms,
+button.submit-login
+{
+    background-color: #FFD54F;
+}
+
+router-view .buttons button.primary:hover,
+router-view .buttons button.primary:focus,
+#accept-terms:hover,
+#accept-terms:focus,
+button.submit-login:hover,
+button.submit-login:focus
+{
+    background-color: #FFD54F;
+}
+
+.user-info {
+    color: #000;
+}
+
+.user-info a {
+    color: #444444;
+}
+
+.user-info a:hover,
+.user-info a:focus {
+    color: #000;
+}
+
+.open-nav {
+    color: #ddd;
+}
+
+.open-nav:hover,
+.open-nav:focus
+{
+    color: #fff;
+}
+
+.admin-links .fa {
+    color: #333; /*default #007bff*/
+}
+
+.admin-links a {
+    background: #DFDFDF;
+    color: #000;
+	text-transform:uppercase;
+	letter-spacing: .5px;
+	font-weight: 500;
+
+}
+
+.admin-links a:hover,
+.admin-links a:focus {
+    background: #DFDFDF;
+    color: #FFD54F;
+}
+
+table th {
+	background: #fff;
+    color: #000;
+
+    font-weight: 600;
+    letter-spacing: .75px;
+    border-bottom: 2px solid #DFDFDF;
+}
+
+table td {
+    background: #f2f2f2;
+}
+table a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+table a:hover {
+    color: #787878;
+    text-decoration: none;
+}
+
+photo-list-header.photo-list-columns {
+    background: #fff;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: .5px;
+    border-bottom: 2px solid #DFDFDF;
+}
+
+.header-page .filters .filter:after {
+
+	Color: #000;
+}
+.footer {
+      background: #000000;
+    border-top: 2px solid #787878;
+}
+
+
+.sidebar-main,
+.sidebar-mobile {
+    background: #DFDFDF;
+    color: #000000;
+    border-right: 1px solid #fff;
+    height: 100% !important;
+}
+   &.nav-open {
+    background: #DFDFDF;
+    }
+
+
+.sidebar-main
+    h2,
+.sidebar-mobile h2 {
+    color: #000 !important;
+
+    font-weight: 500;
+}
+
+
+    ul.photo-requirements {
+
+	background-color:#DFDFDF;
+}
+/*
+ .hide-on-mobile-small {
+    display: none;
+}
+.hide-on-mobile-small {
+    display: none;
+}
+*/
+/* Uncomment this block if the organization has a Plus Account.
+img.photos--preview {
+    border-bottom: 0px;
+}
+*/
+
+/* Uncomment this block to hide the Download photos button.
+   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server),
+	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
+button.download_button {
+	display: none;
+}
+*/
