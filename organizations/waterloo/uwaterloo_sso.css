@@ -1,0 +1,15 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#page-container {
+    background-image: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/waterloo/waterloo_logo.png');
+}
+
+#logo-div {
+    background-image: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/waterloo/waterloo_logo.png');
+    min-height: 7em;
+    background-size: contain;
+    background-position: center;
+}
