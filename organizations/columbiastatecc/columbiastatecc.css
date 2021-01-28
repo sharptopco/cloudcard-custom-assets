@@ -1,5 +1,5 @@
 /*
-https://colorid.github.io/cloudcard-custom-assets/unm_cloudcard.css      
+https://colorid.github.io/cloudcard-custom-assets/unm_cloudcard.css
 */
 
 html {
@@ -16,13 +16,13 @@ html {
 
 header.header-main {
   background-color: #ffffff;
-	border-top: 10px solid #ba0c2f;
+	border-top: 10px solid #162e5d;
 	border-bottom: 2px solid #a7a8aa;
   height:10.5em;
 }
 
 .logo {
-  background: url('https://colorid.github.io/cloudcard-custom-assets/unm-logo.png') top center no-repeat;
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/columbiastatecc/columbia-state-cc-logo.png') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
@@ -52,8 +52,8 @@ empty-queue-message {
 }
 
 .header-page .fa-search {
-	color: #ba0c2f !important;
-	
+	color: #162e5d !important;
+
 }
 
 .header-page .tabs li a {
@@ -67,7 +67,7 @@ letter-spacing: .5px;
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #ba0c2f;
+  color: #162e5d;
 }
 
 /* Keep this block only if it looks good. */
@@ -76,15 +76,15 @@ letter-spacing: .5px;
 }
 
 .header-page .buttons button {
-  background-color: #ba0c2f;
+  background-color: #162e5d;
   color: #fff;
-	border: 1px solid #ba0c2f;
+	border: 1px solid #162e5d;
 }
 .header-page .tabs a.active {
-color: #ba0c2f;
+color: #162e5d;
 font-weight: 600;
 text-transform: uppercase;
-letter-spacing: 1px;	
+letter-spacing: 1px;
 }
 .header-page button {
   background-color: #c05131;
@@ -92,9 +92,9 @@ letter-spacing: 1px;
 }
 
 .header-page .buttons button:hover,
-.header-page .buttons button:focus 
+.header-page .buttons button:focus
 {
-  background-color: #ba0c2f;
+  background-color: #162e5d;
   color: #ffffff;
 
   /* Alternative if the above doesn't look so great.
@@ -116,7 +116,7 @@ letter-spacing: 1px;
 }
 
 button {
-    background-color: #ba0c2f;
+    background-color: #162e5d;
     border: 2px solid #fff;
 }
 
@@ -130,7 +130,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #ba0c2f;
+    background-color: #162e5d;
 }
 
 router-view .buttons button.primary:hover,
@@ -140,7 +140,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #ba0c2f;
+    background-color: #162e5d;
 }
 
 .user-info {
@@ -174,15 +174,15 @@ button.submit-login:focus
     background: #f2f2f2;
     color: #63666a;
 	text-transform:uppercase;
-	letter-spacing: 1px; 
+	letter-spacing: 1px;
 	font-weight: 500;
-	
+
 }
 
 .admin-links a:hover,
 .admin-links a:focus {
     background: #f2f2f2;
-    color: #ba0c2f;
+    color: #162e5d;
 }
 
 table th {
@@ -198,7 +198,7 @@ table td {
     background: #f2f2f2;
 }
 table a {
-    color: #ba0c2f;
+    color: #162e5d;
     text-decoration: underline;
 }
 
@@ -208,7 +208,7 @@ table a:hover {
 }
 
 photo-list-header.photo-list-columns {
-    background: #ba0c2f;
+    background: #162e5d;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
@@ -217,12 +217,12 @@ photo-list-header.photo-list-columns {
 }
 
 .header-page .filters .filter:after {
-	
+
 	Color: #63666a;
 }
 .footer {
-      background: #ba0c2f;
-    border-top: 2px solid #a7a8aa;	
+      background: #162e5d;
+    border-top: 2px solid #a7a8aa;
 }
 
 
@@ -246,7 +246,7 @@ photo-list-header.photo-list-columns {
 }
 
 ul.photo-requirements {
-	
+
 	background-color:#f2f2f2;
 }
 
@@ -264,10 +264,9 @@ img.photos--preview {
 */
 
 /* Uncomment this block to hide the Download photos button.
-   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server), 
+   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server),
 	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
 button.download_button {
 	display: none;
 }
 */
-
