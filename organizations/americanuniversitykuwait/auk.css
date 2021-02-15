@@ -29,7 +29,7 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#D69400;
+  background-color:#ECDAB2;
 }
 
 .header-page h1 {
@@ -78,7 +78,7 @@ letter-spacing: .5px;
 .header-page .buttons button {
   background-color: #9A182B;
   color: #fff;
-	border: 1px solid #9A182B;
+	border: 1px solid #D69400;
 }
 .header-page .tabs a.active {
 color: #9A182B;
@@ -116,7 +116,7 @@ letter-spacing: 1px;
 }
 
 button {
-    background-color: #9A182B;
+    background-color: #D69400;
     border: 2px solid #fff;
 }
 
