@@ -17,7 +17,7 @@ html {
 header.header-main {
   background-color: #ffffff;
 	border-top: 10px solid #9A182B;
-	border-bottom: 2px solid #D69400;
+	border-bottom: 2px solid #9A182B;
   height:10.5em;
 }
 
@@ -33,7 +33,7 @@ header.header-page {
 }
 
 .header-page h1 {
-    color: #D69400;
+    color: #9A182B;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-size: 36px;
@@ -45,8 +45,8 @@ empty-queue-message {
     background: #ffffff;
 }
 .header-page .filters select {
-	    border: 1px solid #D69400;
-	    color: #D69400;
+	    border: 1px solid #9A182B;
+	    color: #9A182B;
 	    background-color: transparent;
 	    text-transform:uppercase;
 }
@@ -58,7 +58,7 @@ empty-queue-message {
 
 .header-page .tabs li a {
   border-bottom-color:#ECDAB2;
-  color: #D69400;
+  color: #9A182B;
 font-weight: 600;
 text-transform: uppercase;
 letter-spacing: .5px;
@@ -72,7 +72,7 @@ letter-spacing: .5px;
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #D69400;
+    border-bottom-color: #9A182B;
 }
 
 .header-page .buttons button {
@@ -107,7 +107,7 @@ letter-spacing: 1px;
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
     background-color: transparent;
-    color: #D69400;
+    color: #9A182B;
 }
 
 .header-page .filters .filter:hover:after,
@@ -144,16 +144,16 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #D69400;
+    color: #9A182B;
 }
 
 .user-info a {
-    color: #D69400;
+    color: #9A182B;
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #D69400;
+    color: #9A182B;
 }
 
 .open-nav {
@@ -167,12 +167,12 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #D69400; /*default #007bff*/
+    color: #9A182B; /*default #007bff*/
 }
 
 .admin-links a {
     background: #f2f2f2;
-    color: #D69400;
+    color: #9A182B;
 	text-transform:uppercase;
 	letter-spacing: 1px;
 	font-weight: 500;
@@ -186,12 +186,12 @@ button.submit-login:focus
 }
 
 table th {
-	background: #D69400;
+	background: #9A182B;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    border-top: 1px solid #D69400;
+    border-top: 1px solid #9A182B;
 }
 
 table td {
@@ -203,7 +203,7 @@ table a {
 }
 
 table a:hover {
-    color: #D69400;
+    color: #9A182B;
     text-decoration: none;
 }
 
@@ -213,24 +213,24 @@ photo-list-header.photo-list-columns {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    border-top: 1px solid #D69400;
+    border-top: 1px solid #9A182B;
 }
 
 .header-page .filters .filter:after {
 
-	Color: #D69400;
+	Color: #9A182B;
 }
 .footer {
       background: #9A182B;
-    border-top: 2px solid #D69400;
+    border-top: 2px solid #9A182B;
 }
 
 
 .sidebar-main,
 .sidebar-mobile {
     background: #f2f2f2;
-    color: #D69400;
-    border-right: 1px solid #D69400;
+    color: #9A182B;
+    border-right: 1px solid #9A182B;
     height: 100% !important;
 
    &.nav-open {
@@ -240,7 +240,7 @@ photo-list-header.photo-list-columns {
 
 .sidebar-main h2,
 .sidebar-mobile h2 {
-    color: #D69400 !important;
+    color: #9A182B !important;
     text-transform:uppercase;
     font-weight: 600;
 }
