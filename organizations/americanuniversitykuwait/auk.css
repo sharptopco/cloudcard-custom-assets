@@ -17,7 +17,7 @@ html {
 header.header-main {
   background-color: #ffffff;
 	border-top: 10px solid #9A182B;
-	border-bottom: 2px solid #9A182B;
+	border-bottom: 2px solid #D69400;
   height:10.5em;
 }
 
@@ -29,7 +29,7 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#ECDAB2;
+  background-color:#D69400;
 }
 
 .header-page h1 {
@@ -45,7 +45,7 @@ empty-queue-message {
     background: #ffffff;
 }
 .header-page .filters select {
-	    border: 1px solid #9A182B;
+	    border: 1px solid #D69400;
 	    color: #9A182B;
 	    background-color: transparent;
 	    text-transform:uppercase;
@@ -57,7 +57,7 @@ empty-queue-message {
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#ECDAB2;
+  border-bottom-color:#D69400;
   color: #9A182B;
 font-weight: 600;
 text-transform: uppercase;
