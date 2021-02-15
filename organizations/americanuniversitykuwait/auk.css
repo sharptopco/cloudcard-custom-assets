@@ -1,5 +1,5 @@
 /*
-https://colorid.github.io/cloudcard-custom-assets/unm_cloudcard.css      
+https://colorid.github.io/cloudcard-custom-assets/unm_cloudcard.css
 */
 
 html {
@@ -53,7 +53,7 @@ empty-queue-message {
 
 .header-page .fa-search {
 	color: #ba0c2f !important;
-	
+
 }
 
 .header-page .tabs li a {
@@ -84,7 +84,7 @@ letter-spacing: .5px;
 color: #ba0c2f;
 font-weight: 600;
 text-transform: uppercase;
-letter-spacing: 1px;	
+letter-spacing: 1px;
 }
 .header-page button {
   background-color: #c05131;
@@ -92,7 +92,7 @@ letter-spacing: 1px;
 }
 
 .header-page .buttons button:hover,
-.header-page .buttons button:focus 
+.header-page .buttons button:focus
 {
   background-color: #ba0c2f;
   color: #ffffff;
@@ -174,9 +174,9 @@ button.submit-login:focus
     background: #f2f2f2;
     color: #63666a;
 	text-transform:uppercase;
-	letter-spacing: 1px; 
+	letter-spacing: 1px;
 	font-weight: 500;
-	
+
 }
 
 .admin-links a:hover,
@@ -217,12 +217,12 @@ photo-list-header.photo-list-columns {
 }
 
 .header-page .filters .filter:after {
-	
+
 	Color: #63666a;
 }
 .footer {
       background: #ba0c2f;
-    border-top: 2px solid #a7a8aa;	
+    border-top: 2px solid #a7a8aa;
 }
 
 
@@ -246,7 +246,7 @@ photo-list-header.photo-list-columns {
 }
 
 ul.photo-requirements {
-	
+
 	background-color:#f2f2f2;
 }
 
@@ -264,10 +264,9 @@ img.photos--preview {
 */
 
 /* Uncomment this block to hide the Download photos button.
-   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server), 
+   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server),
 	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
 button.download_button {
 	display: none;
 }
 */
-
