@@ -171,7 +171,7 @@ button.submit-login:focus
 }
 
 .admin-links a {
-    background: #f2f2f2;
+    background: #ecdbb1;
     color: #9A182B;
 	text-transform:uppercase;
 	letter-spacing: 1px;
@@ -181,7 +181,7 @@ button.submit-login:focus
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #f2f2f2;
+    background: #ecdbb1;
     color: #9A182B;
 }
 
@@ -195,7 +195,7 @@ table th {
 }
 
 table td {
-    background: #f2f2f2;
+    background: #ecdbb1;
 }
 table a {
     color: #9A182B;
@@ -228,13 +228,13 @@ photo-list-header.photo-list-columns {
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #f2f2f2;
+    background: #ecdbb1;
     color: #9A182B;
     border-right: 1px solid #9A182B;
     height: 100% !important;
 
    &.nav-open {
-    background: #f2f2f2;
+    background: #ecdbb1;
     }
 }
 
@@ -247,7 +247,7 @@ photo-list-header.photo-list-columns {
 
 ul.photo-requirements {
 
-	background-color:#f2f2f2;
+	background-color:#ecdbb1;
 }
 
  .hide-on-mobile-small {
