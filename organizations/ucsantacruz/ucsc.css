@@ -29,7 +29,7 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#f5f5f5;
+  background-color:#fff3cd;
 }
 
 .header-page h1 {
@@ -57,7 +57,7 @@ empty-queue-message {
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#f5f5f5;
+  border-bottom-color:#fff3cd;
   color: #63666a;
 font-weight: 600;
 text-transform: uppercase;
