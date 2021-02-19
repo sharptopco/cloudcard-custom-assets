@@ -17,7 +17,7 @@ html {
 header.header-main {
   background-color: #ffffff;
 	border-top: 10px solid #02589d;
-	border-bottom: 2px solid #a7a8aa;
+	border-bottom: 2px solid #fdc600;
   height:10.5em;
 }
 
@@ -72,7 +72,7 @@ letter-spacing: .5px;
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #a7a8aa;
+    border-bottom-color: #fdc600;
 }
 
 .header-page .buttons button {
@@ -148,7 +148,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #a7a8aa;
+    color: #fdc600;
 }
 
 .user-info a:hover,
@@ -191,7 +191,7 @@ table th {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    border-top: 1px solid #a7a8aa;
+    border-top: 1px solid #fdc600;
 }
 
 table td {
@@ -213,7 +213,7 @@ photo-list-header.photo-list-columns {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    border-top: 1px solid #a7a8aa;
+    border-top: 1px solid #fdc600;
 }
 
 .header-page .filters .filter:after {
@@ -222,7 +222,7 @@ photo-list-header.photo-list-columns {
 }
 .footer {
       background: #02589d;
-    border-top: 2px solid #a7a8aa;	
+    border-top: 2px solid #fdc600;	
 }
 
 
@@ -270,3 +270,5 @@ button.download_button {
 	display: none;
 }
 */
+
+
