@@ -16,7 +16,7 @@ html {
 
 header.header-main {
   background-color: #ffffff;
-	border-top: 10px solid #02589d;
+	border-top: 10px solid #ba0c2f;
 	border-bottom: 2px solid #a7a8aa;
   height:10.5em;
 }
@@ -29,11 +29,11 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#fff3cd;
+  background-color:#f5f5f5;
 }
 
 .header-page h1 {
-    color: #fdc600;
+    color: #63666a;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-size: 36px;
@@ -45,20 +45,20 @@ empty-queue-message {
     background: #ffffff;
 }
 .header-page .filters select {
-	    border: 1px solid #fdc600;
-	    color: #fdc600;
+	    border: 1px solid #63666a;
+	    color: #63666a;
 	    background-color: transparent;
 	    text-transform:uppercase;
 }
 
 .header-page .fa-search {
-	color: #02589d !important;
+	color: #ba0c2f !important;
 	
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#fff3cd;
-  color: #fdc600;
+  border-bottom-color:#f5f5f5;
+  color: #63666a;
 font-weight: 600;
 text-transform: uppercase;
 letter-spacing: .5px;
@@ -67,7 +67,7 @@ letter-spacing: .5px;
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #02589d;
+  color: #ba0c2f;
 }
 
 /* Keep this block only if it looks good. */
@@ -76,12 +76,12 @@ letter-spacing: .5px;
 }
 
 .header-page .buttons button {
-  background-color: #02589d;
+  background-color: #ba0c2f;
   color: #fff;
-	border: 1px solid #02589d;
+	border: 1px solid #ba0c2f;
 }
 .header-page .tabs a.active {
-color: #02589d;
+color: #ba0c2f;
 font-weight: 600;
 text-transform: uppercase;
 letter-spacing: 1px;	
@@ -94,7 +94,7 @@ letter-spacing: 1px;
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #02589d;
+  background-color: #ba0c2f;
   color: #ffffff;
 
   /* Alternative if the above doesn't look so great.
@@ -107,7 +107,7 @@ letter-spacing: 1px;
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
     background-color: transparent;
-    color: #fdc600;
+    color: #63666a;
 }
 
 .header-page .filters .filter:hover:after,
@@ -116,7 +116,7 @@ letter-spacing: 1px;
 }
 
 button {
-    background-color: #02589d;
+    background-color: #ba0c2f;
     border: 2px solid #fff;
 }
 
@@ -130,7 +130,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #02589d;
+    background-color: #ba0c2f;
 }
 
 router-view .buttons button.primary:hover,
@@ -140,11 +140,11 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #02589d;
+    background-color: #ba0c2f;
 }
 
 .user-info {
-    color: #fdc600;
+    color: #63666a;
 }
 
 .user-info a {
@@ -153,7 +153,7 @@ button.submit-login:focus
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #fdc600;
+    color: #63666a;
 }
 
 .open-nav {
@@ -167,12 +167,12 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #fdc600; /*default #007bff*/
+    color: #63666a; /*default #007bff*/
 }
 
 .admin-links a {
     background: #f2f2f2;
-    color: #fdc600;
+    color: #63666a;
 	text-transform:uppercase;
 	letter-spacing: 1px; 
 	font-weight: 500;
@@ -182,11 +182,11 @@ button.submit-login:focus
 .admin-links a:hover,
 .admin-links a:focus {
     background: #f2f2f2;
-    color: #02589d;
+    color: #ba0c2f;
 }
 
 table th {
-	background: #fdc600;
+	background: #63666a;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
@@ -198,17 +198,17 @@ table td {
     background: #f2f2f2;
 }
 table a {
-    color: #02589d;
+    color: #ba0c2f;
     text-decoration: underline;
 }
 
 table a:hover {
-    color: #fdc600;
+    color: #63666a;
     text-decoration: none;
 }
 
 photo-list-header.photo-list-columns {
-    background: #02589d;
+    background: #ba0c2f;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
@@ -218,10 +218,10 @@ photo-list-header.photo-list-columns {
 
 .header-page .filters .filter:after {
 	
-	Color: #fdc600;
+	Color: #63666a;
 }
 .footer {
-      background: #02589d;
+      background: #ba0c2f;
     border-top: 2px solid #a7a8aa;	
 }
 
@@ -229,8 +229,8 @@ photo-list-header.photo-list-columns {
 .sidebar-main,
 .sidebar-mobile {
     background: #f2f2f2;
-    color: #fdc600;
-    border-right: 1px solid #fdc600;
+    color: #63666a;
+    border-right: 1px solid #63666a;
     height: 100% !important;
 
    &.nav-open {
@@ -240,7 +240,7 @@ photo-list-header.photo-list-columns {
 
 .sidebar-main h2,
 .sidebar-mobile h2 {
-    color: #fdc600 !important;
+    color: #63666a !important;
     text-transform:uppercase;
     font-weight: 600;
 }
