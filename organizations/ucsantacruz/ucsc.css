@@ -33,7 +33,7 @@ header.header-page {
 }
 
 .header-page h1 {
-    color: #63666a;
+    color: #fdc600;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-size: 36px;
@@ -45,8 +45,8 @@ empty-queue-message {
     background: #ffffff;
 }
 .header-page .filters select {
-	    border: 1px solid #63666a;
-	    color: #63666a;
+	    border: 1px solid #fdc600;
+	    color: #fdc600;
 	    background-color: transparent;
 	    text-transform:uppercase;
 }
@@ -58,7 +58,7 @@ empty-queue-message {
 
 .header-page .tabs li a {
   border-bottom-color:#fff3cd;
-  color: #63666a;
+  color: #fdc600;
 font-weight: 600;
 text-transform: uppercase;
 letter-spacing: .5px;
@@ -107,7 +107,7 @@ letter-spacing: 1px;
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
     background-color: transparent;
-    color: #63666a;
+    color: #fdc600;
 }
 
 .header-page .filters .filter:hover:after,
@@ -144,7 +144,7 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #63666a;
+    color: #fdc600;
 }
 
 .user-info a {
@@ -153,7 +153,7 @@ button.submit-login:focus
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #63666a;
+    color: #fdc600;
 }
 
 .open-nav {
@@ -167,12 +167,12 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #63666a; /*default #007bff*/
+    color: #fdc600; /*default #007bff*/
 }
 
 .admin-links a {
     background: #f2f2f2;
-    color: #63666a;
+    color: #fdc600;
 	text-transform:uppercase;
 	letter-spacing: 1px; 
 	font-weight: 500;
@@ -186,7 +186,7 @@ button.submit-login:focus
 }
 
 table th {
-	background: #63666a;
+	background: #fdc600;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
@@ -203,7 +203,7 @@ table a {
 }
 
 table a:hover {
-    color: #63666a;
+    color: #fdc600;
     text-decoration: none;
 }
 
@@ -218,7 +218,7 @@ photo-list-header.photo-list-columns {
 
 .header-page .filters .filter:after {
 	
-	Color: #63666a;
+	Color: #fdc600;
 }
 .footer {
       background: #02589d;
@@ -229,8 +229,8 @@ photo-list-header.photo-list-columns {
 .sidebar-main,
 .sidebar-mobile {
     background: #f2f2f2;
-    color: #63666a;
-    border-right: 1px solid #63666a;
+    color: #fdc600;
+    border-right: 1px solid #fdc600;
     height: 100% !important;
 
    &.nav-open {
@@ -240,7 +240,7 @@ photo-list-header.photo-list-columns {
 
 .sidebar-main h2,
 .sidebar-mobile h2 {
-    color: #63666a !important;
+    color: #fdc600 !important;
     text-transform:uppercase;
     font-weight: 600;
 }
