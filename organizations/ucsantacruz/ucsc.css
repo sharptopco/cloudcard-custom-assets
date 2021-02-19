@@ -16,7 +16,7 @@ html {
 
 header.header-main {
   background-color: #ffffff;
-	border-top: 10px solid #ba0c2f;
+	border-top: 10px solid #02589d;
 	border-bottom: 2px solid #a7a8aa;
   height:10.5em;
 }
@@ -52,7 +52,7 @@ empty-queue-message {
 }
 
 .header-page .fa-search {
-	color: #ba0c2f !important;
+	color: #02589d !important;
 	
 }
 
@@ -67,7 +67,7 @@ letter-spacing: .5px;
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #ba0c2f;
+  color: #02589d;
 }
 
 /* Keep this block only if it looks good. */
@@ -76,12 +76,12 @@ letter-spacing: .5px;
 }
 
 .header-page .buttons button {
-  background-color: #ba0c2f;
+  background-color: #02589d;
   color: #fff;
-	border: 1px solid #ba0c2f;
+	border: 1px solid #02589d;
 }
 .header-page .tabs a.active {
-color: #ba0c2f;
+color: #02589d;
 font-weight: 600;
 text-transform: uppercase;
 letter-spacing: 1px;	
@@ -94,7 +94,7 @@ letter-spacing: 1px;
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #ba0c2f;
+  background-color: #02589d;
   color: #ffffff;
 
   /* Alternative if the above doesn't look so great.
@@ -116,7 +116,7 @@ letter-spacing: 1px;
 }
 
 button {
-    background-color: #ba0c2f;
+    background-color: #02589d;
     border: 2px solid #fff;
 }
 
@@ -130,7 +130,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #ba0c2f;
+    background-color: #02589d;
 }
 
 router-view .buttons button.primary:hover,
@@ -140,7 +140,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #ba0c2f;
+    background-color: #02589d;
 }
 
 .user-info {
@@ -182,7 +182,7 @@ button.submit-login:focus
 .admin-links a:hover,
 .admin-links a:focus {
     background: #f2f2f2;
-    color: #ba0c2f;
+    color: #02589d;
 }
 
 table th {
@@ -198,7 +198,7 @@ table td {
     background: #f2f2f2;
 }
 table a {
-    color: #ba0c2f;
+    color: #02589d;
     text-decoration: underline;
 }
 
@@ -208,7 +208,7 @@ table a:hover {
 }
 
 photo-list-header.photo-list-columns {
-    background: #ba0c2f;
+    background: #02589d;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
@@ -221,7 +221,7 @@ photo-list-header.photo-list-columns {
 	Color: #63666a;
 }
 .footer {
-      background: #ba0c2f;
+      background: #02589d;
     border-top: 2px solid #a7a8aa;	
 }
 
@@ -270,3 +270,4 @@ button.download_button {
 	display: none;
 }
 */
+
