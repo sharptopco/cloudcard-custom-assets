@@ -33,7 +33,7 @@ header.header-page {
 }
 
 .header-page h1 {
-    color: #63666a;
+    color: #02589d;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-size: 36px;
@@ -45,8 +45,8 @@ empty-queue-message {
     background: #ffffff;
 }
 .header-page .filters select {
-	    border: 1px solid #63666a;
-	    color: #63666a;
+	    border: 1px solid #02589d;
+	    color: #02589d;
 	    background-color: transparent;
 	    text-transform:uppercase;
 }
@@ -58,7 +58,7 @@ empty-queue-message {
 
 .header-page .tabs li a {
   border-bottom-color:#f5f5f5;
-  color: #63666a;
+  color: #02589d;
 font-weight: 600;
 text-transform: uppercase;
 letter-spacing: .5px;
@@ -107,7 +107,7 @@ letter-spacing: 1px;
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
     background-color: transparent;
-    color: #63666a;
+    color: #02589d;
 }
 
 .header-page .filters .filter:hover:after,
@@ -144,7 +144,7 @@ button.submit-login:focus
 }
 
 .user-info {
-    color: #63666a;
+    color: #02589d;
 }
 
 .user-info a {
@@ -153,7 +153,7 @@ button.submit-login:focus
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #63666a;
+    color: #02589d;
 }
 
 .open-nav {
@@ -167,12 +167,12 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #63666a; /*default #007bff*/
+    color: #02589d; /*default #007bff*/
 }
 
 .admin-links a {
     background: #f2f2f2;
-    color: #63666a;
+    color: #02589d;
 	text-transform:uppercase;
 	letter-spacing: 1px; 
 	font-weight: 500;
@@ -186,7 +186,7 @@ button.submit-login:focus
 }
 
 table th {
-	background: #63666a;
+	background: #02589d;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
@@ -203,7 +203,7 @@ table a {
 }
 
 table a:hover {
-    color: #63666a;
+    color: #02589d;
     text-decoration: none;
 }
 
@@ -218,7 +218,7 @@ photo-list-header.photo-list-columns {
 
 .header-page .filters .filter:after {
 	
-	Color: #63666a;
+	Color: #02589d;
 }
 .footer {
       background: #02589d;
@@ -229,8 +229,8 @@ photo-list-header.photo-list-columns {
 .sidebar-main,
 .sidebar-mobile {
     background: #f2f2f2;
-    color: #63666a;
-    border-right: 1px solid #63666a;
+    color: #02589d;
+    border-right: 1px solid #02589d;
     height: 100% !important;
 
    &.nav-open {
@@ -240,7 +240,7 @@ photo-list-header.photo-list-columns {
 
 .sidebar-main h2,
 .sidebar-mobile h2 {
-    color: #63666a !important;
+    color: #02589d !important;
     text-transform:uppercase;
     font-weight: 600;
 }
@@ -270,5 +270,3 @@ button.download_button {
 	display: none;
 }
 */
-
-
