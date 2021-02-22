@@ -22,7 +22,7 @@ header.header-main {
 }
 
 .logo {
-  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/ucsantacruz/uscslogo.png') top center no-repeat;
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/ucsantacruz/ucsc-logo.png') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
@@ -270,5 +270,3 @@ button.download_button {
 	display: none;
 }
 */
-
-
