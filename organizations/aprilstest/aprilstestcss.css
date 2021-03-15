@@ -31,7 +31,19 @@ header.header-main {
 header.header-page {
   background-color:#ECDAB2;
 }
+a {
+    color: #333333;
 
+
+}
+
+a:hover {
+    color: #000000;
+}
+
+.photo-rows-container photo-row:nth-child(even) {
+    background: #e8e8e8;
+}
 .header-page h1 {
     color: #9A182B;
     padding-right: 0.73684em;
