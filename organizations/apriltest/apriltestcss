@@ -23,6 +23,19 @@ header.header-main {
   max-width: 400px !important;
   background-size: contain;
 }
+a {
+    color: #333333;
+
+
+}
+
+a:hover {
+    color: #000000;
+}
+
+.photo-rows-container photo-row:nth-child(even) {
+    background: #e8e8e8;
+}
 
 header.header-page {
   background-color:#ECDAB2;
