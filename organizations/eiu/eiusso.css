@@ -1,14 +1,14 @@
 body {
-    background-color: #ffffff;
-    color: #9A182B;
+    background-color: #004c97;
+    color: #ffffff;
 }
 
 #page-container {
-    background-image: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/americanuniversitykuwait/auk.logo.png');
+    background-image: url('//vdssupport.github.io/EIU/EIUSquareWhite.png');
 }
 
 #logo-div {
-    background-image: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/americanuniversitykuwait/auk.logo.png');
+    background-image: url('//vdssupport.github.io/EIU/EIUSquareWhite.png');
     min-height: 7em;
     background-size: contain;
     background-position: center;
