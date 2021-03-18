@@ -1,0 +1,15 @@
+body {
+    background-color: #ffffff;
+    color: #9A182B;
+}
+
+#page-container {
+    background-image: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/americanuniversitykuwait/auk.logo.png');
+}
+
+#logo-div {
+    background-image: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/americanuniversitykuwait/auk.logo.png');
+    min-height: 7em;
+    background-size: contain;
+    background-position: center;
+}
