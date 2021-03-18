@@ -1,1 +1,15 @@
-hiu
+body {
+    background-color: #ffffff;
+    color: #002a4e;
+}
+
+#page-container {
+    background-image: url('//colorid.github.io/cloudcard-custom-assets/csumb-logo-blue-small.svg');
+}
+
+#logo-div {
+    background-image: url('//colorid.github.io/cloudcard-custom-assets/VCO_HC.png');
+    min-height: 7em;
+    background-size: contain;
+    background-position: center;
+}
