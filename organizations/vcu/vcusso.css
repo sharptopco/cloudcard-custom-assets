@@ -1,1 +1,15 @@
-blah
+body {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+#page-container {
+    background-image: url('//colorid.github.io/cloudcard-custom-assets/VCO_HC.png');
+}
+
+#logo-div {
+    background-image: url('//colorid.github.io/cloudcard-custom-assets/VCO_HC.png');
+    min-height: 7em;
+    background-size: contain;
+    background-position: center;
+}
