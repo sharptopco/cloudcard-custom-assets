@@ -18,7 +18,7 @@ html {
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #FFB81C;
+    background-color: #582C83;
     color: #fff;
 
 }
