@@ -73,7 +73,7 @@ a:hover {
     background: #f1f1f1;
 }
 .photo-requirements li i {
-    color: #FFB81C;
+    color: #582C83;
 }
 .header-page h1 {
     color: #582C83;
@@ -90,7 +90,7 @@ empty-queue-message {
 
 
 .header-page .fa-search {
-	color: #FFB81C !important;
+	color: #582C83 !important;
 
 
 }
@@ -106,7 +106,7 @@ empty-queue-message {
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #FFB81C;
+  color: #582C83;
 }
 
 /* Keep this block only if it looks good. */
@@ -129,7 +129,7 @@ empty-queue-message {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus
 {
-  background-color: #FFB81C;
+  background-color: #582C83;
   color: #fff;
 }
   /* Alternative if the above doesn't look so great.
@@ -150,7 +150,7 @@ empty-queue-message {
 }
 
 button {
-    background-color: #FFB81C;
+    background-color: #582C83;
     border: 2px solid #f1f1f1;
 }
 
@@ -169,7 +169,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #FFB81C;
+    background-color: #582C83;
     color: #fff;
 }
 
@@ -181,7 +181,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #FFB81C;
+    background-color: #582C83;
     color: #fff;
 }
 
@@ -209,7 +209,7 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #FFB81C; /*default #007bff*/
+    color: #582C83; /*default #007bff*/
 }
 
 .admin-links a {
@@ -223,11 +223,11 @@ button.submit-login:focus
 .admin-links a:hover,
 .admin-links a:focus {
     background: #f1f1f1;
-    color: #FFB81C;
+    color: #582C83;
 }
 
 table th {
-	background: #FFB81C;
+	background: #582C83;
 	color: #fff;
 	font-weight: 600;
 	letter-spacing: .75px;
@@ -247,7 +247,7 @@ table a:hover {
 }
 
 photo-list-header.photo-list-columns {
-    background: #FFB81C;
+    background: #582C83;
     color: #fff;
     font-weight: 600;
     letter-spacing: .5px;
@@ -312,7 +312,7 @@ photo-list-header.photo-list-columns {
     color: #582C83;
 }
 router-view .buttons button {
-    background-color: #FFB81C;
+    background-color: #582C83;
     color: #fff;
 }
 
