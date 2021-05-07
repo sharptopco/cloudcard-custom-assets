@@ -13,20 +13,20 @@ html {
 
 .header-page .filters select {
 	    color: #fff;
-	    background-color: #000000;
+	    background-color: #0043bd;
 
 }
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #000000;
+    background-color: #0043bd;
     color: #fff;
 
 }
 
 
 .header-page .filters .filter--input input {
-    border: 2px solid #000000;
+    border: 2px solid #0043bd;
     color: #0043bd;
 }
 
@@ -74,7 +74,7 @@ a:hover {
     background: #f1f1f1;
 }
 .photo-requirements li i {
-    color: #000000;
+    color: #0043bd;
 }
 .header-page h1 {
     color: #0043bd;
@@ -91,7 +91,7 @@ empty-queue-message {
 
 
 .header-page .fa-search {
-	color: #000000 !important;
+	color: #0043bd !important;
 
 
 }
@@ -107,12 +107,12 @@ empty-queue-message {
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #000000;
+  color: #0043bd;
 }
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #f6d619;
+    border-bottom-color: #000000;
 }
 
 .header-page .buttons button {
@@ -130,7 +130,7 @@ empty-queue-message {
 .header-page .buttons button:hover,
 .header-page .buttons button:focus
 {
-  background-color: #000000;
+  background-color: #0043bd;
   color: #fff;
 }
   /* Alternative if the above doesn't look so great.
@@ -151,7 +151,7 @@ empty-queue-message {
 }
 
 button {
-    background-color: #000000;
+    background-color: #0043bd;
     border: 2px solid #f1f1f1;
 }
 
@@ -170,7 +170,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #000000;
+    background-color: #0043bd;
     color: #fff;
 }
 
@@ -182,7 +182,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #000000;
+    background-color: #0043bd;
     color: #fff;
 }
 
@@ -191,7 +191,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #f6d619;
+    color: #000000;
 }
 
 .user-info a:hover,
@@ -210,7 +210,7 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #000000; /*default #007bff*/
+    color: #0043bd; /*default #007bff*/
 }
 
 .admin-links a {
@@ -224,11 +224,11 @@ button.submit-login:focus
 .admin-links a:hover,
 .admin-links a:focus {
     background: #f1f1f1;
-    color: #000000;
+    color: #0043bd;
 }
 
 table th {
-	background: #000000;
+	background: #0043bd;
 	color: #fff;
 	font-weight: 600;
 	letter-spacing: .75px;
@@ -246,8 +246,9 @@ table a:hover {
     color: #0043bd;
     text-decoration: none;
 }
+
 photo-list-header.photo-list-columns {
-    background: #000000;
+    background: #0043bd;
     color: #fff;
     font-weight: 600;
     letter-spacing: .5px;
@@ -257,7 +258,7 @@ photo-list-header.photo-list-columns {
 .footer {
       background: #0043bd;
       color: #0043bd;
-      border-top: 4px solid #000000;
+      border-top: 4px solid #FFB81C;
 }
 
 .footer-main a {
@@ -312,7 +313,7 @@ photo-list-header.photo-list-columns {
     color: #0043bd;
 }
 router-view .buttons button {
-    background-color: #000000;
+    background-color: #0043bd;
     color: #fff;
 }
 
