@@ -12,36 +12,24 @@ html {
 
 header.header-main {
   background-color: #ffffff;
-	border-top: 10px solid #9A182B;
-	border-bottom: 2px solid #9A182B;
+	border-top: 10px solid #02589d;
+	border-bottom: 2px solid #fdc600;
   height:10.5em;
 }
 
 .logo {
-  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/Testim/logo-25.svg') top center no-repeat;
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/ucsantacruz/ucsc-logo2.jpeg') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
 }
 
 header.header-page {
-  background-color:#ECDAB2;
-}
-a {
-    color: #333333;
-
-
+  background-color:#f5f5f5;
 }
 
-a:hover {
-    color: #000000;
-}
-
-.photo-rows-container photo-row:nth-child(even) {
-    background: #e8e8e8;
-}
 .header-page h1 {
-    color: #9A182B;
+    color: #02589d;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-size: 36px;
@@ -53,20 +41,20 @@ empty-queue-message {
     background: #ffffff;
 }
 .header-page .filters select {
-	    border: 1px solid #9A182B;
-	    color: #9A182B;
+	    border: 1px solid #02589d;
+	    color: #02589d;
 	    background-color: transparent;
 	    text-transform:uppercase;
 }
 
 .header-page .fa-search {
-	color: #9A182B !important;
-
+	color: #02589d !important;
+	
 }
 
 .header-page .tabs li a {
-  border-bottom-color:#D69400;
-  color: #9A182B;
+  border-bottom-color:#f5f5f5;
+  color: #02589d;
 font-weight: 600;
 text-transform: uppercase;
 letter-spacing: .5px;
@@ -75,24 +63,24 @@ letter-spacing: .5px;
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #9A182B;
+  color: #02589d;
 }
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #9A182B;
+    border-bottom-color: #fdc600;
 }
 
 .header-page .buttons button {
-  background-color: #9A182B;
+  background-color: #02589d;
   color: #fff;
-	border: 1px solid #D69400;
+	border: 1px solid #02589d;
 }
 .header-page .tabs a.active {
-color: #9A182B;
+color: #02589d;
 font-weight: 600;
 text-transform: uppercase;
-letter-spacing: 1px;
+letter-spacing: 1px;	
 }
 .header-page button {
   background-color: #c05131;
@@ -100,9 +88,9 @@ letter-spacing: 1px;
 }
 
 .header-page .buttons button:hover,
-.header-page .buttons button:focus
+.header-page .buttons button:focus 
 {
-  background-color: #9A182B;
+  background-color: #02589d;
   color: #ffffff;
 
   /* Alternative if the above doesn't look so great.
@@ -115,7 +103,7 @@ letter-spacing: 1px;
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
     background-color: transparent;
-    color: #9A182B;
+    color: #02589d;
 }
 
 .header-page .filters .filter:hover:after,
@@ -124,7 +112,7 @@ letter-spacing: 1px;
 }
 
 button {
-    background-color: #D69400;
+    background-color: #02589d;
     border: 2px solid #fff;
 }
 
@@ -138,7 +126,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #9A182B;
+    background-color: #02589d;
 }
 
 router-view .buttons button.primary:hover,
@@ -148,20 +136,20 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #9A182B;
+    background-color: #02589d;
 }
 
 .user-info {
-    color: #9A182B;
+    color: #02589d;
 }
 
 .user-info a {
-    color: #9A182B;
+    color: #fdc600;
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #9A182B;
+    color: #02589d;
 }
 
 .open-nav {
@@ -175,70 +163,70 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #9A182B; /*default #007bff*/
+    color: #02589d; /*default #007bff*/
 }
 
 .admin-links a {
     background: #f2f2f2;
-    color: #9A182B;
+    color: #02589d;
 	text-transform:uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 1px; 
 	font-weight: 500;
-
+	
 }
 
 .admin-links a:hover,
 .admin-links a:focus {
     background: #f2f2f2;
-    color: #9A182B;
+    color: #02589d;
 }
 
 table th {
-	background: #9A182B;
+	background: #02589d;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    border-top: 1px solid #9A182B;
+    border-top: 1px solid #fdc600;
 }
 
 table td {
     background: #f2f2f2;
 }
 table a {
-    color: #9A182B;
+    color: #02589d;
     text-decoration: underline;
 }
 
 table a:hover {
-    color: #9A182B;
+    color: #02589d;
     text-decoration: none;
 }
 
 photo-list-header.photo-list-columns {
-    background: #9A182B;
+    background: #02589d;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    border-top: 1px solid #9A182B;
+    border-top: 1px solid #fdc600;
 }
 
 .header-page .filters .filter:after {
-
-	Color: #9A182B;
+	
+	Color: #02589d;
 }
 .footer {
-      background: #9A182B;
-    border-top: 2px solid #9A182B;
+      background: #02589d;
+    border-top: 2px solid #fdc600;	
 }
 
 
 .sidebar-main,
 .sidebar-mobile {
     background: #f2f2f2;
-    color: #9A182B;
-    border-right: 1px solid #9A182B;
+    color: #02589d;
+    border-right: 1px solid #02589d;
     height: 100% !important;
 
    &.nav-open {
@@ -248,13 +236,13 @@ photo-list-header.photo-list-columns {
 
 .sidebar-main h2,
 .sidebar-mobile h2 {
-    color: #9A182B !important;
+    color: #02589d !important;
     text-transform:uppercase;
     font-weight: 600;
 }
 
 ul.photo-requirements {
-
+	
 	background-color:#f2f2f2;
 }
 
