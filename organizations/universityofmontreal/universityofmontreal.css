@@ -46,7 +46,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 header.header-main {
   background-color: #fff;
   height:11.25em;
-  border-bottom: 4px solid #0043bd;
+  border-bottom: 4px solid #ffffff
 }
 
 .logo {
