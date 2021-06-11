@@ -112,7 +112,7 @@ empty-queue-message {
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #f6d619;
+    border-bottom-color: #65a70a;
 }
 
 .header-page .buttons button {
@@ -191,7 +191,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #f6d619;
+    color: #65a70a;
 }
 
 .user-info a:hover,
@@ -309,7 +309,7 @@ photo-list-header.photo-list-columns {
     color: #014b87;
 }
 .current-photo--status.pending.unclassified{
-    background-color: #f3cf45;
+    background-color: #65a70a;
     color: #014b87;
 }
 router-view .buttons button {
