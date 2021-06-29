@@ -1,0 +1,15 @@
+body {
+    background-color: #ffffff;
+    color: #014b87;
+}
+
+#page-container {
+    background-image: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/georgian%20college/GeorgianCollegeLogo.png');
+}
+
+#logo-div {
+    background-image: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/georgian%20college/GeorgianCollegeLogo.png');
+    min-height: 7em;
+    background-size: contain;
+    background-position: center;
+}
