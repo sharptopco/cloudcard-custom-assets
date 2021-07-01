@@ -1,1 +1,348 @@
 
+html {
+  background: #ffffff;
+}
+
+.splash {
+  background-color: #ffffff;
+}
+
+.splash .loading path {
+  fill: #fff;
+}
+
+.header-page .filters select {
+	    color: #fff;
+	    background-color: #003C71;
+
+}
+
+.header-page .filters .filter:hover select,
+.header-page .filters .filter:focus-within select {
+    background-color: #003C71;
+    color: #fff;
+
+}
+
+
+.header-page .filters .filter--input input {
+    border: 2px solid #003C71;
+    color: #003C71;
+}
+
+.header-page input{
+	border: 1.5px solid #003C71;
+	color: #003C71;
+}
+
+input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus {
+    border: 1.5px solid #003C71;
+    color: #003C71;
+    box-shadow: none;
+}
+.header-page .filters .filter:after {
+    color: #fff;
+}
+header.header-main {
+  background-color: #fff;
+  height:11.25em;
+  border-bottom: 4px solid #003C71
+}
+
+.logo {
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/universityofmontreal/montreallogo.png') top center no-repeat;
+  display: inline-block;
+  max-width: 350px; !important;
+  background-size: contain;
+}
+
+header.header-page {
+  background-color: #fff;
+}
+
+a {
+    color: #003C71;
+
+
+}
+
+a:hover {
+    color: #003C71;
+}
+
+.photo-rows-container photo-row:nth-child(even) {
+    background: #f1f1f1;
+}
+.photo-requirements li i {
+    color: #003C71;
+}
+.header-page h1 {
+    color: #003C71;
+    padding-right: 0.73684em;
+    text-transform:uppercase;
+    font-size: 36px;
+    letter-spacing: .5px;
+    font-weight: 400;
+}
+
+empty-queue-message {
+    background: #ffffff;
+}
+
+
+.header-page .fa-search {
+	color: #003C71 !important;
+
+
+}
+
+
+.header-page .tabs li a {
+  border-bottom-color: transparent;
+  color: #003C71;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+
+.header-page .tabs li a:hover,
+.header-page .tabs li a:focus
+{
+  color: #003C71;
+}
+
+/* Keep this block only if it looks good. */
+.header-page .tabs a.active {
+    border-bottom-color: #E75D2A;
+}
+
+.header-page .buttons button {
+  background-color: #003C71;
+  color: #fff;
+  border: 2px solid #f1f1f1;
+}
+.header-page .tabs a.active {color: #003C71; font-weight: 600;letter-spacing: .5px;}
+
+.header-page button {
+  background-color: #003C71;
+  color: #fff;
+}
+
+.header-page .buttons button:hover,
+.header-page .buttons button:focus
+{
+  background-color: #003C71;
+  color: #fff;
+}
+  /* Alternative if the above doesn't look so great.
+  background-color: #c05131;
+  color: #fff;
+   */
+.header-page .buttons button.warning:hover, .header-page .buttons button.warning:focus {
+    background: #c41e3a;
+    border-color: #c41e3a;
+    color: #003C71;
+}
+
+
+
+.header-page .filters .filter:hover:after,
+.header-page .filters .filter:focus-within:after {
+    color: #fff;
+}
+
+button {
+    background-color: #003C71;
+    border: 2px solid #f1f1f1;
+}
+
+.edit-button {
+    background-color: #003C71 !important;
+
+
+}
+
+button:hover,
+button:focus {
+    background-color: #003C71;
+}
+
+router-view .buttons button.primary,
+#accept-terms,
+button.submit-login
+{
+    background-color: #003C71;
+    color: #fff;
+}
+
+
+router-view .buttons button.primary:hover,
+router-view .buttons button.primary:focus,
+#accept-terms:hover,
+#accept-terms:focus,
+button.submit-login:hover,
+button.submit-login:focus
+{
+    background-color: #003C71;
+    color: #fff;
+}
+
+.user-info {
+    color: #000;
+}
+
+.user-info a {
+    color: #E75D2A;
+}
+
+.user-info a:hover,
+.user-info a:focus {
+    color: #f1f1f1;
+}
+
+.open-nav {
+    color: #f1f1f1;
+}
+
+.open-nav:hover,
+.open-nav:focus
+{
+    color: #f1f1f1;
+}
+
+.admin-links .fa {
+    color: #003C71; /*default #007bff*/
+}
+
+.admin-links a {
+    background: #f1f1f1;
+    color: #003C71;
+    text-transform:uppercase;
+    letter-spacing: .5px;
+    font-weight: 500;
+}
+
+.admin-links a:hover,
+.admin-links a:focus {
+    background: #f1f1f1;
+    color: #003C71;
+}
+
+table th {
+	background: #003C71;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: .75px;
+}
+
+table td {
+    background: #f2f3f4;
+}
+table a {
+    color: #003C71;
+    text-decoration: underline;
+}
+
+table a:hover {
+    color: #003C71;
+    text-decoration: none;
+}
+
+photo-list-header.photo-list-columns {
+    background: #003C71;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+
+.footer {
+      background: #003C71;
+      color: #ffffff;
+      border-top: 4px solid #E75D2A;
+}
+
+.footer-main a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.sidebar-main,
+.sidebar-mobile {
+    background: #f1f1f1;
+    color: #003C71;
+    border-right: 4px solid #003C71;
+    height: 100% !important;
+}
+   .nav-open {
+    background: #f1f1f1;
+    }
+
+
+.sidebar-main
+    h2,
+.sidebar-mobile h2 {
+    color: #003C71 !important;
+
+    font-weight: 500;
+}
+
+
+    ul.photo-requirements {
+
+	background-color: #f1f1f1;
+}
+
+
+.current-photo--status.approved, .current-photo--status.pending.good {
+    background-color: #007934 !important;
+    color: #fff;
+
+}
+
+.current-photo--status.denied, .current-photo--status.pending.bad {
+    background-color: #9e3039;
+	color: #fff;
+}
+
+.current-photo--status.incomplete, .current-photo--status.pending.maybe {
+          background-color: #c41e3a !important;
+    color: #003C71;
+}
+.current-photo--status.pending.unclassified{
+    background-color: #f3cf45;
+    color: #003C71;
+}
+router-view .buttons button {
+    background-color: #003C71;
+    color: #fff;
+}
+
+photo-list-section-header.good-photos {
+    background: #69be28;
+
+}
+photo-list-section-header div a {
+    color: #003C71;
+
+}
+/*
+ .hide-on-mobile-small {
+    display: none;
+}
+.hide-on-mobile-small {
+    display: none;
+}
+*/
+/* Uncomment this block if the organization has a Plus Account.
+img.photos--preview {
+    border-bottom: 0px;
+}
+*/
+
+/* Uncomment this block to hide the Download photos button.
+   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server),
+	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
+button.download_button {
+	display: none;
+}
+*/
