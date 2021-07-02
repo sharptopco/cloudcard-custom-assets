@@ -13,31 +13,31 @@ html {
 
 .header-page .filters select {
 	    color: #fff;
-	    background-color: #0043bd;
+	    background-color: #3c2987;
 
 }
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #0043bd;
+    background-color: #3c2987;
     color: #fff;
 
 }
 
 
 .header-page .filters .filter--input input {
-    border: 2px solid #0043bd;
+    border: 2px solid #3c2987;
     color: #0043bd;
 }
 
 .header-page input{
-	border: 1.5px solid #0043bd;
-	color: #0043bd;
+	border: 1.5px solid #3c2987;
+	color: #3c2987;
 }
 
 input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus {
-    border: 1.5px solid #0043bd;
-    color: #0043bd;
+    border: 1.5px solid #3c2987;
+    color: #3c2987;
     box-shadow: none;
 }
 .header-page .filters .filter:after {
@@ -46,7 +46,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 header.header-main {
   background-color: #fff;
   height:11.25em;
-  border-bottom: 4px solid #0043bd
+  border-bottom: 4px solid #3c2987
 }
 
 .logo {
@@ -61,23 +61,23 @@ header.header-page {
 }
 
 a {
-    color: #0043bd;
+    color: #3c2987;
 
 
 }
 
 a:hover {
-    color: #0043bd;
+    color: #3c2987;
 }
 
 .photo-rows-container photo-row:nth-child(even) {
     background: #f1f1f1;
 }
 .photo-requirements li i {
-    color: #0043bd;
+    color: #3c2987;
 }
 .header-page h1 {
-    color: #0043bd;
+    color: #3c2987;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-size: 36px;
@@ -91,7 +91,7 @@ empty-queue-message {
 
 
 .header-page .fa-search {
-	color: #0043bd !important;
+	color: #3c2987 !important;
 
 
 }
@@ -99,7 +99,7 @@ empty-queue-message {
 
 .header-page .tabs li a {
   border-bottom-color: transparent;
-  color: #0043bd;
+  color: #3c2987;
   font-weight: 600;
   letter-spacing: .5px;
 }
@@ -107,7 +107,7 @@ empty-queue-message {
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #0043bd;
+  color: #3c2987;
 }
 
 /* Keep this block only if it looks good. */
@@ -116,21 +116,21 @@ empty-queue-message {
 }
 
 .header-page .buttons button {
-  background-color: #0043bd;
+  background-color: #3c2987;
   color: #fff;
   border: 2px solid #f1f1f1;
 }
-.header-page .tabs a.active {color: #0043bd; font-weight: 600;letter-spacing: .5px;}
+.header-page .tabs a.active {color: #3c2987; font-weight: 600;letter-spacing: .5px;}
 
 .header-page button {
-  background-color: #0043bd;
+  background-color: #3c2987;
   color: #fff;
 }
 
 .header-page .buttons button:hover,
 .header-page .buttons button:focus
 {
-  background-color: #0043bd;
+  background-color: #3c2987;
   color: #fff;
 }
   /* Alternative if the above doesn't look so great.
@@ -140,7 +140,7 @@ empty-queue-message {
 .header-page .buttons button.warning:hover, .header-page .buttons button.warning:focus {
     background: #c41e3a;
     border-color: #c41e3a;
-    color: #0043bd;
+    color: #3c2987;
 }
 
 
@@ -151,26 +151,26 @@ empty-queue-message {
 }
 
 button {
-    background-color: #0043bd;
+    background-color: #3c2987;
     border: 2px solid #f1f1f1;
 }
 
 .edit-button {
-    background-color: #0043bd !important;
+    background-color: #3c2987 !important;
 
 
 }
 
 button:hover,
 button:focus {
-    background-color: #0043bd;
+    background-color: #3c2987;
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #0043bd;
+    background-color: #3c2987;
     color: #fff;
 }
 
@@ -182,7 +182,7 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #0043bd;
+    background-color: #3c2987;
     color: #fff;
 }
 
@@ -210,12 +210,12 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #0043bd; /*default #007bff*/
+    color: #3c2987; /*default #007bff*/
 }
 
 .admin-links a {
     background: #f1f1f1;
-    color: #0043bd;
+    color: #3c2987;
     text-transform:uppercase;
     letter-spacing: .5px;
     font-weight: 500;
@@ -224,11 +224,11 @@ button.submit-login:focus
 .admin-links a:hover,
 .admin-links a:focus {
     background: #f1f1f1;
-    color: #0043bd;
+    color: #3c2987;
 }
 
 table th {
-	background: #0043bd;
+	background: #3c2987;
 	color: #fff;
 	font-weight: 600;
 	letter-spacing: .75px;
@@ -238,17 +238,17 @@ table td {
     background: #f2f3f4;
 }
 table a {
-    color: #0043bd;
+    color: #3c2987;
     text-decoration: underline;
 }
 
 table a:hover {
-    color: #0043bd;
+    color: #3c2987;
     text-decoration: none;
 }
 
 photo-list-header.photo-list-columns {
-    background: #0043bd;
+    background: #3c2987;
     color: #fff;
     font-weight: 600;
     letter-spacing: .5px;
@@ -256,7 +256,7 @@ photo-list-header.photo-list-columns {
 
 
 .footer {
-      background: #0043bd;
+      background: #3c2987;
       color: #ffffff;
       border-top: 4px solid #000000;
 }
@@ -269,8 +269,8 @@ photo-list-header.photo-list-columns {
 .sidebar-main,
 .sidebar-mobile {
     background: #f1f1f1;
-    color: #0043bd;
-    border-right: 4px solid #0043bd;
+    color: #3c2987;
+    border-right: 4px solid #3c2987;
     height: 100% !important;
 }
    .nav-open {
@@ -281,7 +281,7 @@ photo-list-header.photo-list-columns {
 .sidebar-main
     h2,
 .sidebar-mobile h2 {
-    color: #0043bd !important;
+    color: #3c2987 !important;
 
     font-weight: 500;
 }
@@ -306,14 +306,14 @@ photo-list-header.photo-list-columns {
 
 .current-photo--status.incomplete, .current-photo--status.pending.maybe {
           background-color: #c41e3a !important;
-    color: #0043bd;
+    color: #3c2987;
 }
 .current-photo--status.pending.unclassified{
-    background-color: #f3cf45;
-    color: #0043bd;
+    background-color: #fcb817;
+    color: #3c2987;
 }
 router-view .buttons button {
-    background-color: #0043bd;
+    background-color: #3c2987;
     color: #fff;
 }
 
@@ -322,7 +322,7 @@ photo-list-section-header.good-photos {
 
 }
 photo-list-section-header div a {
-    color: #0043bd;
+    color: #3c2987;
 
 }
 /*
