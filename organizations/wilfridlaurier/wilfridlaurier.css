@@ -191,7 +191,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #000000;
+    color: #fcb817;
 }
 
 .user-info a:hover,
@@ -258,7 +258,7 @@ photo-list-header.photo-list-columns {
 .footer {
       background: #3c2987;
       color: #ffffff;
-      border-top: 4px solid #000000;
+      border-top: 4px solid #fcb817;
 }
 
 .footer-main a {
