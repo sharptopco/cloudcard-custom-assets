@@ -25,7 +25,7 @@ header.header-main {
 }
 
 .logo {
-  background: url('//barryustorage.blob.core.windows.net/assets/img/logo/barryuniversity-red-cmyk.svg') top center no-repeat;
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/barry/barryuniversity-red-cmyk.svg') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
