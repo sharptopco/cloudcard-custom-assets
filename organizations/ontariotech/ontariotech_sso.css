@@ -1,0 +1,15 @@
+body {
+    background-color: #ffffff;
+    color: #003C71;
+}
+
+#page-container {
+    background-image: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/ontariotech/ontariotech.logo.png');
+}
+
+#logo-div {
+    background-image: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/ontariotech/ontariotech.logo.png');
+    min-height: 7em;
+    background-size: contain;
+    background-position: center;
+}
