@@ -17,7 +17,7 @@ html {
 header.header-main {
   background-color: #ffffff;
 	border-top: 10px solid #d62128;
-	border-bottom: 2px solid #000000;
+	border-bottom: 2px solid #4477af;
   height:10.5em;
 }
 
@@ -72,7 +72,7 @@ letter-spacing: .5px;
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #000000;
+    border-bottom-color: #4477af;
 }
 
 .header-page .buttons button {
@@ -148,7 +148,7 @@ button.submit-login:focus
 }
 
 .user-info a {
-    color: #000000;
+    color: #4477af;
 }
 
 .user-info a:hover,
@@ -191,7 +191,7 @@ table th {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    border-top: 1px solid #000000;
+    border-top: 1px solid #4477af;
 }
 
 table td {
@@ -213,7 +213,7 @@ photo-list-header.photo-list-columns {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    border-top: 1px solid #000000;
+    border-top: 1px solid #4477af;
 }
 
 .header-page .filters .filter:after {
@@ -222,7 +222,7 @@ photo-list-header.photo-list-columns {
 }
 .footer {
       background: #d62128;
-    border-top: 2px solid #000000;	
+    border-top: 2px solid #4477af;	
 }
 
 
