@@ -1,3 +1,7 @@
+/*
+https://colorid.github.io/cloudcard-custom-assets/unm_cloudcard.css      
+*/
+
 html {
   background: #ffffff;
 }
@@ -10,139 +14,101 @@ html {
   fill: #fff;
 }
 
-.header-page .filters select {
-	    color: #fff;
-	    background-color: #003A70;
-
-}
-
-.header-page .filters .filter:hover select,
-.header-page .filters .filter:focus-within select {
-    background-color: #003A70;
-    color: #fff;
-
-}
-
-
-.header-page .filters .filter--input input {
-    border: 2px solid #003A70;
-    color: #003A70;
-}
-
-.header-page input{
-	border: 1.5px solid #003A70;
-	color: #003A70;
-}
-
-input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus {
-    border: 1.5px solid #003A70;
-    color: #003A70;
-    box-shadow: none;
-}
-.header-page .filters .filter:after {
-    color: #fff;
-}
 header.header-main {
-  background-color: #fff;
-  height:11.25em;
-  border-bottom: 4px solid #003A70;
+  background-color: #ffffff;
+	border-top: 10px solid #02589d;
+	border-bottom: 2px solid #fdc600;
+  height:10.5em;
 }
 
 .logo {
-  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/aum/AUM%20logo.jpeg') top center no-repeat;
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/ucsantacruz/ucsc-logo2.jpeg') top center no-repeat;
   display: inline-block;
-  max-width: 350px; !important;
+  max-width: 400px !important;
   background-size: contain;
 }
 
 header.header-page {
-  background-color: #fff;
+  background-color:#f5f5f5;
 }
 
-a {
-    color: #003A70;
-
-
-}
-
-a:hover {
-    color: #003A70;
-}
-
-.photo-rows-container photo-row:nth-child(even) {
-    background: #f1f1f1;
-}
-.photo-requirements li i {
-    color: #003A70;
-}
 .header-page h1 {
-    color: #003A70;
+    color: #02589d;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-size: 36px;
-    letter-spacing: .5px;
+    letter-spacing: 2px;
     font-weight: 400;
 }
 
 empty-queue-message {
     background: #ffffff;
 }
-
-
-.header-page .fa-search {
-	color: #003A70 !important;
-
-
+.header-page .filters select {
+	    border: 1px solid #02589d;
+	    color: #02589d;
+	    background-color: transparent;
+	    text-transform:uppercase;
 }
 
+.header-page .fa-search {
+	color: #02589d !important;
+	
+}
 
 .header-page .tabs li a {
-  border-bottom-color: transparent;
-  color: #003A70;
-  font-weight: 600;
-  letter-spacing: .5px;
+  border-bottom-color:#f5f5f5;
+  color: #02589d;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: .5px;
 }
 
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #003A70;
+  color: #02589d;
 }
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #00B3E3;
+    border-bottom-color: #fdc600;
 }
 
 .header-page .buttons button {
-  background-color: #003A70;
+  background-color: #02589d;
   color: #fff;
-  border: 2px solid #f1f1f1;
+	border: 1px solid #02589d;
 }
-.header-page .tabs a.active {color: #003A70; font-weight: 600;letter-spacing: .5px;}
-
+.header-page .tabs a.active {
+color: #02589d;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 1px;	
+}
 .header-page button {
-  background-color: #003A70;
+  background-color: #c05131;
   color: #fff;
 }
 
 .header-page .buttons button:hover,
-.header-page .buttons button:focus
+.header-page .buttons button:focus 
 {
-  background-color: #003A70;
-  color: #fff;
-}
+  background-color: #02589d;
+  color: #ffffff;
+
   /* Alternative if the above doesn't look so great.
   background-color: #c05131;
   color: #fff;
    */
-.header-page .buttons button.warning:hover, .header-page .buttons button.warning:focus {
-    background: #c41e3a;
-    border-color: #c41e3a;
-    color: #003A70;
 }
 
 
+.header-page .filters .filter:hover select,
+.header-page .filters .filter:focus-within select {
+    background-color: transparent;
+    color: #02589d;
+}
 
 .header-page .filters .filter:hover:after,
 .header-page .filters .filter:focus-within:after {
@@ -150,29 +116,22 @@ empty-queue-message {
 }
 
 button {
-    background-color: #003A70;
-    border: 2px solid #f1f1f1;
+    background-color: #02589d;
+    border: 2px solid #fff;
 }
 
-.edit-button {
-    background-color: #003A70 !important;
-
-
-}
 
 button:hover,
 button:focus {
-    background-color: #003A70;
+    background-color: #c05131;
 }
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #003A70;
-    color: #fff;
+    background-color: #02589d;
 }
-
 
 router-view .buttons button.primary:hover,
 router-view .buttons button.primary:focus,
@@ -181,157 +140,123 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #003A70;
-    color: #fff;
+    background-color: #02589d;
 }
 
 .user-info {
-    color: #000;
+    color: #02589d;
 }
 
 .user-info a {
-    color: #00B3E3;
+    color: #fdc600;
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #f1f1f1;
+    color: #02589d;
 }
 
 .open-nav {
-    color: #f1f1f1;
+    color: #ddd;
 }
 
 .open-nav:hover,
 .open-nav:focus
 {
-    color: #f1f1f1;
+    color: #fff;
 }
 
 .admin-links .fa {
-    color: #003A70; /*default #007bff*/
+    color: #02589d; /*default #007bff*/
 }
 
 .admin-links a {
-    background: #f1f1f1;
-    color: #003A70;
-    text-transform:uppercase;
-    letter-spacing: .5px;
-    font-weight: 500;
+    background: #f2f2f2;
+    color: #02589d;
+	text-transform:uppercase;
+	letter-spacing: 1px; 
+	font-weight: 500;
+	
 }
 
 .admin-links a:hover,
 .admin-links a:focus {
-    background: #f1f1f1;
-    color: #003A70;
+    background: #f2f2f2;
+    color: #02589d;
 }
 
 table th {
-	background: #003A70;
-	color: #fff;
-	font-weight: 600;
-	letter-spacing: .75px;
+	background: #02589d;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-top: 1px solid #fdc600;
 }
 
 table td {
-    background: #f2f3f4;
+    background: #f2f2f2;
 }
 table a {
-    color: #003A70;
+    color: #02589d;
     text-decoration: underline;
 }
 
 table a:hover {
-    color: #003A70;
+    color: #02589d;
     text-decoration: none;
 }
 
 photo-list-header.photo-list-columns {
-    background: #003A70;
-    color: #fff;
+    background: #02589d;
+    color: #ffffff;
+    text-transform: uppercase;
     font-weight: 600;
-    letter-spacing: .5px;
+    letter-spacing: 1px;
+    border-top: 1px solid #fdc600;
 }
 
-
+.header-page .filters .filter:after {
+	
+	Color: #02589d;
+}
 .footer {
-      background: #003A70;
-      color: #003A70;
-      border-top: 4px solid #00B3E3;
+      background: #02589d;
+    border-top: 2px solid #fdc600;	
 }
 
-.footer-main a {
-    color: #003A70;
-    text-decoration: underline;
-}
 
 .sidebar-main,
 .sidebar-mobile {
-    background: #f1f1f1;
-    color: #003A70;
-    border-right: 4px solid #003A70;
+    background: #f2f2f2;
+    color: #02589d;
+    border-right: 1px solid #02589d;
     height: 100% !important;
-}
-   .nav-open {
-    background: #f1f1f1;
+
+   &.nav-open {
+    background: #f2f2f2;
     }
+}
 
-
-.sidebar-main
-    h2,
+.sidebar-main h2,
 .sidebar-mobile h2 {
-    color: #003A70 !important;
-
-    font-weight: 500;
+    color: #02589d !important;
+    text-transform:uppercase;
+    font-weight: 600;
 }
 
-
-    ul.photo-requirements {
-
-	background-color: #f1f1f1;
+ul.photo-requirements {
+	
+	background-color:#f2f2f2;
 }
 
-
-.current-photo--status.approved, .current-photo--status.pending.good {
-    background-color: #007934 !important;
-    color: #fff;
-
-}
-
-.current-photo--status.denied, .current-photo--status.pending.bad {
-    background-color: #9e3039;
-	color: #fff;
-}
-
-.current-photo--status.incomplete, .current-photo--status.pending.maybe {
-          background-color: #c41e3a !important;
-    color: #003A70;
-}
-.current-photo--status.pending.unclassified{
-    background-color: #00B3E3;
-    color: #003A70;
-}
-router-view .buttons button {
-    background-color: #003A70;
-    color: #fff;
-}
-
-photo-list-section-header.good-photos {
-    background: #00B3E3;
-
-}
-photo-list-section-header div a {
-    color: #003A70;
-
-}
-/*
- .hide-on-mobile-small {
-    display: none;
+/*  .hide-on-mobile-small {
+  display: none;
 }
 .hide-on-mobile-small {
-    display: none;
-}
-*/
+  display: none;
+} */
+
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
     border-bottom: 0px;
@@ -339,7 +264,7 @@ img.photos--preview {
 */
 
 /* Uncomment this block to hide the Download photos button.
-   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server),
+   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server), 
 	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
 button.download_button {
 	display: none;
