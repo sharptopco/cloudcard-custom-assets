@@ -3,270 +3,298 @@ https://colorid.github.io/cloudcard-custom-assets/unm_cloudcard.css
 */
 
 html {
-  background: #ffffff;
-}
-
-.splash {
-  background-color: #ffffff;
-}
-
-.splash .loading path {
-  fill: #fff;
-}
-
-header.header-main {
-  background-color: #ffffff;
-	border-top: 10px solid #d62128;
-	border-bottom: 2px solid #4477af;
-  height:10.5em;
-}
-
-.logo {
-  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/aum/AAEE.png') top center no-repeat;
-  display: inline-block;
-  max-width: 400px !important;
-  background-size: contain;
-}
-
-header.header-page {
-  background-color:#f5f5f5;
-}
-
-.header-page h1 {
-    color: #d62128;
-    padding-right: 0.73684em;
-    text-transform:uppercase;
-    font-size: 36px;
-    letter-spacing: 2px;
-    font-weight: 400;
-}
-
-empty-queue-message {
     background: #ffffff;
-}
-.header-page .filters select {
-	    border: 1px solid #d62128;
-	    color: #0d62128;
-	    background-color: transparent;
-	    text-transform:uppercase;
-}
+  }
+  
+  .splash {
+    background-color: #ffffff;
+  }
+  
+  .splash .loading path {
+    fill: #fff;
+  }
+  
+  header.header-main {
+    background-color: #ffffff;
+      border-top: 10px solid #d62128;
+      border-bottom: 2px solid #4477af;
+    height:10.5em;
+  }
+  
+  .logo {
+    background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/aum/AAEE.png') top center no-repeat;
+    display: inline-block;
+    max-width: 400px !important;
+    background-size: contain;
+  }
+  
+  header.header-page {
+    background-color:#f5f5f5;
+  }
+  
+  .header-page h1 {
+      color: #d62128;
+      padding-right: 0.73684em;
+      text-transform:uppercase;
+      font-size: 36px;
+      letter-spacing: 2px;
+      font-weight: 400;
+  }
+  
+  empty-queue-message {
+      background: #ffffff;
+  }
+  .header-page .filters .filter:hover:after,
+  .header-page .filters .filter:focus-within:after {
+      color: #fff;
+  }
 
-.header-page .fa-search {
-	color: #d62128 !important;
-	
-}
+    .header-page .filters .filter:hover select,
+  .header-page .filters .filter:focus-within select {
+      background-color: #fff;
+      color: #d62128;
+      border-color: #d62128;
+  }
 
-.header-page .tabs li a {
-  border-bottom-color:#f5f5f5;
-  color: #d62128;
-font-weight: 600;
-text-transform: uppercase;
-letter-spacing: .5px;
-}
-
-.header-page .tabs li a:hover,
-.header-page .tabs li a:focus
-{
-  color: #d62128;
-}
-
-/* Keep this block only if it looks good. */
-.header-page .tabs a.active {
-    border-bottom-color: #4477af;
-}
-
-.header-page .buttons button {
-  background-color: #d62128;
-  color: #fff;
-	border: 1px solid #d62128;
-}
-.header-page .tabs a.active {
-color: #d62128;
-font-weight: 600;
-text-transform: uppercase;
-letter-spacing: 1px;	
-}
-.header-page button {
-  background-color: #c05131;
-  color: #fff;
-}
-
-.header-page .buttons button:hover,
-.header-page .buttons button:focus 
-{
-  background-color: #d62128;
-  color: #ffffff;
-
-  /* Alternative if the above doesn't look so great.
-  background-color: #c05131;
-  color: #fff;
-   */
-}
+    .header-page .filters select {
+          border: 1px solid #d62128;
+          color: #0d62128;
+          background-color: #d62128;
+          text-transform:uppercase;
+  }
 
 
-.header-page .filters .filter:hover select,
-.header-page .filters .filter:focus-within select {
-    background-color: transparent;
+   .header-page .filters .filter:hover:after {
+      color: #d62128;
+  }
+
+    .header-page .filters .filter:after {
+      color: #fff;
+  }
+  
+  .header-page .filters .filter:focus-within:after {
+      color: #fff;
+  }
+
+  
+  .header-page input{
+      border: 1.5px solid #d62128;
+      color: #d62128;
+  }
+  
+  .header-page .fa-search {
+      color: #d62128 !important;
+      
+  }
+  
+  .header-page .tabs li a {
+    border-bottom-color:#f5f5f5;
     color: #d62128;
-}
-
-.header-page .filters .filter:hover:after,
-.header-page .filters .filter:focus-within:after {
-    color: #fff;
-}
-
-button {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  }
+  
+  .header-page .tabs li a:hover,
+  .header-page .tabs li a:focus
+  {
+    color: #d62128;
+  }
+  
+  /* Keep this block only if it looks good. */
+  .header-page .tabs a.active {
+      border-bottom-color: #4477af;
+  }
+  
+  .header-page .buttons button {
     background-color: #d62128;
-    border: 2px solid #fff;
-}
-
-
-button:hover,
-button:focus {
+    color: #fff;
+      border: 1px solid #d62128;
+  }
+  .header-page .tabs a.active {
+  color: #d62128;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;	
+  }
+  .header-page button {
     background-color: #c05131;
-}
-
-router-view .buttons button.primary,
-#accept-terms,
-button.submit-login
-{
-    background-color: #d62128;
-}
-
-router-view .buttons button.primary:hover,
-router-view .buttons button.primary:focus,
-#accept-terms:hover,
-#accept-terms:focus,
-button.submit-login:hover,
-button.submit-login:focus
-{
-    background-color: #d62128;
-}
-
-.user-info {
-    color: #d62128;
-}
-
-.user-info a {
-    color: #4477af;
-}
-
-.user-info a:hover,
-.user-info a:focus {
-    color: #d62128;
-}
-
-.open-nav {
-    color: #ddd;
-}
-
-.open-nav:hover,
-.open-nav:focus
-{
     color: #fff;
-}
-
-.admin-links .fa {
-    color: #d62128; /*default #007bff*/
-}
-
-.admin-links a {
-    background: #f2f2f2;
-    color: #d62128;
-	text-transform:uppercase;
-	letter-spacing: 1px; 
-	font-weight: 500;
-	
-}
-
-.admin-links a:hover,
-.admin-links a:focus {
-    background: #f2f2f2;
-    color: #d62128;
-}
-
-table th {
-	background: #d62128;
+  }
+  
+  .header-page .buttons button:hover,
+  .header-page .buttons button:focus 
+  {
+    background-color: #d62128;
     color: #ffffff;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 1px;
-    border-top: 1px solid #4477af;
-}
+  
+    /* Alternative if the above doesn't look so great.
+    background-color: #c05131;
+    color: #fff;
+     */
+  }
+  
+  
+  .header-page .filters .filter:hover select,
+  .header-page .filters .filter:focus-within select {
+      background-color: transparent;
+      color: #d62128;
+  }
+  
+  .header-page .filters .filter:hover:after {
+      color: #d62128;
+  }
+  
 
-table td {
-    background: #f2f2f2;
-}
-table a {
-    color: #d62128;
-    text-decoration: underline;
-}
-
-table a:hover {
-    color: #d62128;
-    text-decoration: none;
-}
-
-photo-list-header.photo-list-columns {
-    background: #d62128;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 1px;
-    border-top: 1px solid #4477af;
-}
-
-.header-page .filters .filter:after {
-	
-	Color: #d62128;
-}
-.footer {
+  button {
+      background-color: #d62128;
+      border: 2px solid #fff;
+  }
+  
+  
+  button:hover,
+  button:focus {
+      background-color: #c05131;
+  }
+  
+  router-view .buttons button.primary,
+  #accept-terms,
+  button.submit-login
+  {
+      background-color: #d62128;
+  }
+  
+  router-view .buttons button.primary:hover,
+  router-view .buttons button.primary:focus,
+  #accept-terms:hover,
+  #accept-terms:focus,
+  button.submit-login:hover,
+  button.submit-login:focus
+  {
+      background-color: #d62128;
+  }
+  
+  .user-info {
+      color: #d62128;
+  }
+  
+  .user-info a {
+      color: #4477af;
+  }
+  
+  .user-info a:hover,
+  .user-info a:focus {
+      color: #d62128;
+  }
+  
+  .open-nav {
+      color: #ddd;
+  }
+  
+  .open-nav:hover,
+  .open-nav:focus
+  {
+      color: #fff;
+  }
+  
+  .admin-links .fa {
+      color: #d62128; /*default #007bff*/
+  }
+  
+  .admin-links a {
+      background: #f2f2f2;
+      color: #d62128;
+      text-transform:uppercase;
+      letter-spacing: 1px; 
+      font-weight: 500;
+      
+  }
+  
+  .admin-links a:hover,
+  .admin-links a:focus {
+      background: #f2f2f2;
+      color: #d62128;
+  }
+  
+  table th {
       background: #d62128;
-    border-top: 2px solid #4477af;	
-}
-
-
-.sidebar-main,
-.sidebar-mobile {
-    background: #f2f2f2;
-    color: #d62128;
-    border-right: 1px solid #d62128;
-    height: 100% !important;
-
-   &.nav-open {
-    background: #f2f2f2;
-    }
-}
-
-.sidebar-main h2,
-.sidebar-mobile h2 {
-    color: #d62128 !important;
-    text-transform:uppercase;
-    font-weight: 600;
-}
-
-ul.photo-requirements {
-	
-	background-color:#f2f2f2;
-}
-
-/*  .hide-on-mobile-small {
-  display: none;
-}
-.hide-on-mobile-small {
-  display: none;
-} */
-
-/* Uncomment this block if the organization has a Plus Account.
-img.photos--preview {
-    border-bottom: 0px;
-}
-*/
-
-/* Uncomment this block to hide the Download photos button.
-   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server), 
-	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
-button.download_button {
-	display: none;
-}
-*/
+      color: #ffffff;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 1px;
+      border-top: 1px solid #4477af;
+  }
+  
+  table td {
+      background: #f2f2f2;
+  }
+  table a {
+      color: #d62128;
+      text-decoration: underline;
+  }
+  
+  table a:hover {
+      color: #d62128;
+      text-decoration: none;
+  }
+  
+  photo-list-header.photo-list-columns {
+      background: #d62128;
+      color: #ffffff;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 1px;
+      border-top: 1px solid #4477af;
+  }
+  
+  .footer {
+        background: #d62128;
+      border-top: 2px solid #4477af;	
+  }
+  
+  
+  .sidebar-main,
+  .sidebar-mobile {
+      background: #f2f2f2;
+      color: #d62128;
+      border-right: 1px solid #d62128;
+      height: 100% !important;
+  
+     &.nav-open {
+      background: #f2f2f2;
+      }
+  }
+  
+  .sidebar-main h2,
+  .sidebar-mobile h2 {
+      color: #d62128 !important;
+      text-transform:uppercase;
+      font-weight: 600;
+  }
+  
+  ul.photo-requirements {
+      
+      background-color:#f2f2f2;
+  }
+  
+  /*  .hide-on-mobile-small {
+    display: none;
+  }
+  .hide-on-mobile-small {
+    display: none;
+  } */
+  
+  /* Uncomment this block if the organization has a Plus Account.
+  img.photos--preview {
+      border-bottom: 0px;
+  }
+  */
+  
+  /* Uncomment this block to hide the Download photos button.
+     HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server), 
+      they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
+  button.download_button {
+      display: none;
+  }
+  */
+  
