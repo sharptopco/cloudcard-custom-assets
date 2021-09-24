@@ -157,8 +157,10 @@ button {
 
 .edit-button {
     background-color: #003C71 !important;
+}
 
-
+.fa-crop::before {
+    color: red;
 }
 
 button:hover,
