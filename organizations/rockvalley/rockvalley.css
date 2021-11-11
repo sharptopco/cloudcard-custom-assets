@@ -16,8 +16,8 @@ html {
 
 header.header-main {
   background-color: #ffffff;
-	border-top: 10px solid #0c71c3;
-	border-bottom: 2px solid #173058;
+	border-top: 10px solid #003866;
+	border-bottom: 2px solid #FFD12F;
   height:10.5em;
 }
 
@@ -33,7 +33,7 @@ header.header-page {
 }
 
 .header-page h1 {
-    color: #0c71c3;
+    color: #003866;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-size: 36px;
@@ -45,20 +45,20 @@ empty-queue-message {
     background: #ffffff;
 }
 .header-page .filters select {
-	    border: 1px solid #00c71c3;
-	    color: #0c71c3;
+	    border: 1px solid #003866;
+	    color: #003866;
 	    background-color: transparent;
 	    text-transform:uppercase;
 }
 
 .header-page .fa-search {
-	color: #0c71c3 !important;
+	color: #003866 !important;
 	
 }
 
 .header-page .tabs li a {
   border-bottom-color:#f5f5f5;
-  color: #0c71c3;
+  color: #003866;
 font-weight: 600;
 text-transform: uppercase;
 letter-spacing: .5px;
@@ -67,21 +67,21 @@ letter-spacing: .5px;
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #0c71c3;
+  color: #003866;
 }
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #173058;
+    border-bottom-color: #FFD12F;
 }
 
 .header-page .buttons button {
-  background-color: #0c71c3;
+  background-color: #003866;
   color: #fff;
-	border: 1px solid #0c71c3;
+	border: 1px solid #003866;
 }
 .header-page .tabs a.active {
-color: #0c71c3;
+color: #003866;
 font-weight: 600;
 text-transform: uppercase;
 letter-spacing: 1px;	
@@ -94,7 +94,7 @@ letter-spacing: 1px;
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #0c71c3;
+  background-color: #003866;
   color: #ffffff;
 
   /* Alternative if the above doesn't look so great.
@@ -107,7 +107,7 @@ letter-spacing: 1px;
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
     background-color: transparent;
-    color: #0c71c3;
+    color: #003866;
 }
 
 .header-page .filters .filter:hover:after,
@@ -116,7 +116,7 @@ letter-spacing: 1px;
 }
 
 button {
-    background-color: #0c71c3;
+    background-color: #003866;
     border: 2px solid #fff;
 }
 
@@ -130,7 +130,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #0c71c3;
+    background-color: #003866;
 }
 
 router-view .buttons button.primary:hover,
@@ -140,20 +140,20 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #0c71c3;
+    background-color: #003866;
 }
 
 .user-info {
-    color: #0c71c3;
+    color: #003866;
 }
 
 .user-info a {
-    color: #173058;
+    color: #FFD12F;
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #0c71c3;
+    color: #003866;
 }
 
 .open-nav {
@@ -167,12 +167,12 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #0c71c3; /*default #007bff*/
+    color: #003866; /*default #007bff*/
 }
 
 .admin-links a {
     background: #f2f2f2;
-    color: #0c71c3;
+    color: #003866;
 	text-transform:uppercase;
 	letter-spacing: 1px; 
 	font-weight: 500;
@@ -182,55 +182,55 @@ button.submit-login:focus
 .admin-links a:hover,
 .admin-links a:focus {
     background: #f2f2f2;
-    color: #0c71c3;
+    color: #003866;
 }
 
 table th {
-	background: #0c71c3;
+	background: #003866;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    border-top: 1px solid #173058;
+    border-top: 1px solid #FFD12F;
 }
 
 table td {
     background: #f2f2f2;
 }
 table a {
-    color: #0c71c3;
+    color: #003866;
     text-decoration: underline;
 }
 
 table a:hover {
-    color: #0c71c3;
+    color: #003866;
     text-decoration: none;
 }
 
 photo-list-header.photo-list-columns {
-    background: #0c71c3;
+    background: #003866;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    border-top: 1px solid #173058;
+    border-top: 1px solid #FFD12F;
 }
 
 .header-page .filters .filter:after {
 	
-	Color: #0c71c3;
+	Color: #003866;
 }
 .footer {
-      background: #0c71c3;
-    border-top: 2px solid #173058;	
+      background: #003866;
+    border-top: 2px solid #FFD12F;	
 }
 
 
 .sidebar-main,
 .sidebar-mobile {
     background: #f2f2f2;
-    color: #0c71c3;
-    border-right: 1px solid #0c71c3;
+    color: #003866;
+    border-right: 1px solid #003866;
     height: 100% !important;
 
    &.nav-open {
@@ -240,7 +240,7 @@ photo-list-header.photo-list-columns {
 
 .sidebar-main h2,
 .sidebar-mobile h2 {
-    color: #0c71c3 !important;
+    color: #003866 !important;
     text-transform:uppercase;
     font-weight: 600;
 }
