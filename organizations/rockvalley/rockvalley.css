@@ -1,9 +1,5 @@
 /*
-{{Color__1}}: (don't include the '#')
-{{Color__1__Shade}}: #{{Color__1__Shade}}; (goto http://www.color-hex.com/color/{{Color__1}} ; use the second Shade -- just needs to be a little bit darker.)
-{{Color__2}}: (don't include the '#')
-{{Color__2__Tint}}: #{{Color__2__Tint}}; (goto http://www.color-hex.com/color/{{Color__2}} ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color__1 and Color__2; select the suggested text color that works for both backgrounds)
-{{Logo_URL}}: {{Logo_URL}} i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
+https://colorid.github.io/cloudcard-custom-assets/unm_cloudcard.css      
 */
 
 html {
@@ -20,13 +16,13 @@ html {
 
 header.header-main {
   background-color: #ffffff;
-	border-top: 10px solid #162e5d;
-	border-bottom: 2px solid #a7a8aa;
+	border-top: 10px solid #0c71c3;
+	border-bottom: 2px solid #173058;
   height:10.5em;
 }
 
 .logo {
-  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/columbiastatecc/columbia-state-cc-logo.png') top center no-repeat;
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/mccormickplace/mccormicklogo.png') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
@@ -37,7 +33,7 @@ header.header-page {
 }
 
 .header-page h1 {
-    color: #63666a;
+    color: #0c71c3;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-size: 36px;
@@ -49,20 +45,20 @@ empty-queue-message {
     background: #ffffff;
 }
 .header-page .filters select {
-	    border: 1px solid #63666a;
-	    color: #63666a;
+	    border: 1px solid #00c71c3;
+	    color: #0c71c3;
 	    background-color: transparent;
 	    text-transform:uppercase;
 }
 
 .header-page .fa-search {
-	color: #162e5d !important;
-
+	color: #0c71c3 !important;
+	
 }
 
 .header-page .tabs li a {
   border-bottom-color:#f5f5f5;
-  color: #63666a;
+  color: #0c71c3;
 font-weight: 600;
 text-transform: uppercase;
 letter-spacing: .5px;
@@ -71,24 +67,24 @@ letter-spacing: .5px;
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #162e5d;
+  color: #0c71c3;
 }
 
 /* Keep this block only if it looks good. */
 .header-page .tabs a.active {
-    border-bottom-color: #a7a8aa;
+    border-bottom-color: #173058;
 }
 
 .header-page .buttons button {
-  background-color: #162e5d;
+  background-color: #0c71c3;
   color: #fff;
-	border: 1px solid #162e5d;
+	border: 1px solid #0c71c3;
 }
 .header-page .tabs a.active {
-color: #162e5d;
+color: #0c71c3;
 font-weight: 600;
 text-transform: uppercase;
-letter-spacing: 1px;
+letter-spacing: 1px;	
 }
 .header-page button {
   background-color: #c05131;
@@ -96,9 +92,9 @@ letter-spacing: 1px;
 }
 
 .header-page .buttons button:hover,
-.header-page .buttons button:focus
+.header-page .buttons button:focus 
 {
-  background-color: #162e5d;
+  background-color: #0c71c3;
   color: #ffffff;
 
   /* Alternative if the above doesn't look so great.
@@ -111,7 +107,7 @@ letter-spacing: 1px;
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
     background-color: transparent;
-    color: #63666a;
+    color: #0c71c3;
 }
 
 .header-page .filters .filter:hover:after,
@@ -120,7 +116,7 @@ letter-spacing: 1px;
 }
 
 button {
-    background-color: #162e5d;
+    background-color: #0c71c3;
     border: 2px solid #fff;
 }
 
@@ -134,7 +130,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #162e5d;
+    background-color: #0c71c3;
 }
 
 router-view .buttons button.primary:hover,
@@ -144,20 +140,20 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #162e5d;
+    background-color: #0c71c3;
 }
 
 .user-info {
-    color: #63666a;
+    color: #0c71c3;
 }
 
 .user-info a {
-    color: #a7a8aa;
+    color: #173058;
 }
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #63666a;
+    color: #0c71c3;
 }
 
 .open-nav {
@@ -171,70 +167,70 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #63666a; /*default #007bff*/
+    color: #0c71c3; /*default #007bff*/
 }
 
 .admin-links a {
     background: #f2f2f2;
-    color: #63666a;
+    color: #0c71c3;
 	text-transform:uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 1px; 
 	font-weight: 500;
-
+	
 }
 
 .admin-links a:hover,
 .admin-links a:focus {
     background: #f2f2f2;
-    color: #162e5d;
+    color: #0c71c3;
 }
 
 table th {
-	background: #215732;
+	background: #0c71c3;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    border-top: 1px solid #a7a8aa;
+    border-top: 1px solid #173058;
 }
 
 table td {
     background: #f2f2f2;
 }
 table a {
-    color: #162e5d;
+    color: #0c71c3;
     text-decoration: underline;
 }
 
 table a:hover {
-    color: #63666a;
+    color: #0c71c3;
     text-decoration: none;
 }
 
 photo-list-header.photo-list-columns {
-    background: #162e5d;
+    background: #0c71c3;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    border-top: 1px solid #a7a8aa;
+    border-top: 1px solid #173058;
 }
 
 .header-page .filters .filter:after {
-
-	Color: #63666a;
+	
+	Color: #0c71c3;
 }
 .footer {
-      background: #162e5d;
-    border-top: 2px solid #a7a8aa;
+      background: #0c71c3;
+    border-top: 2px solid #173058;	
 }
 
 
 .sidebar-main,
 .sidebar-mobile {
     background: #f2f2f2;
-    color: #63666a;
-    border-right: 1px solid #63666a;
+    color: #0c71c3;
+    border-right: 1px solid #0c71c3;
     height: 100% !important;
 
    &.nav-open {
@@ -244,13 +240,13 @@ photo-list-header.photo-list-columns {
 
 .sidebar-main h2,
 .sidebar-mobile h2 {
-    color: #63666a !important;
+    color: #0c71c3 !important;
     text-transform:uppercase;
     font-weight: 600;
 }
 
 ul.photo-requirements {
-
+	
 	background-color:#f2f2f2;
 }
 
@@ -268,21 +264,9 @@ img.photos--preview {
 */
 
 /* Uncomment this block to hide the Download photos button.
-   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server),
+   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server), 
 	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
 button.download_button {
 	display: none;
 }
 */
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
