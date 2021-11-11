@@ -1,5 +1,9 @@
 /*
-https://colorid.github.io/cloudcard-custom-assets/unm_cloudcard.css
+{{Color__1}}: (don't include the '#')
+{{Color__1__Shade}}: #{{Color__1__Shade}}; (goto http://www.color-hex.com/color/{{Color__1}} ; use the second Shade -- just needs to be a little bit darker.)
+{{Color__2}}: (don't include the '#')
+{{Color__2__Tint}}: #{{Color__2__Tint}}; (goto http://www.color-hex.com/color/{{Color__2}} ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color__1 and Color__2; select the suggested text color that works for both backgrounds)
+{{Logo_URL}}: {{Logo_URL}} i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
 html {
