@@ -1,0 +1,15 @@
+body {
+    background-color: #ffffff;
+    color: #004d98;
+}
+
+#page-container {
+    background-image: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/santamonicacollege/santamonicalogo.jpeg');
+}
+
+#logo-div {
+    background-image: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/santamonicacollege/santamonicalogo.jpeg');
+    min-height: 7em;
+    background-size: contain;
+    background-position: center;
+}
