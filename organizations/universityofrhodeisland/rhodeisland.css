@@ -3,9 +3,9 @@
 https://colorid.github.io/cloudcard-custom-assets/unm_cloudcard.css      
 */
 
+}
 html {
   background: #ffffff;
-}
 
 .splash {
   background-color: #ffffff;
@@ -23,7 +23,7 @@ header.header-main {
 }
 
 .logo {
-  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/ucsantacruz/ucsc-logo2.jpeg') top center no-repeat;
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/universityofrhodeisland/University_of_Rhode_Island_seal.svg.png') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
