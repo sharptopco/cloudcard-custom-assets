@@ -17,7 +17,7 @@ html {
 
 header.header-main {
   background-color: #ffffff;
-	border-top: 10px solid #eb643a;
+	border-top: 10px solid #fb4501;
 	border-bottom: 2px solid #000000;
   height:10.5em;
 }
@@ -34,7 +34,7 @@ header.header-page {
 }
 
 .header-page h1 {
-    color: #eb643a;
+    color: #fb4501;
     padding-right: 0.73684em;
     text-transform:uppercase;
     font-size: 36px;
@@ -46,20 +46,20 @@ empty-queue-message {
     background: #ffffff;
 }
 .header-page .filters select {
-	    border: 1px solid #eb643a;
-	    color: #eb643a;
+	    border: 1px solid #fb4501;
+	    color: #fb4501;
 	    background-color: transparent;
 	    text-transform:uppercase;
 }
 
 .header-page .fa-search {
-	color: #FC4600 !important;
+	color: #fb4501 !important;
 	
 }
 
 .header-page .tabs li a {
   border-bottom-color:#f5f5f5;
-  color: #eb643a;
+  color: #fb4501;
 font-weight: 600;
 text-transform: uppercase;
 letter-spacing: .5px;
@@ -68,7 +68,7 @@ letter-spacing: .5px;
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 {
-  color: #eb643a;
+  color: #fb4501;
 }
 
 /* Keep this block only if it looks good. */
@@ -77,12 +77,12 @@ letter-spacing: .5px;
 }
 
 .header-page .buttons button {
-  background-color: #eb643a;
+  background-color: #fb4501;
   color: #fff;
-	border: 1px solid #eb643a;
+	border: 1px solid #fb4501;
 }
 .header-page .tabs a.active {
-color: #eb643a;
+color: #fb4501;
 font-weight: 600;
 text-transform: uppercase;
 letter-spacing: 1px;	
@@ -95,7 +95,7 @@ letter-spacing: 1px;
 .header-page .buttons button:hover,
 .header-page .buttons button:focus 
 {
-  background-color: #eb643a;
+  background-color: #fb4501;
   color: #ffffff;
 
   /* Alternative if the above doesn't look so great.
@@ -108,7 +108,7 @@ letter-spacing: 1px;
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
     background-color: transparent;
-    color: #eb643a;
+    color: #fb4501;
 }
 
 .header-page .filters .filter:hover:after,
@@ -117,7 +117,7 @@ letter-spacing: 1px;
 }
 
 button {
-    background-color: #eb643a;
+    background-color: #fb4501;
     border: 2px solid #fff;
 }
 
@@ -131,7 +131,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #eb643a;
+    background-color: #fb4501;
 }
 
 router-view .buttons button.primary:hover,
@@ -141,11 +141,11 @@ router-view .buttons button.primary:focus,
 button.submit-login:hover,
 button.submit-login:focus
 {
-    background-color: #eb643a;
+    background-color: #fb4501;
 }
 
 .user-info {
-    color: #eb643a;
+    color: #fb4501;
 }
 
 .user-info a {
@@ -154,7 +154,7 @@ button.submit-login:focus
 
 .user-info a:hover,
 .user-info a:focus {
-    color: #eb643a;
+    color: #fb4501;
 }
 
 .open-nav {
@@ -168,12 +168,12 @@ button.submit-login:focus
 }
 
 .admin-links .fa {
-    color: #eb643a; /*default #007bff*/
+    color: #fb4501; /*default #007bff*/
 }
 
 .admin-links a {
     background: #f2f2f2;
-    color: #eb643a;
+    color: #fb4501;
 	text-transform:uppercase;
 	letter-spacing: 1px; 
 	font-weight: 500;
@@ -183,33 +183,33 @@ button.submit-login:focus
 .admin-links a:hover,
 .admin-links a:focus {
     background: #f2f2f2;
-    color: #eb643a;
+    color: #fb4501;
 }
 
 table th {
-	background: #eb643a;
+	background: #fb4501;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    border-top: 1px solid #eb643a;
+    border-top: 1px solid #fb4501;
 }
 
 table td {
     background: #f2f2f2;
 }
 table a {
-    color: #eb643a;
+    color: #fb4501;
     text-decoration: underline;
 }
 
 table a:hover {
-    color: #eb643a;
+    color: #fb4501;
     text-decoration: none;
 }
 
 photo-list-header.photo-list-columns {
-    background: #eb643a
+    background: #fb4501
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
@@ -219,10 +219,10 @@ photo-list-header.photo-list-columns {
 
 .header-page .filters .filter:after {
 	
-	Color: #eb643a;
+	Color: #fb4501;
 }
 .footer {
-      background: #eb643a;
+      background: #fb4501;
     border-top: 2px solid #000000;	
 }
 
@@ -230,8 +230,8 @@ photo-list-header.photo-list-columns {
 .sidebar-main,
 .sidebar-mobile {
     background: #f2f2f2;
-    color: #eb643a;
-    border-right: 1px solid #eb643a;
+    color: #fb4501;
+    border-right: 1px solid #fb4501;
     height: 100% !important;
 
    &.nav-open {
