@@ -1,1 +1,273 @@
 
+/*
+https://colorid.github.io/cloudcard-custom-assets/unm_cloudcard.css      
+*/
+
+html {
+  background: #ffffff;
+}
+
+.splash {
+  background-color: #ffffff;
+}
+
+.splash .loading path {
+  fill: #fff;
+}
+
+header.header-main {
+  background-color: #ffffff;
+	border-top: 10px solid #FC4600;
+	border-bottom: 2px solid #000000;
+  height:10.5em;
+}
+
+.logo {
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/university%20of%20georgia/uga%20logo.png') top center no-repeat;
+  display: inline-block;
+  max-width: 400px !important;
+  background-size: contain;
+}
+
+header.header-page {
+  background-color:#f5f5f5;
+}
+
+.header-page h1 {
+    color: #FC4600;
+    padding-right: 0.73684em;
+    text-transform:uppercase;
+    font-size: 36px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+empty-queue-message {
+    background: #ffffff;
+}
+.header-page .filters select {
+	    border: 1px solid #FC4600;
+	    color: #FC4600;
+	    background-color: transparent;
+	    text-transform:uppercase;
+}
+
+.header-page .fa-search {
+	color: #FC4600 !important;
+	
+}
+
+.header-page .tabs li a {
+  border-bottom-color:#f5f5f5;
+  color: #FC4600;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: .5px;
+}
+
+.header-page .tabs li a:hover,
+.header-page .tabs li a:focus
+{
+  color: #FC4600;
+}
+
+/* Keep this block only if it looks good. */
+.header-page .tabs a.active {
+    border-bottom-color: #000000;
+}
+
+.header-page .buttons button {
+  background-color: #FC4600;
+  color: #fff;
+	border: 1px solid #FC4600;
+}
+.header-page .tabs a.active {
+color: #FC4600;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 1px;	
+}
+.header-page button {
+  background-color: #c05131;
+  color: #fff;
+}
+
+.header-page .buttons button:hover,
+.header-page .buttons button:focus 
+{
+  background-color: #FC4600;
+  color: #ffffff;
+
+  /* Alternative if the above doesn't look so great.
+  background-color: #c05131;
+  color: #fff;
+   */
+}
+
+
+.header-page .filters .filter:hover select,
+.header-page .filters .filter:focus-within select {
+    background-color: transparent;
+    color: #FC4600;
+}
+
+.header-page .filters .filter:hover:after,
+.header-page .filters .filter:focus-within:after {
+    color: #fff;
+}
+
+button {
+    background-color: #FC4600;
+    border: 2px solid #fff;
+}
+
+
+button:hover,
+button:focus {
+    background-color: #c05131;
+}
+
+router-view .buttons button.primary,
+#accept-terms,
+button.submit-login
+{
+    background-color: #FC4600;
+}
+
+router-view .buttons button.primary:hover,
+router-view .buttons button.primary:focus,
+#accept-terms:hover,
+#accept-terms:focus,
+button.submit-login:hover,
+button.submit-login:focus
+{
+    background-color: #FC4600;
+}
+
+.user-info {
+    color: #FC4600;
+}
+
+.user-info a {
+    color: #000000;
+}
+
+.user-info a:hover,
+.user-info a:focus {
+    color: #FC4600;
+}
+
+.open-nav {
+    color: #ddd;
+}
+
+.open-nav:hover,
+.open-nav:focus
+{
+    color: #fff;
+}
+
+.admin-links .fa {
+    color: #FC4600; /*default #007bff*/
+}
+
+.admin-links a {
+    background: #f2f2f2;
+    color: #FC4600;
+	text-transform:uppercase;
+	letter-spacing: 1px; 
+	font-weight: 500;
+	
+}
+
+.admin-links a:hover,
+.admin-links a:focus {
+    background: #f2f2f2;
+    color: #FC4600;
+}
+
+table th {
+	background: #FC4600;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-top: 1px solid #FC4600;
+}
+
+table td {
+    background: #f2f2f2;
+}
+table a {
+    color: #FC4600;
+    text-decoration: underline;
+}
+
+table a:hover {
+    color: #FC4600;
+    text-decoration: none;
+}
+
+photo-list-header.photo-list-columns {
+    background: #FC4600
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-top: 1px solid #000000;
+}
+
+.header-page .filters .filter:after {
+	
+	Color: #FC4600;
+}
+.footer {
+      background: #FC4600;
+    border-top: 2px solid #000000;	
+}
+
+
+.sidebar-main,
+.sidebar-mobile {
+    background: #f2f2f2;
+    color: #FC4600;
+    border-right: 1px solid #FC4600;
+    height: 100% !important;
+
+   &.nav-open {
+    background: #f2f2f2;
+    }
+}
+
+.sidebar-main h2,
+.sidebar-mobile h2 {
+    color: #012144 !important;
+    text-transform:uppercase;
+    font-weight: 600;
+}
+
+ul.photo-requirements {
+	
+	background-color:#f2f2f2;
+}
+
+/*  .hide-on-mobile-small {
+  display: none;
+}
+.hide-on-mobile-small {
+  display: none;
+} */
+
+/* Uncomment this block if the organization has a Plus Account.
+img.photos--previe005643w {
+    border-bottom: 0px;
+}
+*/
+
+/* Uncomment this block to hide the Download photos button.
+   HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server), 
+	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button.
+button.download_button {
+	display: none;
+}
+*/
