@@ -47,7 +47,7 @@ empty-queue-message {
 }
 .header-page .filters select {
 	    border: 1px solid #005bbb;
-	    color: #005643;
+	    color: #005bbb;
 	    background-color: transparent;
 	    text-transform:uppercase;
 }
@@ -241,7 +241,7 @@ photo-list-header.photo-list-columns {
 
 .sidebar-main h2,
 .sidebar-mobile h2 {
-    color: #012144 !important;
+    color: #002f56 !important;
     text-transform:uppercase;
     font-weight: 600;
 }
