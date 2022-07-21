@@ -173,8 +173,7 @@ button.submit-login:focus
 
 .admin-links a {
     background: #f2f2f2;
-    color: #ffc430;
-	text-transform:uppercase;
+    color: #000000;
 	letter-spacing: 1px; 
 	font-weight: 500;
 	
@@ -230,7 +229,7 @@ photo-list-header.photo-list-columns {
 .sidebar-main,
 .sidebar-mobile {
     background: #f2f2f2;
-    color: #ffc430;
+    color: #000000;
     border-right: 1px solid #ffc430;
     height: 100% !important;
 
@@ -242,7 +241,6 @@ photo-list-header.photo-list-columns {
 .sidebar-main h2,
 .sidebar-mobile h2 {
     color: #012144 !important;
-    text-transform:uppercase;
     font-weight: 600;
 }
 
