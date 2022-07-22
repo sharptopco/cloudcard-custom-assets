@@ -104,23 +104,24 @@ letter-spacing: 1px;
    */
 }
 
+.header-page .filters .filter select,
+.header-page .filters .filter input,
+.header-page .filters .filter:hover:before{
+	color: #000000;
+	border: .5px solid #000000;
+}
+
 
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: transparent;
-    color: #ffc430;
+	background-color: transparent;
+   	color: #ffc430;
 }
 
 .header-page .filters .filter:hover:after,
 .header-page .filters .filter:focus-within:after {
-    color: #fff;
+    color: #ffc430;
 }
-
-button {
-    background-color: #ffc430;
-    border: 2px solid #fff;
-}
-
 
 button:hover,
 button:focus {
