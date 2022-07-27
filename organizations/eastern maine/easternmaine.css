@@ -1,9 +1,9 @@
 html {
-  background: #00337f;
+  background: #f99b0c;
 }
 
 .splash {
-  background-color: #00337f;
+  background-color: #f99b0c;
 }
 
 .splash .loading path {
@@ -11,8 +11,10 @@ html {
 }
 
 header.header-main {
-  background-color: #00337f;
+  background-color: #0000;
   height:8.5em;
+/*  Header bottom border  */
+  border-bottom: 1px solid #f99b0c;
 }
 
 .logo {
@@ -23,66 +25,75 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#f99b0c;
+  background-color:#00337f;
 }
 
 /*photo section menu link behind*/
 .header-page .tabs li a {
-  border-bottom-color:#00337f;
+  border-bottom-color:#f99b0c;
 }
 
+/*Pending,Approved,Denied,Downloaded,Done,Enroute links*/
 .header-page .tabs li a:hover,
 .header-page .tabs li a:focus
 
 {
-  color: #fff; /*Pending,Approved,Denied,Downloaded,Done,Enroute links*/
+  color: #fff; 
 }
+
 
 /* Keep this block only if it looks good. */
-/* Default violet color when selected pending, approved, denied, download, done and enroute 003865 */
+/* Default violet color when selected pending, approved, denied, download, done and enroute 245eb5 */
 .header-page .tabs a.active {
-    border-bottom-color: #003865;
+    border-bottom-color: #245eb5;
 }
 
+/*245eb5 MAIN BUTTONS and button links*/
 .header-page .buttons button {
-  background-color: #003865; /*003865 MAIN BUTTONS and button links*/
+  background-color: #245eb5; 
   color: #fff; /* fff - text in button */
 }
 
 .header-page button {
-  background-color: #00337f; /*f99b0c I DONT KNOW???*/
+  background-color: #f99b0c; /*00337f I DONT KNOW???*/
   color: #fff; /*fff I DONT KNOW */
 }
 
+/* fff  Custom fields text before click */
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #003865;
-    color: #fff; /* fff  Custom fields text before click */
+    background-color: #245eb5;
+    color: #fff; 
 }
 
+/* fff Custom fields text after click color */
 .header-page .filters .filter:hover:after,
 .header-page .filters .filter:focus-within:after {
-    color: #fff; /* fff Custom fields text after click color */
+    color: #fff; 
 }
 
+/* History Button */
 button {
-    background-color: #f99b0c; /* f99b0c  I think the history button */
+    background-color: #00337f; 
 } 
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #003865; /* 003865 I DO NOT KNOW */
+    background-color: #245eb5; /* 245eb5 I DO NOT KNOW */
 }
 
+
+/* user account and org logged in */
 .user-info {
-    color: #fff; /* user account and org logged in */
+    color: #013965;
 }
 
+/* Hover for SIGN OUT link */
 .user-info a:hover,
 .user-info a:focus {
-    color: #fff; /* fff I DONT KNOW THINK it's the hover for SIGN OUT link */
+    color: #245eb5; 
 }
 
 .open-nav {
@@ -95,12 +106,28 @@ button.submit-login
     color: #fff; /* ddd I DONT KNOW */
 }
 
-.admin-links .fa {
-    color: #00337f; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
+.admin-links .fa,
+ul.photo-requirements i{
+    color: #f99b0c; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
 }
 
+.sidebar-main {
+  background: #8D817B;
+}
+
+.admin-links a,
+ul.photo-requirements {
+  background-color: #8D817B;
+/*   color: #292929; */
+}
+.admin-links a:hover {
+  background-color: #00337f;
+}
+
+
+
 .footer {
-    background: #003865;	 /*footer*/
+    background: #00337f; /*footer*/
 }
 
 /* Uncomment this block if the organization has a Plus Account.
@@ -109,13 +136,8 @@ img.photos--preview {
 }
 */
 
-
+/* Unhide this block to hide the "Download Photos" button
 button.download_button {
 	display: none;
 }
-
-.user-info {
-    color: #013965; /* user account and org logged in */
-}
-
-
+ */
