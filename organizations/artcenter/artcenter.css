@@ -174,7 +174,6 @@ button.submit-login:focus
 .admin-links a {
     background: #f2f2f2;
     color: #fb4501;
-	text-transform:uppercase;
 	letter-spacing: 1px; 
 	font-weight: 500;
 	
