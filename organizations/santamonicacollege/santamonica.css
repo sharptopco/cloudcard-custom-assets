@@ -241,7 +241,6 @@ photo-list-header.photo-list-columns {
 .sidebar-main h2,
 .sidebar-mobile h2 {
     color: #004d98 !important;
-    text-transform:uppercase;
     font-weight: 600;
 }
 
