@@ -44,14 +44,14 @@ header.header-page {
 
 
 /* Keep this block only if it looks good. */
-/* Default violet color when selected pending, approved, denied, download, done and enroute 3785c5 */
+/* Default violet color when selected pending, approved, denied, download, done and enroute 005ec4 */
 .header-page .tabs a.active {
-    border-bottom-color: #3785c5;
+    border-bottom-color: #005ec4;
 }
 
-/*3785c5 MAIN BUTTONS and button links*/
+/*005ec4 MAIN BUTTONS and button links*/
 .header-page .buttons button {
-  background-color: #3785c5; 
+  background-color: #005ec4; 
   color: #fff; /* fff - text in button */
 }
 
@@ -63,7 +63,7 @@ header.header-page {
 /* fff  Custom fields text before click */
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #3785c5;
+    background-color: #005ec4;
     color: #fff; 
 }
 
@@ -82,7 +82,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #3785c5; /* 3785c5 I DO NOT KNOW */
+    background-color: #005ec4; /* 005ec4 I DO NOT KNOW */
 }
 
 
@@ -94,7 +94,7 @@ button.submit-login
 /* Hover for SIGN OUT link */
 .user-info a:hover,
 .user-info a:focus {
-    color: #3785c5; 
+    color: #005ec4; 
 }
 
 .open-nav {
@@ -113,12 +113,12 @@ ul.photo-requirements i{
 }
 
 .sidebar-main {
-  background: #005ec4;
+  background: #3785c5;
 }
 
 .admin-links a,
 ul.photo-requirements {
-  background-color: #005ec4;
+  background-color: #3785c5;
 /*   color: #292929; */
 }
 .admin-links a:hover {
