@@ -1,10 +1,10 @@
 
 html {
-  background: #5aa3b1; TINY ACCENT COLOR (BAR, ICON, STARS)
+  background: #dff5ff; TINY ACCENT COLOR (BAR, ICON, STARS)
 }
 
 .splash {
-  background-color: #5aa3b1; TINY ACCENT COLOR (BAR, ICON, STARS)
+  background-color: #dff5ff; TINY ACCENT COLOR (BAR, ICON, STARS)
 }
 
 .splash .loading path {
@@ -15,7 +15,7 @@ header.header-main {
   background-color: #0000;
   height:8.5em;
 /*  Header bottom border  */
-  border-bottom: 1px solid #5aa3b1; TINY ACCENT COLOR (BAR, ICON, STARS)
+  border-bottom: 1px solid #dff5ff; TINY ACCENT COLOR (BAR, ICON, STARS)
 }
 
 .logo {
@@ -31,7 +31,7 @@ header.header-page {
 
 /*photo section menu link behind*/
 .header-page .tabs li a {
-  border-bottom-color:#5aa3b1; TINY ACCENT COLOR (BAR, ICON, STARS)
+  border-bottom-color:#dff5ff; TINY ACCENT COLOR (BAR, ICON, STARS)
 }
 
 /*Pending,Approved,Denied,Downloaded,Done,Enroute links*/
@@ -109,16 +109,16 @@ button.submit-login
 
 .admin-links .fa,
 ul.photo-requirements i{
-    color: #5aa3b1; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
+    color: #dff5ff; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
 }
 
 .sidebar-main {
-  background: #dff5ff; LEFT SIDE BAR
+  background: #5aa3b1; LEFT SIDE BAR
 }
 
 .admin-links a,
 ul.photo-requirements {
-  background-color: #dff5ff;
+  background-color: #5aa3b1;
 /*   color: #292929; */
 }
 .admin-links a:hover {
