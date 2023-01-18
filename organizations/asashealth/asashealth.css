@@ -43,14 +43,14 @@ header.header-page {
 
 
 /* Keep this block only if it looks good. */
-/* Default violet color when selected pending, approved, denied, download, done and enroute f4a066*/
+/* Default violet color when selected pending, approved, denied, download, done and enroute 4aa5d0*/
 .header-page .tabs a.active {
-    border-bottom-color: #f4a066; BUTTONS
+    border-bottom-color: #4aa5d0; BUTTONS
 }
 
-/*f4a066 MAIN BUTTONS and button links*/
+/*4aa5d0 MAIN BUTTONS and button links*/
 .header-page .buttons button {
-  background-color: #f4a066; BUTTONS
+  background-color: #4aa5d0; BUTTONS
   color: #fff; /* fff - text in button */
 }
 
@@ -62,7 +62,7 @@ header.header-page {
 /* fff  Custom fields text before click */
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #f4a066;
+    background-color: #4aa5d0;
     color: #fff; 
 }
 
@@ -81,7 +81,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #f4a066; /* f4a066 I DO NOT KNOW */
+    background-color: #4aa5d0; /* 4aa5d0 I DO NOT KNOW */
 }
 
 
@@ -93,7 +93,7 @@ button.submit-login
 /* Hover for SIGN OUT link */
 .user-info a:hover,
 .user-info a:focus {
-    color: #f4a066; 
+    color: #4aa5d0; 
 }
 
 .open-nav {
