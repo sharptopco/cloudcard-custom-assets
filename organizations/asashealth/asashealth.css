@@ -1,9 +1,9 @@
 html {
-  background: #5aa3b1; TINY ACCENT COLOR (BAR, ICON, STARS)
+  background: #00945e; TINY ACCENT COLOR (BAR, ICON, STARS)
 }
 
 .splash {
-  background-color: #5aa3b1; TINY ACCENT COLOR (BAR, ICON, STARS)
+  background-color: #00945e; TINY ACCENT COLOR (BAR, ICON, STARS)
 }
 
 .splash .loading path {
@@ -14,7 +14,7 @@ header.header-main {
   background-color: #0000;
   height:8.5em;
 /*  Header bottom border  */
-  border-bottom: 1px solid #5aa3b1; TINY ACCENT COLOR (BAR, ICON, STARS)
+  border-bottom: 1px solid #00945e; TINY ACCENT COLOR (BAR, ICON, STARS)
 }
 
 .logo {
@@ -25,12 +25,12 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#012144; MIDDLE BAR, BOTTOM BAR
+  background-color:#ee7623; MIDDLE BAR, BOTTOM BAR
 }
 
 /*photo section menu link behind*/
 .header-page .tabs li a {
-  border-bottom-color:#5aa3b1; TINY ACCENT COLOR (BAR, ICON, STARS)
+  border-bottom-color:#00945e; TINY ACCENT COLOR (BAR, ICON, STARS)
 }
 
 /*Pending,Approved,Denied,Downloaded,Done,Enroute links*/
@@ -43,26 +43,26 @@ header.header-page {
 
 
 /* Keep this block only if it looks good. */
-/* Default violet color when selected pending, approved, denied, download, done and enroute 2377b3 */
+/* Default violet color when selected pending, approved, denied, download, done and enroute f4a066*/
 .header-page .tabs a.active {
-    border-bottom-color: #2377b3; BUTTONS
+    border-bottom-color: #f4a066; BUTTONS
 }
 
-/*2377b3 MAIN BUTTONS and button links*/
+/*f4a066 MAIN BUTTONS and button links*/
 .header-page .buttons button {
-  background-color: #2377b3; BUTTONS
+  background-color: #f4a066; BUTTONS
   color: #fff; /* fff - text in button */
 }
 
 .header-page button {
-  background-color: #e5b61; /*012144 I DONT KNOW???*/
+  background-color: #00945e; /*ee7623 I DONT KNOW???*/
   color: #fff; /*fff I DONT KNOW */
 }
 
 /* fff  Custom fields text before click */
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #2377b3;
+    background-color: #f4a066;
     color: #fff; 
 }
 
@@ -74,14 +74,14 @@ header.header-page {
 
 /* History Button */
 button {
-    background-color: #012144; 
+    background-color: #ee7623; 
 } 
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #2377b3; /* 2377b3 I DO NOT KNOW */
+    background-color: #f4a066; /* f4a066 I DO NOT KNOW */
 }
 
 
@@ -93,7 +93,7 @@ button.submit-login
 /* Hover for SIGN OUT link */
 .user-info a:hover,
 .user-info a:focus {
-    color: #2377b3; 
+    color: #f4a066; 
 }
 
 .open-nav {
@@ -108,26 +108,26 @@ button.submit-login
 
 .admin-links .fa,
 ul.photo-requirements i{
-    color: #5aa3b1; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
+    color: #00945e; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
 }
 
 .sidebar-main {
-  background: #dff5ff; LEFT SIDE BAR
+  background: #0080bc; LEFT SIDE BAR
 }
 
 .admin-links a,
 ul.photo-requirements {
-  background-color: #dff5ff;
+  background-color: #0080bc;
 /*   color: #292929; */
 }
 .admin-links a:hover {
-  background-color: #012144;
+  background-color: #ee7623;
 }
 
 
 
 .footer {
-    background: #012144; /*footer*/
+    background: #ee7623; /*footer*/
 }
 
 /* Uncomment this block if the organization has a Plus Account.
