@@ -25,7 +25,7 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#bdle2d; MIDDLE BAR, BOTTOM BAR
+  background-color:#bd1e2c; MIDDLE BAR, BOTTOM BAR
 }
 
 /*photo section menu link behind*/
@@ -55,7 +55,7 @@ header.header-page {
 }
 
 .header-page button {
-  background-color: #000000; /*bdle2d I DONT KNOW???*/
+  background-color: #000000; /*bd1e2c I DONT KNOW???*/
   color: #fff; /*fff I DONT KNOW */
 }
 
@@ -74,7 +74,7 @@ header.header-page {
 
 /* History Button */
 button {
-    background-color: #bdle2d; 
+    background-color: #bd1e2c; 
 } 
 
 router-view .buttons button.primary,
@@ -87,7 +87,7 @@ button.submit-login
 
 /* user account and org logged in */
 .user-info {
-    color: #013965; TOP RIGHT TEXT
+    color: #000000; TOP RIGHT TEXT
 }
 
 /* Hover for SIGN OUT link */
@@ -121,13 +121,13 @@ ul.photo-requirements {
 /*   color: #292929; */
 }
 .admin-links a:hover {
-  background-color: #bdle2d;
+  background-color: #bd1e2c;
 }
 
 
 
 .footer {
-    background: #bdle2d; /*footer*/
+    background: #bd1e2c; /*footer*/
 }
 
 /* Uncomment this block if the organization has a Plus Account.
