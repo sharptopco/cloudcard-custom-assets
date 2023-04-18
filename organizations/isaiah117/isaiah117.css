@@ -1,1 +1,144 @@
 
+html {
+  background: #000000; TINY ACCENT COLOR (BAR, ICON, STARS)
+}
+
+.splash {
+  background-color: #000000; TINY ACCENT COLOR (BAR, ICON, STARS)
+}
+
+.splash .loading path {
+  fill: #fff;
+}
+
+header.header-main {
+  background-color: #0000;
+  height:8.5em;
+/*  Header bottom border  */
+  border-bottom: 1px solid #000000; TINY ACCENT COLOR (BAR, ICON, STARS)
+}
+
+.logo {
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/eastern%20maine/2017.EMCC_.Logo_%20(1).png') top center no-repeat;
+  display: inline-block;
+  max-width: 400px !important;
+  background-size: contain;
+}
+
+header.header-page {
+  background-color:#Bfle2d; MIDDLE BAR, BOTTOM BAR
+}
+
+/*photo section menu link behind*/
+.header-page .tabs li a {
+  border-bottom-color:#000000; TINY ACCENT COLOR (BAR, ICON, STARS)
+}
+
+/*Pending,Approved,Denied,Downloaded,Done,Enroute links*/
+.header-page .tabs li a:hover,
+.header-page .tabs li a:focus
+
+{
+  color: #fff; 
+}
+
+
+/* Keep this block only if it looks good. */
+/* Default violet color when selected pending, approved, denied, download, done and enroute Da5151 */
+.header-page .tabs a.active {
+    border-bottom-color: #Da5151; BUTTONS
+}
+
+/*Da5151 MAIN BUTTONS and button links*/
+.header-page .buttons button {
+  background-color: #Da5151; BUTTONS
+  color: #fff; /* fff - text in button */
+}
+
+.header-page button {
+  background-color: #000000; /*Bfle2d I DONT KNOW???*/
+  color: #fff; /*fff I DONT KNOW */
+}
+
+/* fff  Custom fields text before click */
+.header-page .filters .filter:hover select,
+.header-page .filters .filter:focus-within select {
+    background-color: #Da5151;
+    color: #fff; 
+}
+
+/* fff Custom fields text after click color */
+.header-page .filters .filter:hover:after,
+.header-page .filters .filter:focus-within:after {
+    color: #fff; 
+}
+
+/* History Button */
+button {
+    background-color: #Bfle2d; 
+} 
+
+router-view .buttons button.primary,
+#accept-terms,
+button.submit-login
+{
+    background-color: #Da5151; /* Da5151 I DO NOT KNOW */
+}
+
+
+/* user account and org logged in */
+.user-info {
+    color: #013965; TOP RIGHT TEXT
+}
+
+/* Hover for SIGN OUT link */
+.user-info a:hover,
+.user-info a:focus {
+    color: #Da5151; 
+}
+
+.open-nav {
+    color: #ddd; /* ddd I DONT KNOW */
+}
+
+.open-nav:hover,
+.open-nav:focus
+{
+    color: #fff; /* ddd I DONT KNOW */
+}
+
+.admin-links .fa,
+ul.photo-requirements i{
+    color: #000000; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
+}
+
+.sidebar-main {
+  background: #B1b1b1; LEFT SIDE BAR
+}
+
+.admin-links a,
+ul.photo-requirements {
+  background-color: #B1b1b1;
+/*   color: #292929; */
+}
+.admin-links a:hover {
+  background-color: #Bfle2d;
+}
+
+
+
+.footer {
+    background: #Bfle2d; /*footer*/
+}
+
+/* Uncomment this block if the organization has a Plus Account.
+img.photos--preview {
+    border-bottom: 0px;
+}
+*/
+
+/* Unhide this block to hide the "Download Photos" button
+button.download_button {
+	display: none;
+}
+ */
