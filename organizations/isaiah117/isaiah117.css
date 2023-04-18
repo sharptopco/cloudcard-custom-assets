@@ -26,7 +26,7 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#Bfle2d; MIDDLE BAR, BOTTOM BAR
+  background-color:#Bdle2d; MIDDLE BAR, BOTTOM BAR
 }
 
 /*photo section menu link behind*/
@@ -56,7 +56,7 @@ header.header-page {
 }
 
 .header-page button {
-  background-color: #000000; /*Bfle2d I DONT KNOW???*/
+  background-color: #000000; /*Bdle2d I DONT KNOW???*/
   color: #fff; /*fff I DONT KNOW */
 }
 
@@ -75,7 +75,7 @@ header.header-page {
 
 /* History Button */
 button {
-    background-color: #Bfle2d; 
+    background-color: #Bdle2d; 
 } 
 
 router-view .buttons button.primary,
@@ -122,13 +122,13 @@ ul.photo-requirements {
 /*   color: #292929; */
 }
 .admin-links a:hover {
-  background-color: #Bfle2d;
+  background-color: #Bdle2d;
 }
 
 
 
 .footer {
-    background: #Bfle2d; /*footer*/
+    background: #Bdle2d; /*footer*/
 }
 
 /* Uncomment this block if the organization has a Plus Account.
