@@ -18,7 +18,7 @@ header.header-main {
 }
 
 .logo {
-  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/healthpartners/6113FBAD-A25F-4E09-B8CA-EC6379CA7383_4_5005_c.jpeg') top center no-repeat;
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/healthpartners/6113FBAD-A25F-4E09-B8CA-EC6379CA7383_4_5005_c.jpeg) top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
@@ -43,14 +43,14 @@ header.header-page {
 
 
 /* Keep this block only if it looks good. */
-/* Default violet color when selected pending, approved, denied, download, done and enroute 009b49 */
+/* Default violet color when selected pending, approved, denied, download, done and enroute 7ca8e6 */
 .header-page .tabs a.active {
-    border-bottom-color: #009b49; BUTTONS
+    border-bottom-color: #7ca8e6; BUTTONS
 }
 
-/*009b49 MAIN BUTTONS and button links*/
+/*7ca8e6 MAIN BUTTONS and button links*/
 .header-page .buttons button {
-  background-color: #009b49; BUTTONS
+  background-color: #7ca8e6; BUTTONS
   color: #fff; /* fff - text in button */
 }
 
@@ -62,7 +62,7 @@ header.header-page {
 /* fff  Custom fields text before click */
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #009b49;
+    background-color: #7ca8e6;
     color: #fff; 
 }
 
@@ -81,7 +81,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #009b49; /* 009b49 I DO NOT KNOW */
+    background-color: #7ca8e6; /* 7ca8e6 I DO NOT KNOW */
 }
 
 
@@ -93,7 +93,7 @@ button.submit-login
 /* Hover for SIGN OUT link */
 .user-info a:hover,
 .user-info a:focus {
-    color: #009b49; 
+    color: #7ca8e6; 
 }
 
 .open-nav {
