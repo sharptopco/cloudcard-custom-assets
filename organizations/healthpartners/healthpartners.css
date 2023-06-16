@@ -25,7 +25,7 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#009b49; MIDDLE BAR, BOTTOM BAR
+  background-color:#3d7edb; MIDDLE BAR, BOTTOM BAR
 }
 
 /*photo section menu link behind*/
@@ -43,26 +43,26 @@ header.header-page {
 
 
 /* Keep this block only if it looks good. */
-/* Default violet color when selected pending, approved, denied, download, done and enroute 3d7edb */
+/* Default violet color when selected pending, approved, denied, download, done and enroute 009b49 */
 .header-page .tabs a.active {
-    border-bottom-color: #3d7edb; BUTTONS
+    border-bottom-color: #009b49; BUTTONS
 }
 
-/*3d7edb MAIN BUTTONS and button links*/
+/*009b49 MAIN BUTTONS and button links*/
 .header-page .buttons button {
-  background-color: #3d7edb; BUTTONS
+  background-color: #009b49; BUTTONS
   color: #fff; /* fff - text in button */
 }
 
 .header-page button {
-  background-color: #522398; /*009b49 I DONT KNOW???*/
+  background-color: #522398; /*3d7edb I DONT KNOW???*/
   color: #fff; /*fff I DONT KNOW */
 }
 
 /* fff  Custom fields text before click */
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #3d7edb;
+    background-color: #009b49;
     color: #fff; 
 }
 
@@ -74,14 +74,14 @@ header.header-page {
 
 /* History Button */
 button {
-    background-color: #009b49; 
+    background-color: #3d7edb; 
 } 
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #3d7edb; /* 3d7edb I DO NOT KNOW */
+    background-color: #009b49; /* 009b49 I DO NOT KNOW */
 }
 
 
@@ -93,7 +93,7 @@ button.submit-login
 /* Hover for SIGN OUT link */
 .user-info a:hover,
 .user-info a:focus {
-    color: #3d7edb; 
+    color: #009b49; 
 }
 
 .open-nav {
@@ -112,22 +112,22 @@ ul.photo-requirements i{
 }
 
 .sidebar-main {
-  background: #3d7edb; LEFT SIDE BAR
+  background: #009b49; LEFT SIDE BAR
 }
 
 .admin-links a,
 ul.photo-requirements {
-  background-color: #3d7edb;
+  background-color: #009b49;
 /*   color: #292929; */
 }
 .admin-links a:hover {
-  background-color: #009b49;
+  background-color: #3d7edb;
 }
 
 
 
 .footer {
-    background: #009b49; /*footer*/
+    background: #3d7edb; /*footer*/
 }
 
 /* Uncomment this block if the organization has a Plus Account.
