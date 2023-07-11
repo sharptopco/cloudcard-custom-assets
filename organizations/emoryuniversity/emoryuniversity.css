@@ -121,24 +121,16 @@ ul.photo-requirements {
   background-color: #007dba;
 /*   color: #292929; */
 }
+
 .admin-links a:hover {
   background-color: #012169;
 }
-
-
 
 .footer {
     background: #012169; /*footer*/
 }
 
-/* Uncomment this block if the organization has a Plus Account.
-img.photos--preview {
-    border-bottom: 0px;
+/* Cropper view bug workaround */
+span.cropper-view-box > img {
+  display: none;
 }
-*/
-
-/* Unhide this block to hide the "Download Photos" button
-button.download_button {
-	display: none;
-}
- */
