@@ -131,6 +131,10 @@ ul.photo-requirements {
 }
 
 /* Cropper view bug workaround */
-span.cropper-view-box > img {
-  display: none;
+.edit-photo--container img {
+    margin: 0;
+}
+
+.edit-photo--container > img {
+    margin: 0 auto;
 }
