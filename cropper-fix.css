@@ -1,0 +1,7 @@
+.edit-photo--container img {
+    margin: 0;
+}
+
+.edit-photo--container > img {
+    margin: 0 auto;
+}
