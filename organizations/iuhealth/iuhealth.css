@@ -1,9 +1,9 @@
 html {
-  background: #046298;
+  background: #FDAA63;
 }
 
 .splash {
-  background-color: #046298;
+  background-color: #FDAA63;
 }
 
 .splash .loading path {
@@ -14,7 +14,7 @@ header.header-main {
   background-color: #0000;
   height:8.5em;
 /*  Header bottom border  */
-  border-bottom: 1px solid #046298;
+  border-bottom: 1px solid #FDAA63;
 }
 
 .logo {
@@ -25,12 +25,12 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#7a1705;
+  background-color:#981E32;
 }
 
 /*photo section menu link behind*/
 .header-page .tabs li a {
-  border-bottom-color:#046298;
+  border-bottom-color:#FDAA63;
 }
 
 /*Pending,Approved,Denied,Downloaded,Done,Enroute links*/
@@ -43,26 +43,26 @@ header.header-page {
 
 
 /* Keep this block only if it looks good. */
-/* Default violet color when selected pending, approved, denied, download, done and enroute 990001 */
+/* Default violet color when selected pending, approved, denied, download, done and enroute b12f45 */
 .header-page .tabs a.active {
-    border-bottom-color: #990001;
+    border-bottom-color: #b12f45;
 }
 
-/*990001 MAIN BUTTONS and button links*/
+/*b12f45 MAIN BUTTONS and button links*/
 .header-page .buttons button {
-  background-color: #990001; 
+  background-color: #b12f45; 
   color: #fff; /* fff - text in button */
 }
 
 .header-page button {
-  background-color: #046298; /*7a1705 I DONT KNOW???*/
+  background-color: #FDAA63; /*981E32 I DONT KNOW???*/
   color: #fff; /*fff I DONT KNOW */
 }
 
 /* fff  Custom fields text before click */
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #990001;
+    background-color: #b12f45;
     color: #fff; 
 }
 
@@ -74,14 +74,14 @@ header.header-page {
 
 /* History Button */
 button {
-    background-color: #7a1705; 
+    background-color: #981E32; 
 } 
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #990001; /* 990001 I DO NOT KNOW */
+    background-color: #b12f45; /* b12f45 I DO NOT KNOW */
 }
 
 
@@ -93,7 +93,7 @@ button.submit-login
 /* Hover for SIGN OUT link */
 .user-info a:hover,
 .user-info a:focus {
-    color: #990001; 
+    color: #b12f45; 
 }
 
 .open-nav {
@@ -108,26 +108,26 @@ button.submit-login
 
 .admin-links .fa,
 ul.photo-requirements i{
-    color: #046298; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
+    color: #FDAA63; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
 }
 
 .sidebar-main {
-  background: #dfdddd;
+  background: #A59C94;
 }
 
 .admin-links a,
 ul.photo-requirements {
-  background-color: #dfdddd;
+  background-color: #A59C94;
 /*   color: #292929; */
 }
 .admin-links a:hover {
-  background-color: #7a1705;
+  background-color: #981E32;
 }
 
 
 
 .footer {
-    background: #7a1705; /*footer*/
+    background: #981E32; /*footer*/
 }
 
 /* Uncomment this block if the organization has a Plus Account.
