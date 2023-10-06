@@ -324,6 +324,11 @@ photo-list-section-header div a {
     color: #4b4b4b;
 
 }
+
+photo-replace-background{
+    display: none
+}
+
 /*
  .hide-on-mobile-small {
     display: none;
