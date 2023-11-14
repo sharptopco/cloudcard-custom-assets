@@ -124,10 +124,17 @@ ul.photo-requirements {
   background-color: #3d7edb;
 }
 
-
-
 .footer {
     background: #3d7edb; /*footer*/
+}
+
+img.photos--preview.good, img.photos--preview.bad, img.photos--preview.maybe {
+border: 3px solid transparent;
+border-radius: 50%;
+}
+
+p.edit-existing-photo {
+display: none;
 }
 
 /* Uncomment this block if the organization has a Plus Account.
