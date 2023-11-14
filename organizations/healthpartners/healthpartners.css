@@ -128,8 +128,18 @@ ul.photo-requirements {
     background: #3d7edb; /*footer*/
 }
 
-img.photos--preview.good, img.photos--preview.bad, img.photos--preview.maybe {
-border: 3px solid transparent;
+img.photos--preview.good {
+border: 3px solid #13c545;
+border-radius: 50%;
+}
+
+img.photos--preview.bad {
+border: 3px solid #ef2160;
+border-radius: 50%;
+}
+
+img.photos--preview.maybe {
+border: 3px solid #ffa305;
 border-radius: 50%;
 }
 
