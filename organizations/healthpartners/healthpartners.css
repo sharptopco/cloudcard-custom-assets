@@ -129,23 +129,23 @@ ul.photo-requirements {
 }
 
 img.photos--preview.good {
-border: 3px solid #13c545;
-border-radius: 50%;
+  border: 3px solid #13c545;
+  border-radius: 50%;
 }
 
 img.photos--preview.bad {
-border: 3px solid #ef2160;
-border-radius: 50%;
+  border: 3px solid #ef2160;
+  border-radius: 50%;
 }
 
 img.photos--preview.maybe {
-border: 3px solid #ffa305;
-border-radius: 50%;
+  border: 3px solid #ffa305;
+  border-radius: 50%;
 }
 
 img.photos--preview.unclassified {
-border: 3px solid #a1a1a1;
-border-radius: 50%;
+  border: 3px solid #a1a1a1;
+  border-radius: 50%;
 }
 
 div.user-picture-container > img {
@@ -153,7 +153,19 @@ div.user-picture-container > img {
 }
 
 p.edit-existing-photo {
-display: none;
+  display: none;
+}
+
+.edit-button {
+  display: none
+}
+
+.current-photo--inner-photo {
+  border-radius: 50%;
+}
+
+.additional-photo--box, .current-photo--box {
+  cursor: pointer;
 }
 
 /* Uncomment this block if the organization has a Plus Account.
