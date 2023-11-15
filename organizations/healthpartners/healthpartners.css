@@ -148,6 +148,10 @@ border: 3px solid #a1a1a1;
 border-radius: 50%;
 }
 
+div.user-picture-container > img {
+  border-radius: 50%;
+}
+
 p.edit-existing-photo {
 display: none;
 }
