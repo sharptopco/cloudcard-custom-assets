@@ -156,7 +156,7 @@ p.edit-existing-photo {
   display: none;
 }
 
-.edit-button {
+div.current-photo--box > .edit-button {
   display: none
 }
 
