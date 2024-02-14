@@ -1,1 +1,144 @@
+html {
+  background: #040055;
+}
+
+.splash {
+  background-color: #040055;
+}
+
+.splash .loading path {
+  fill: #fff;
+}
+
+header.header-main {
+  background-color: #0000;
+  height:8.5em;
+/*  Header bottom border  */
+  border-bottom: 1px solid #040055;
+}
+
+.logo {
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/tallahassee/TCCsealWheel_CMYK.png') top center no-repeat;
+  display: inline-block;
+  max-width: 400px !important;
+  background-size: contain;
+}
+
+header.header-page {
+  background-color:#040055;
+}
+
+/*photo section menu link behind*/
+.header-page .tabs li a {
+  border-bottom-color:#040055;
+}
+
+/*Pending,Approved,Denied,Downloaded,Done,Enroute links*/
+.header-page .tabs li a:hover,
+.header-page .tabs li a:focus
+
+{
+  color: #fff; 
+}
+
+
+/* Keep this block only if it looks good. */
+/* Default violet color when selected pending, approved, denied, download, done and enroute 221f57 */
+.header-page .tabs a.active {
+    border-bottom-color: #221f57;
+}
+
+/*221f57 MAIN BUTTONS and button links*/
+.header-page .buttons button {
+  background-color: #221f57; 
+  color: #fff; /* fff - text in button */
+}
+
+.header-page button {
+  background-color: #040055; /*040055 I DONT KNOW???*/
+  color: #fff; /*fff I DONT KNOW */
+}
+
+/* fff  Custom fields text before click */
+.header-page .filters .filter:hover select,
+.header-page .filters .filter:focus-within select {
+    background-color: #221f57;
+    color: #fff; 
+}
+
+/* fff Custom fields text after click color */
+.header-page .filters .filter:hover:after,
+.header-page .filters .filter:focus-within:after {
+    color: #fff; 
+}
+
+/* History Button */
+button {
+    background-color: #040055; 
+} 
+
+router-view .buttons button.primary,
+#accept-terms,
+button.submit-login
+{
+    background-color: #221f57; /* 221f57 I DO NOT KNOW */
+}
+
+
+/* user account and org logged in */
+.user-info {
+    color: #013965;
+}
+
+/* Hover for SIGN OUT link */
+.user-info a:hover,
+.user-info a:focus {
+    color: #221f57; 
+}
+
+.open-nav {
+    color: #ddd; /* ddd I DONT KNOW */
+}
+
+.open-nav:hover,
+.open-nav:focus
+{
+    color: #fff; /* ddd I DONT KNOW */
+}
+
+.admin-links .fa,
+ul.photo-requirements i{
+    color: #040055; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
+}
+
+.sidebar-main {
+  background: #9D76B3;
+}
+
+.admin-links a,
+ul.photo-requirements {
+  background-color: #9D76B3;
+/*   color: #292929; */
+}
+.admin-links a:hover {
+  background-color: #040055;
+}
+
+
+
+.footer {
+    background: #040055; /*footer*/
+}
+
+/* Uncomment this block if the organization has a Plus Account.
+img.photos--preview {
+    border-bottom: 0px;
+}
+*/
+
+/* Unhide this block to hide the "Download Photos" button
+button.download_button {
+	display: none;
+}
+ */
 
