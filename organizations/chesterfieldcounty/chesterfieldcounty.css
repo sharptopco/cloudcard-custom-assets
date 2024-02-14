@@ -25,7 +25,7 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#005296;
+  background-color:#040055;
 }
 
 /*photo section menu link behind*/
@@ -55,7 +55,7 @@ header.header-page {
 }
 
 .header-page button {
-  background-color: #9D76B3; /*005296 I DONT KNOW???*/
+  background-color: #9D76B3; /*040055 I DONT KNOW???*/
   color: #fff; /*fff I DONT KNOW */
 }
 
@@ -74,7 +74,7 @@ header.header-page {
 
 /* History Button */
 button {
-    background-color: #005296; 
+    background-color: #040055; 
 } 
 
 router-view .buttons button.primary,
@@ -121,13 +121,13 @@ ul.photo-requirements {
 /*   color: #292929; */
 }
 .admin-links a:hover {
-  background-color: #005296;
+  background-color: #040055;
 }
 
 
 
 .footer {
-    background: #005296; /*footer*/
+    background: #040055; /*footer*/
 }
 
 /* Uncomment this block if the organization has a Plus Account.
