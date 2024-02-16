@@ -11,10 +11,10 @@ html {
 }
 
 header.header-main {
-  background-color: #0000;
+  background-color: #000000;
   height:8.5em;
 /*  Header bottom border  */
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid #000000;
 }
 
 .logo {
