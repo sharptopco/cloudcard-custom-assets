@@ -1,9 +1,9 @@
 html {
-  background: #FFFFFF;
+  background: #5c5d5e;
 }
 
 .splash {
-  background-color: #FFFFFF;
+  background-color: #5c5d5e;
 }
 
 .splash .loading path {
@@ -25,12 +25,12 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#F17B13;
+  background-color:#000000;
 }
 
 /*photo section menu link behind*/
 .header-page .tabs li a {
-  border-bottom-color:#FFFFFF;
+  border-bottom-color:#5c5d5e;
 }
 
 /*Pending,Approved,Denied,Downloaded,Done,Enroute links*/
@@ -55,7 +55,7 @@ header.header-page {
 }
 
 .header-page button {
-  background-color: #FFFFFF; /*F17B13 I DONT KNOW???*/
+  background-color: #5c5d5e; /*000000 I DONT KNOW???*/
   color: #fff; /*fff I DONT KNOW */
 }
 
@@ -74,7 +74,7 @@ header.header-page {
 
 /* History Button */
 button {
-    background-color: #F17B13; 
+    background-color: #000000; 
 } 
 
 router-view .buttons button.primary,
@@ -108,11 +108,11 @@ button.submit-login
 
 .admin-links .fa,
 ul.photo-requirements i{
-    color: #FFFFFF; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
+    color: #5c5d5e; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
 }
 
 .sidebar-main {
-  background: #5c5d5e;
+  background: #F17B13;
 }
 
 .admin-links a,
@@ -121,13 +121,13 @@ ul.photo-requirements {
 /*   color: #292929; */
 }
 .admin-links a:hover {
-  background-color: #F17B13;
+  background-color: #000000;
 }
 
 
 
 .footer {
-    background: #F17B13; /*footer*/
+    background: #000000; /*footer*/
 }
 
 /* Uncomment this block if the organization has a Plus Account.
