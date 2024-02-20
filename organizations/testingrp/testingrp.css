@@ -18,7 +18,7 @@ header.header-main {
 }
 
 .logo {
-  background: url('https://lukerett.github.io/cloudcard-custom-assets/RemotePhoto-logo-ver3-dark.png') top center no-repeat;
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/testingrp/RP_Full_Color_Dark_Text.png') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
@@ -112,12 +112,12 @@ ul.photo-requirements i{
 }
 
 .sidebar-main {
-  background: #f5f4f0;
+  background: #3a77f7;
 }
 
 .admin-links a,
 ul.photo-requirements {
-  background-color: #f5f4f0;
+  background-color: #3a77f7;
 /*   color: #292929; */
 }
 .admin-links a:hover {
