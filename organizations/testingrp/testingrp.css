@@ -108,7 +108,7 @@ button.submit-login
 
 .admin-links .fa,
 ul.photo-requirements i{
-    color: #002a4d; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
+    color: #3a77f7; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
 }
 
 .sidebar-main {
@@ -117,7 +117,7 @@ ul.photo-requirements i{
 
 .admin-links a,
 ul.photo-requirements {
-  background-color: #3a77f7;
+  background-color: #002a4d;
 /*   color: #292929; */
 }
 .admin-links a:hover {
@@ -127,7 +127,7 @@ ul.photo-requirements {
 
 
 .footer {
-    background: #002a4d; /*footer*/
+    background: #3a77f7; /*footer*/
 }
 
 /* Uncomment this block if the organization has a Plus Account.
