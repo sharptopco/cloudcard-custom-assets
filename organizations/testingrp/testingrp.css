@@ -7,7 +7,7 @@ html {
 }
 
 .splash .loading path {
-  fill: #fff;
+  fill: #002a4d;
 }
 
 header.header-main {
@@ -25,12 +25,12 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#002a4d;
+  background-color:#3a77f7;
 }
 
 /*photo section menu link behind*/
 .header-page .tabs li a {
-  border-bottom-color:#002a4d;
+  border-bottom-color:#3a77f7;
 }
 
 /*Pending,Approved,Denied,Downloaded,Done,Enroute links*/
@@ -112,7 +112,7 @@ ul.photo-requirements i{
 }
 
 .sidebar-main {
-  background: #3a77f7;
+  background: #002a4d;
 }
 
 .admin-links a,
@@ -121,7 +121,7 @@ ul.photo-requirements {
 /*   color: #292929; */
 }
 .admin-links a:hover {
-  background-color: #002a4d;
+  background-color: #3a77f7;
 }
 
 
