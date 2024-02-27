@@ -11,16 +11,16 @@ html {
 }
 
 header.header-main {
-  background-color: #ffffff;
+  background-color: #3a77f7;
   height:8.5em;
 /*  Header bottom border  */
   border-bottom: 1px solid #ffffff;
 }
 
 .logo {
-  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/tallahassee/TCCsealWheel_CMYK.png') top center no-repeat;
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/remotephoto/RemotePhotoWhiteText.png') top center no-repeat;
   display: inline-block;
-  max-width: 400px !important;
+  max-width: 800px !important;
   background-size: contain;
 }
 
