@@ -1,9 +1,9 @@
 html {
-  background: #3a77f7;
+  background: #002a4c;
 }
 
 .splash {
-  background-color: #3a77f7;
+  background-color: #002a4c;
 }
 
 .splash .loading path {
@@ -14,7 +14,7 @@ header.header-main {
   background-color: #afafaf;
   height:8.5em;
 /*  Header bottom border  */
-  border-bottom: 1px solid #3a77f7;
+  border-bottom: 1px solid #002a4c;
 }
 
 .logo {
@@ -30,7 +30,7 @@ header.header-page {
 
 /*photo section menu link behind*/
 .header-page .tabs li a {
-  border-bottom-color:#3a77f7;
+  border-bottom-color:#002a4c;
 }
 
 /*Pending,Approved,Denied,Downloaded,Done,Enroute links*/
@@ -51,11 +51,11 @@ header.header-page {
 /*1261A2 MAIN BUTTONS and button links*/
 .header-page .buttons button {
   background-color: #1261A2; 
-  color: #3a77f7; /* 3a77f7 - text in button */
+  color: #002a4c; /* 002a4c - text in button */
 }
 
 .header-page button {
-  background-color: #3a77f7; /*002a4c I DONT KNOW???*/
+  background-color: #002a4c; /*002a4c I DONT KNOW???*/
   color: #fff; /*fff I DONT KNOW */
 }
 
@@ -108,16 +108,16 @@ button.submit-login
 
 .admin-links .fa,
 ul.photo-requirements i{
-    color: #3a77f7; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
+    color: #002a4c; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
 }
 
 .sidebar-main {
-  background: #ffffff;
+  background: #3a77f7;
 }
 
 .admin-links a,
 ul.photo-requirements {
-  background-color: #ffffff;
+  background-color: #3a77f7;
 /*   color: #292929; */
 }
 .admin-links a:hover {
