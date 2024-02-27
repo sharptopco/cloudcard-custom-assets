@@ -1,9 +1,9 @@
 html {
-  background: #e5b611;
+  background: #ffffff;
 }
 
 .splash {
-  background-color: #e5b611;
+  background-color: #ffffff;
 }
 
 .splash .loading path {
@@ -11,10 +11,10 @@ html {
 }
 
 header.header-main {
-  background-color: #0000;
+  background-color: #ffffff;
   height:8.5em;
 /*  Header bottom border  */
-  border-bottom: 1px solid #e5b611;
+  border-bottom: 1px solid #ffffff;
 }
 
 .logo {
@@ -30,7 +30,7 @@ header.header-page {
 
 /*photo section menu link behind*/
 .header-page .tabs li a {
-  border-bottom-color:#e5b611;
+  border-bottom-color:#ffffff;
 }
 
 /*Pending,Approved,Denied,Downloaded,Done,Enroute links*/
@@ -43,26 +43,26 @@ header.header-page {
 
 
 /* Keep this block only if it looks good. */
-/* Default violet color when selected pending, approved, denied, download, done and enroute 245eb5 */
+/* Default violet color when selected pending, approved, denied, download, done and enroute 002a4c */
 .header-page .tabs a.active {
-    border-bottom-color: #245eb5;
+    border-bottom-color: #002a4c;
 }
 
-/*245eb5 MAIN BUTTONS and button links*/
+/*002a4c MAIN BUTTONS and button links*/
 .header-page .buttons button {
-  background-color: #245eb5; 
+  background-color: #002a4c; 
   color: #fff; /* fff - text in button */
 }
 
 .header-page button {
-  background-color: #e5b611; /*afafaf I DONT KNOW???*/
+  background-color: #ffffff; /*afafaf I DONT KNOW???*/
   color: #fff; /*fff I DONT KNOW */
 }
 
 /* fff  Custom fields text before click */
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #245eb5;
+    background-color: #002a4c;
     color: #fff; 
 }
 
@@ -81,7 +81,7 @@ router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #245eb5; /* 245eb5 I DO NOT KNOW */
+    background-color: #002a4c; /* 002a4c I DO NOT KNOW */
 }
 
 
@@ -93,7 +93,7 @@ button.submit-login
 /* Hover for SIGN OUT link */
 .user-info a:hover,
 .user-info a:focus {
-    color: #245eb5; 
+    color: #002a4c; 
 }
 
 .open-nav {
@@ -108,16 +108,16 @@ button.submit-login
 
 .admin-links .fa,
 ul.photo-requirements i{
-    color: #e5b611; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
+    color: #ffffff; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
 }
 
 .sidebar-main {
-  background: #6b94b5;
+  background: #afafaf;
 }
 
 .admin-links a,
 ul.photo-requirements {
-  background-color: #6b94b5;
+  background-color: #afafaf;
 /*   color: #292929; */
 }
 .admin-links a:hover {
