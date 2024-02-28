@@ -48,14 +48,14 @@ header.header-page {
     border-bottom-color: #fea700;
 }
 
-/*fea700 MAIN BUTTONS and button links*/
+/*afafaf MAIN BUTTONS and button links*/
 .header-page .buttons button {
-  background-color: #fea700; 
+  background-color: #afafaf; 
   color: #fff; /* fff - text in button */
 }
 
 .header-page button {
-  background-color: #fea700; /*3a77f7 I DONT KNOW???*/
+  background-color: #afafaf; /*3a77f7 I DONT KNOW???*/
   color: #fff; /*fff I DONT KNOW */
 }
 
