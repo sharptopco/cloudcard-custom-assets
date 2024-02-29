@@ -20,7 +20,7 @@ header.header-main {
 .logo {
   background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/remotephoto/RemotePhotoDarkText.png') top center no-repeat;
   display: inline-block;
-  max-width: 400px !important;
+  max-width: 800px !important;
   background-size: contain;
 }
 
