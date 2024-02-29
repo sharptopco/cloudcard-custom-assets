@@ -45,13 +45,13 @@ header.header-page {
 /* Keep this block only if it looks good. */
 /* Default violet color when selected pending, approved, denied, download, done and enroute 1261A2 */
 .header-page .tabs a.active {
-    border-bottom-color: #1261A2;
+    border-bottom-color: #fea701;
 }
 
 /*1261A2 MAIN BUTTONS and button links*/
 .header-page .buttons button {
-  background-color: #1261A2; 
-  color: #002a4c; /* 002a4c - text in button */
+  background-color: #fea701; 
+  color: #ffffff; /* 002a4c - text in button */
 }
 
 .header-page button {
