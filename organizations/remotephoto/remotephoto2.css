@@ -20,6 +20,9 @@ header.header-main {
 .logo {
   background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/remotephoto/RemotePhotoDarkText.png') top center no-repeat;
   display: inline-block;
+position: absolute; /* or relative, fixed, etc. depending on your layout needs */
+top: 50px; /* adjust the value based on your desired vertical position */
+left: 20px; /* adjust the value based on your desired horizontal position */
   max-width: 800px !important;
   background-size: contain;
 }
