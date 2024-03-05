@@ -132,11 +132,11 @@ ul.photo-requirements {
     background: #753bbd; /*footer*/
 }
 
-/* Uncomment this block if the organization has a Plus Account.
+
 img.photos--preview {
-    border-bottom: 0px;
+    border-bottom: 3px solid #000000;
 }
-*/
+
 
 /* Unhide this block to hide the "Download Photos" button
 button.download_button {
