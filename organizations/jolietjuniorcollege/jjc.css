@@ -20,8 +20,10 @@ header.header-main {
 .logo {
   background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/jolietjuniorcollege/JJC Logo.jpeg') top center no-repeat;
   display: inline-block;
-  max-width: 400px !important;
+  max-width: 1600px !important; /* Adjust this value to make the logo larger */
   background-size: contain;
+}
+
 }
 
 header.header-page {
