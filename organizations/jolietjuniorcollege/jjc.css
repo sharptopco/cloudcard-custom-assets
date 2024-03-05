@@ -1,9 +1,9 @@
 html {
-  background: #f6b221;
+  background: #e5b611;
 }
 
 .splash {
-  background-color: #f6b221;
+  background-color: #e5b611;
 }
 
 .splash .loading path {
@@ -11,28 +11,26 @@ html {
 }
 
 header.header-main {
-  background-color: #ffffff;
+  background-color: #0000;
   height:8.5em;
 /*  Header bottom border  */
-  border-bottom: 3px solid #000000;
+  border-bottom: 1px solid #e5b611;
 }
 
 .logo {
-  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/jolietjuniorcollege/JJC Logo.jpeg') top center no-repeat;
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/tallahassee/TCCsealWheel_CMYK.png') top center no-repeat;
   display: inline-block;
-  max-width: 1600px !important; /* Adjust this value to make the logo larger */
+  max-width: 400px !important;
   background-size: contain;
 }
 
-}
-
 header.header-page {
-  background-color:#753bbd;
+  background-color:#005296;
 }
 
 /*photo section menu link behind*/
 .header-page .tabs li a {
-  border-bottom-color:#f6b221;
+  border-bottom-color:#e5b611;
 }
 
 /*Pending,Approved,Denied,Downloaded,Done,Enroute links*/
@@ -45,26 +43,26 @@ header.header-page {
 
 
 /* Keep this block only if it looks good. */
-/* Default violet color when selected pending, approved, denied, download, done and enroute 9f9fc3 */
+/* Default violet color when selected pending, approved, denied, download, done and enroute 245eb5 */
 .header-page .tabs a.active {
-    border-bottom-color: #9f9fc3;
+    border-bottom-color: #245eb5;
 }
 
-/*9f9fc3 MAIN BUTTONS and button links*/
+/*245eb5 MAIN BUTTONS and button links*/
 .header-page .buttons button {
-  background-color: #9f9fc3; 
+  background-color: #245eb5; 
   color: #fff; /* fff - text in button */
 }
 
 .header-page button {
-  background-color: #f6b221; /*753bbd I DONT KNOW???*/
+  background-color: #e5b611; /*005296 I DONT KNOW???*/
   color: #fff; /*fff I DONT KNOW */
 }
 
 /* fff  Custom fields text before click */
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #9f9fc3;
+    background-color: #245eb5;
     color: #fff; 
 }
 
@@ -76,14 +74,14 @@ header.header-page {
 
 /* History Button */
 button {
-    background-color: #753bbd; 
+    background-color: #005296; 
 } 
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #9f9fc3; /* 9f9fc3 I DO NOT KNOW */
+    background-color: #245eb5; /* 245eb5 I DO NOT KNOW */
 }
 
 
@@ -95,7 +93,7 @@ button.submit-login
 /* Hover for SIGN OUT link */
 .user-info a:hover,
 .user-info a:focus {
-    color: #9f9fc3; 
+    color: #245eb5; 
 }
 
 .open-nav {
@@ -110,26 +108,26 @@ button.submit-login
 
 .admin-links .fa,
 ul.photo-requirements i{
-    color: #f6b221; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
+    color: #e5b611; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
 }
 
 .sidebar-main {
-  background: #8b8d8f;
+  background: #6b94b5;
 }
 
 .admin-links a,
 ul.photo-requirements {
-  background-color: #8b8d8f;
+  background-color: #6b94b5;
 /*   color: #292929; */
 }
 .admin-links a:hover {
-  background-color: #753bbd;
+  background-color: #005296;
 }
 
 
 
 .footer {
-    background: #753bbd; /*footer*/
+    background: #005296; /*footer*/
 }
 
 /* Uncomment this block if the organization has a Plus Account.
