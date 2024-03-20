@@ -1,9 +1,9 @@
 html {
-  background: #e5b611;
+  background: #FEBF50;
 }
 
 .splash {
-  background-color: #e5b611;
+  background-color: #FEBF50;
 }
 
 .splash .loading path {
@@ -14,7 +14,7 @@ header.header-main {
   background-color: #0000;
   height:8.5em;
 /*  Header bottom border  */
-  border-bottom: 1px solid #e5b611;
+  border-bottom: 3px solid #FEBF50;
 }
 
 .logo {
@@ -25,12 +25,12 @@ header.header-main {
 }
 
 header.header-page {
-  background-color:#005296;
+  background-color:#F47937;
 }
 
 /*photo section menu link behind*/
 .header-page .tabs li a {
-  border-bottom-color:#e5b611;
+  border-bottom-color:#FEBF50;
 }
 
 /*Pending,Approved,Denied,Downloaded,Done,Enroute links*/
@@ -43,26 +43,26 @@ header.header-page {
 
 
 /* Keep this block only if it looks good. */
-/* Default violet color when selected pending, approved, denied, download, done and enroute 245eb5 */
+/* Default violet color when selected pending, approved, denied, download, done and enroute E4BF8C */
 .header-page .tabs a.active {
-    border-bottom-color: #245eb5;
+    border-bottom-color: #E4BF8C;
 }
 
-/*245eb5 MAIN BUTTONS and button links*/
+/*E4BF8C MAIN BUTTONS and button links*/
 .header-page .buttons button {
-  background-color: #245eb5; 
+  background-color: #E4BF8C; 
   color: #fff; /* fff - text in button */
 }
 
 .header-page button {
-  background-color: #e5b611; /*005296 I DONT KNOW???*/
+  background-color: #FEBF50; /*F47937 I DONT KNOW???*/
   color: #fff; /*fff I DONT KNOW */
 }
 
 /* fff  Custom fields text before click */
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
-    background-color: #245eb5;
+    background-color: #E4BF8C;
     color: #fff; 
 }
 
@@ -74,14 +74,14 @@ header.header-page {
 
 /* History Button */
 button {
-    background-color: #005296; 
+    background-color: #F47937; 
 } 
 
 router-view .buttons button.primary,
 #accept-terms,
 button.submit-login
 {
-    background-color: #245eb5; /* 245eb5 I DO NOT KNOW */
+    background-color: #E4BF8C; /* E4BF8C I DO NOT KNOW */
 }
 
 
@@ -93,7 +93,7 @@ button.submit-login
 /* Hover for SIGN OUT link */
 .user-info a:hover,
 .user-info a:focus {
-    color: #245eb5; 
+    color: #E4BF8C; 
 }
 
 .open-nav {
@@ -108,26 +108,26 @@ button.submit-login
 
 .admin-links .fa,
 ul.photo-requirements i{
-    color: #e5b611; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
+    color: #FEBF50; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
 }
 
 .sidebar-main {
-  background: #6b94b5;
+  background: #1B4383;
 }
 
 .admin-links a,
 ul.photo-requirements {
-  background-color: #6b94b5;
+  background-color: #1B4383;
 /*   color: #292929; */
 }
 .admin-links a:hover {
-  background-color: #005296;
+  background-color: #F47937;
 }
 
 
 
 .footer {
-    background: #005296; /*footer*/
+    background: #F47937; /*footer*/
 }
 
 /* Uncomment this block if the organization has a Plus Account.
