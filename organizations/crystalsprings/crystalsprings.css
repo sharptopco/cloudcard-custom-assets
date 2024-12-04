@@ -31,10 +31,6 @@ header.header-page {
     background-color: #2c2523;
 }
 
-.header-page .heading { display: flex; }
-.header-page { height: 6.5em }
-
-
 /*photo section menu link behind*/
 .header-page .tabs li a {
     border-bottom-color: #2c2523
