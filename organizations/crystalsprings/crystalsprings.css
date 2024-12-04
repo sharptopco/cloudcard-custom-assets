@@ -64,6 +64,10 @@ header.header-page {
     color: #fff; /* text over the base color */
 }
 
+/* attempting to flex the search input so it doesn't collapse when the screen size is smaller*/
+.header-page .heading { display: flex; }
+.header-page { height: 6.5em }
+
 /* fff  Custom fields text before click */
 .header-page .filters .filter:hover select,
 .header-page .filters .filter:focus-within select {
