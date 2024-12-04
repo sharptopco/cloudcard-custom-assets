@@ -19,7 +19,6 @@ header.header-main {
 }
 
 
-
 .logo {
     background: url('https://s3.us-east-2.amazonaws.com/photos.cloudcard.us.24/custom-assets/100535/29_logo.png') top center no-repeat;
     display: inline-block;
@@ -147,5 +146,4 @@ ul.photo-requirements {
 .footer {
   background: #ffffff;
 }
-
 
