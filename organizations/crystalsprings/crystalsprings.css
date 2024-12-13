@@ -28,7 +28,11 @@ header.header-main {
      }
 }
 
-
+@media screen and (orientation: landscape) and (max-height: 600px) {
+    .header-main.logged-in .logo, .header-main.logged-in .user-info {
+        display: inline-block;
+    }
+}
 
 
 .logo {
