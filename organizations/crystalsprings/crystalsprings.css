@@ -19,7 +19,7 @@ header.header-main {
 }
 
  @media screen and (orientation: landscape) and (max-height: 400px) {
-   header.header-main {
+   .header-page .search .fa-search {
         display: flex;
         flex-basis: content;
         flex-direction: column;
