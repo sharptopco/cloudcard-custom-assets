@@ -18,13 +18,17 @@ header.header-main {
     
 }
 
- @media screen and (orientation: landscape) and (max-height: 400px) {
-    .header-page .search {
-         display: block;
-         flex-basis: fit-content;
-         flex-direction: column;
+ @media screen and (orientation: landscape) and (max-height: 600px) {
+    .header-page .heading {
+        display: flex;
+    } 
+     header.header-page {
+        padding-top: 3px;
+        padding-bottom: 3px;
      }
- }
+}
+
+
 
 
 .logo {
