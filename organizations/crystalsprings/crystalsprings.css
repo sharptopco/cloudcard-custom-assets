@@ -19,12 +19,12 @@ header.header-main {
 }
 
  @media screen and (orientation: landscape) and (max-height: 400px) {
-   .header-page .search .fa-search {
-        display: flex;
-        flex-basis: content;
-        flex-direction: column;
-    }
-}
+    .header-page .search {
+         display: block;
+         flex-basis: fit-content;
+         flex-direction: column;
+     }
+ }
 
 
 .logo {
