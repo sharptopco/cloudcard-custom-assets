@@ -23,8 +23,8 @@ header.header-main {
         display: flex;
     } 
      header.header-page {
-        padding-top: 3px;
-        padding-bottom: 3px;
+        padding-top: 5px;
+        padding-bottom: 5px;
      }
 }
 
