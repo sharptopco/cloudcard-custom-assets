@@ -54,8 +54,8 @@ header.header-page {
   color: #ffffff; /* 002a4c - text in button */
 }
 
-#admin-links-ul li a:hover i {
-	color: #f1f1f1;
+#admin-links-ul li a:hover {
+	color: #f1f1f1 !important; /* Adds a button hover color for admin links*/
 }
 
 .header-page button {
