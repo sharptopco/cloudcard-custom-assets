@@ -54,6 +54,10 @@ header.header-page {
   color: #ffffff; /* 002a4c - text in button */
 }
 
+.header-page .buttons button:hover {
+  background-color: #f1f1f1;
+}
+
 .header-page button {
   background-color: #002a4c; /*002a4c I DONT KNOW???*/
   color: #fff; /*fff I DONT KNOW */
