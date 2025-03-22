@@ -112,7 +112,7 @@ ul.photo-requirements i{
 }
 
 .admin-links .fa:hover, 
-ul.photo-requirements I:hover {
+ul.photo-requirements i:hover {
     color: #f1f1f1 !important; /* Adds a button hover color for admin links*/	
 }
 
