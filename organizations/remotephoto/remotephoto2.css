@@ -111,7 +111,7 @@ ul.photo-requirements i{
     color: #002a4c; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
 }
 
-#your-photo-link:hover i {
+.admin-links li:hover i{
     color: #f1f1f1 !important; /* Adds a button hover color for admin links*/	
 }
 
