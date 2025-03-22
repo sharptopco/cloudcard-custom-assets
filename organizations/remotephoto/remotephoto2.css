@@ -54,10 +54,6 @@ header.header-page {
   color: #ffffff; /* 002a4c - text in button */
 }
 
-#admin-links-ul li a:hover {
-	color: #f1f1f1 !important; /* Adds a button hover color for admin links*/
-}
-
 .header-page button {
   background-color: #002a4c; /*002a4c I DONT KNOW???*/
   color: #fff; /*fff I DONT KNOW */
@@ -113,6 +109,11 @@ button.submit-login
 .admin-links .fa,
 ul.photo-requirements i{
     color: #002a4c; /*default #007bff - default #007bff -{{Color_2_Tint}} side menu icons*/
+}
+
+.admin-links .fa:hover, 
+ul.photo-requirements I:hover {
+    color: #f1f1f1 !important; /* Adds a button hover color for admin links*/	
 }
 
 .sidebar-main {
