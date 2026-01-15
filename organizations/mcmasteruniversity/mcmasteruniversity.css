@@ -41,6 +41,23 @@ header.header-page {
   color: #fff; 
 }
 
+.flash-alert {
+color: #605200;
+}
+
+.current-photo--status.denied,
+.current-photo--status.pending.bad {
+background: #be1313;
+}
+
+.user-info a {
+color: #195a9a;
+}
+
+.current-photo .buttons button
+ {
+    background: #404040;
+}
 
 /* Keep this block only if it looks good. */
 /* Default violet color when selected pending, approved, denied, download, done and enroute 8a365f */
