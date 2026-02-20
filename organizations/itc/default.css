@@ -1,0 +1,99 @@
+html {
+    background: white !important;
+}
+
+.splash {
+    background-color:white !important;
+}
+
+.splash .loading path {
+    fill: #fff; /* text over the base color */
+}
+
+.splash,.flash-close,.flash-notice,.container.container-main.logout,
+footer, header.header-main, 
+.compact-photo-requirements_ {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+footer {
+    background: white !important;
+}
+
+footer #locale-link a {
+    color: #222 !important;
+    font-family: Montserrat, sans-serif !important;
+}
+
+.content.content-main {
+    padding-top: 1.875em;
+    padding-bottom: 1.875em;
+}
+
+h1, h1.small, h2, .compact-photo-requirements h2, .upload-file,  .notes, #uploader-label, .compact-photo-requirements, p, input, .current-photo--status {   
+  font-family: "Figtree", sans-serif !important;
+}
+
+h1.small {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.compact-photo-requirements {
+    font-size: 14px;
+}
+
+.current-photo--status.pending {
+        border-radius: 8px;
+}
+
+.current-photo--status.pending.good:not(.incomplete) {
+    background: #23B87A !important;
+}
+
+.current-photo--box, .additional-photo--box {
+background-color: #fff; 
+border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.edit-button {
+    margin: 0 16px 16px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 100px;
+    border: 1px solid white;
+    padding: .625em;
+}
+
+.edit-button:hover {
+    padding: .625em;
+    background: white;
+    color: rgba(0,0,0,.75);
+    border: 1px solid rgba(0,0,0,.75);
+}
+
+button {
+    border-radius: 100px;
+    text-transform: capitalize !important;
+    font-weight: bold !important;
+}
+
+button#submit-button {
+      background: #23B87A !important;
+}
+
+
+button.primary {
+    background: #222222 !important;
+}
+
+
+button.primary:hover,
+button#submit-button:hover {
+    opacity: 0.7;
+}
