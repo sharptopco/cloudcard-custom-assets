@@ -128,7 +128,12 @@ ul.photo-requirements {
   background-color: #002a4c;
 }
 
+.current-photo--status.denied {
+background: #D61A4F;
+}
 
+.buttons.stacked button { background-color: #353535;
+}
 
 .footer {
     background: #002a4c; /*footer*/
