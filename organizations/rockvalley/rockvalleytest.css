@@ -249,6 +249,17 @@ ul.photo-requirements {
 	
 	background-color:#f2f2f2;
 }
+.current-photo--status.denied {
+    background: #D61A4F;
+}
+
+.buttons.stacked button { 
+    background-color: #6E6E6E;
+}
+
+.buttons button.primary {
+    background-color: #1F6FCC !important;
+}
 
 /*  .hide-on-mobile-small {
   display: none;
