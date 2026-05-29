@@ -250,7 +250,7 @@ ul.photo-requirements {
 	background-color:#f2f2f2;
 }
 .current-photo--status.denied {
-    background: #D61A4F;
+    background-color: #D61A4F;
 }
 
 .buttons.stacked button { 
