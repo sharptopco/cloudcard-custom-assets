@@ -1,0 +1,273 @@
+/*
+https://colorid.github.io/cloudcard-custom-assets/unm_cloudcard.css      
+*/
+
+html {
+  background: #ffffff; [cite: 1]
+}
+
+.splash {
+  background-color: #ffffff; [cite: 1, 2]
+}
+
+.splash .loading path {
+  fill: #fff;
+}
+
+header.header-main {
+  background-color: #ffffff; [cite: 2]
+	border-top: 10px solid #003866;
+	border-bottom: 2px solid #FFD12F;
+	height:10.5em; [cite: 3]
+}
+
+.logo {
+  background: url('https://sharptopco.github.io/cloudcard-custom-assets/organizations/rockvalley/rock%20valley%20logo.png') top center no-repeat;
+  display: inline-block;
+  max-width: 400px !important;
+  background-size: contain;
+}
+
+header.header-page {
+  background-color:#f5f5f5; [cite: 3, 4]
+}
+
+.header-page h1 {
+    color: #003866;
+    padding-right: 0.73684em;
+    text-transform:uppercase;
+    font-size: 36px;
+    letter-spacing: 2px;
+    font-weight: 400; [cite: 4, 5]
+}
+
+empty-queue-message {
+    background: #ffffff; [cite: 5]
+}
+.header-page .filters select {
+	    border: 1px solid #003866;
+	    color: #003866;
+	    background-color: transparent; [cite: 5, 6]
+	    text-transform:uppercase;
+}
+
+.header-page .fa-search {
+	color: #003866 !important;
+	
+}
+
+.header-page .tabs li a {
+  border-bottom-color:#f5f5f5;
+  color: #003866;
+  font-weight: 600;
+  text-transform: uppercase; [cite: 6, 7]
+  letter-spacing: .5px;
+}
+
+.header-page .tabs li a:hover,
+.header-page .tabs li a:focus
+{
+  color: #003866; [cite: 7, 8]
+}
+
+/* MODIFIED: Changed color to #003866 to resolve WCAG 1.4.11 contrast failure on #f5f5f5 background */
+.header-page .tabs a.active {
+    border-bottom-color: #003866; 
+}
+
+.header-page .buttons button {
+  background-color: #003866;
+  color: #fff;
+	border: 1px solid #003866;
+}
+.header-page .tabs a.active {
+color: #003866;
+font-weight: 600;
+text-transform: uppercase; [cite: 9, 10]
+letter-spacing: 1px;	
+}
+.header-page button {
+  background-color: #c05131;
+  color: #fff; [cite: 10, 11]
+}
+
+.header-page .buttons button:hover,
+.header-page .buttons button:focus 
+{
+  background-color: #003866;
+  color: #ffffff; [cite: 11, 12]
+
+  /* Alternative if the above doesn't look so great.
+  background-color: #c05131; [cite: 12]
+  color: #fff;
+   */
+}
+
+
+.header-page .filters .filter:hover select,
+.header-page .filters .filter:focus-within select {
+    background-color: transparent;
+    color: #003866; [cite: 12, 13]
+}
+
+.header-page .filters .filter:hover:after,
+.header-page .filters .filter:focus-within:after {
+    color: #fff;
+}
+
+button {
+    background-color: #003866; [cite: 13, 14]
+    border: 2px solid #fff;
+}
+
+
+button:hover,
+button:focus {
+    background-color: #c05131;
+}
+
+router-view .buttons button.primary,
+#accept-terms,
+button.submit-login
+{
+    background-color: #003866; [cite: 14, 15]
+}
+
+router-view .buttons button.primary:hover,
+router-view .buttons button.primary:focus,
+#accept-terms:hover,
+#accept-terms:focus,
+button.submit-login:hover,
+button.submit-login:focus
+{
+    background-color: #003866;
+}
+
+.user-info {
+    color: #003866; [cite: 15, 16]
+}
+
+/* MODIFIED: Switched from #FFD12F to #c05131 and added underline for WCAG 1.4.3 compliance against white backgrounds */
+.user-info a {
+    color: #c05131; [cite: 16]
+    text-decoration: underline;
+}
+
+.user-info a:hover,
+.user-info a:focus {
+    color: #003866; [cite: 16, 17]
+}
+
+.open-nav {
+    color: #ddd; [cite: 17]
+}
+
+.open-nav:hover,
+.open-nav:focus
+{
+    color: #fff; [cite: 17, 18]
+}
+
+.admin-links .fa {
+    color: #003866; /*default #007bff*/ [cite: 18]
+}
+
+.admin-links a {
+    background: #f2f2f2;
+    color: #003866;
+	text-transform:uppercase;
+	letter-spacing: 1px;  [cite: 18, 19]
+	font-weight: 500;
+	
+}
+
+.admin-links a:hover,
+.admin-links a:focus {
+    background: #f2f2f2;
+    color: #003866;
+}
+
+table th {
+	background: #003866; [cite: 19, 20]
+	color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-top: 1px solid #FFD12F;
+}
+
+table td {
+    background: #f2f2f2; [cite: 20, 21]
+}
+table a {
+    color: #003866;
+    text-decoration: underline;
+}
+
+table a:hover {
+    color: #003866;
+    text-decoration: none; [cite: 21, 22]
+}
+
+photo-list-header.photo-list-columns {
+    background: #003866;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-top: 1px solid #FFD12F; [cite: 22, 23]
+}
+
+.header-page .filters .filter:after {
+	
+	Color: #003866;
+}
+.footer {
+    background: #003866;
+    border-top: 2px solid #FFD12F; [cite: 23, 24]
+}
+
+
+.sidebar-main,
+.sidebar-mobile {
+    background: #f2f2f2;
+    color: #003866;
+    border-right: 1px solid #003866;
+    height: 100% !important; [cite: 24, 25]
+    &.nav-open {
+    background: #f2f2f2;
+    }
+}
+
+.sidebar-main h2,
+.sidebar-mobile h2 {
+    color: #003866 !important;
+    text-transform:uppercase;
+    font-weight: 600; [cite: 25, 26]
+}
+
+ul.photo-requirements {
+	
+	background-color:#f2f2f2;
+}
+
+/* .hide-on-mobile-small {
+  display: none;
+}
+.hide-on-mobile-small {
+  display: none;
+[cite: 26, 27] } */
+
+/* Uncomment this block if the organization has a Plus Account.
+img.photos--preview {
+    border-bottom: 0px; [cite: 27, 28]
+}
+*/
+
+/* Uncomment this block to hide the Download photos button. [cite: 28, 29]
+HOWEVER: if the client is downloading photos using an external tool (e.g. RapidCard Elite or the CloudCard Image Server), [cite: 29]
+	they should be migrated over to using the `EXTERNAL` download strategy rather than hiding the download button. [cite: 29, 30]
+button.download_button { [cite: 30]
+	display: none;
+}
+*/
