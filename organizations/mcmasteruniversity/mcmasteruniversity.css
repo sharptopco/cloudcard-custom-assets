@@ -147,10 +147,6 @@ ul.photo-requirements {
     background: #7A003C; /*footer*/
 }
 
-#camera-toggle{
-display:none;
-}
-
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
     border-bottom: 0px;
