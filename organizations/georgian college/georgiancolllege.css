@@ -325,6 +325,11 @@ photo-list-section-header div a {
     color: #014b87;
 
 }
+
+#camera-toggle{
+display:none;
+}
+
 /*
  .hide-on-mobile-small {
     display: none;
