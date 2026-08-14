@@ -329,6 +329,10 @@ photo-replace-background{
     display: none
 }
 
+#camera-toggle{
+	display: none;
+}
+
 /*
  .hide-on-mobile-small {
     display: none;
